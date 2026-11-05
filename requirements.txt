@@ -1,0 +1,7 @@
+streamlit
+pandas
+python-dotenv
+requests
+scikit-learn
+plotly
+Authlib
