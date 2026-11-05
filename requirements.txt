@@ -5,3 +5,5 @@ requests
 scikit-learn
 plotly
 Authlib
+joblib
+sklearn
