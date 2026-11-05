@@ -20,25 +20,15 @@ WITH m AS (
 )
 SELECT month, orders FROM m ORDER BY month;
 
--- name: Money in per month (last 12 months, GHS)
--- note: Delivered orders count at full price, pending orders at the deposit paid so far.
--- chart: bar money_in_ghs
-WITH m AS (
-    SELECT strftime('%Y-%m', order_date) AS month,
-           ROUND(SUM(CASE WHEN delivered_date IS NOT NULL THEN COALESCE(price_ghs, 0)
-                          ELSE COALESCE(deposit_ghs, 0) END)) AS money_in_ghs
-    FROM orders_clean GROUP BY month ORDER BY month DESC LIMIT 12
-)
-SELECT month, money_in_ghs FROM m ORDER BY month;
-
--- name: Pending orders, most overdue first
--- note: Orders still in the workshop. Balance is what the customer still owes.
-SELECT o.order_id, c.name AS customer, t.name AS tailor, o.garment_type, o.promised_date,
-       MAX(0, CAST(julianday((SELECT MAX(order_date) FROM orders_clean)) - julianday(o.promised_date) AS INTEGER)) AS days_overdue,
-       ROUND(COALESCE(o.price_ghs, 0) - COALESCE(o.deposit_ghs, 0)) AS balance_ghs
+-- name: Needs attention: most overdue pending orders
+-- note: Promised date has passed and the order is still in the workshop. Call these customers first.
+SELECT o.order_id AS "Order", c.name AS "Customer", c.phone AS "Phone", t.name AS "Tailor",
+       o.garment_type AS "Garment", o.promised_date AS "Promised",
+       CAST(julianday((SELECT MAX(order_date) FROM orders_clean)) - julianday(o.promised_date) AS INTEGER) AS "Days overdue"
 FROM orders_clean o
 JOIN customers c ON c.customer_id = o.customer_id
 JOIN tailors t ON t.tailor_id = o.tailor_id
 WHERE o.delivered_date IS NULL
+  AND o.promised_date < (SELECT MAX(order_date) FROM orders_clean)
 ORDER BY o.promised_date
-LIMIT 15;
+LIMIT 5;

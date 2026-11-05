@@ -57,7 +57,7 @@ def show(results, show_sql=False, tables=False):
                 st.code(r["sql"], language="sql")
 
 
-# ---------- the tabs ----------
+# ----------Side tabs ----------
 def overview_tab(user):
     res = sql(user, "overview.sql")
     tiles(res[0]["df"])
@@ -119,8 +119,8 @@ def insights_tab(user):
     st.info("Next: train the model.")
 
 
-# ---------- the page ----------
-st.set_page_config(page_title="ThreadWise", page_icon="🧵", layout="wide")
+# ---------- Auth page ----------
+st.set_page_config(page_title="ThreadWise", page_icon="🧵")
 user = st.session_state.get("user")
 
 if not user:
