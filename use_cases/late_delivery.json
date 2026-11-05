@@ -5,5 +5,7 @@
   "target": "is_late",
   "metrics": ["roc_auc", "precision", "recall", "f1"],
   "kpi_sql": "kpis_late.sql",
-  "analysis_sql": "analysis_late.sql"
+  "analysis_sql": "analysis_late.sql",
+  "id_columns": ["order_id", "order_date"],
+  "leak_columns": ["days_late", "delivered_date", "status"]
 }
