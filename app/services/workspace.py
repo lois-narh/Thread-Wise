@@ -1,4 +1,4 @@
-import hashlib, sqlite3
+import hashlib, re, sqlite3
 from pathlib import Path
 
 import pandas as pd
@@ -42,3 +42,30 @@ def get_usecase(user):
 def set_usecase(user, key):
     with _conn(user) as c:
         c.execute("INSERT OR REPLACE INTO meta VALUES ('usecase', ?)", (key,))
+
+
+def run_sql_file(user, filename):
+    """Run every query in sql/<filename> against the workspace.
+
+    Each query starts with `-- name: ...`, then optional `-- note: ...` (what the result means)
+    and `-- chart: bar|line col,col` lines. Returns [{name, note, chart, sql, df}].
+    """
+    text = (ROOT / "sql" / filename).read_text()
+    results = []
+    with _conn(user) as c:
+        for block in re.split(r"(?m)^-- name:", text)[1:]:
+            lines = block.strip().splitlines()
+            item = {"name": lines[0].strip(), "note": "", "chart": None}
+            body = []
+            for line in lines[1:]:
+                if line.startswith("-- note:"):
+                    item["note"] = line[8:].strip()
+                elif line.startswith("-- chart:"):
+                    kind, cols = line[9:].split()
+                    item["chart"] = (kind, cols.split(","))
+                else:
+                    body.append(line)
+            item["sql"] = "\n".join(body).strip()
+            item["df"] = pd.read_sql_query(item["sql"], c)
+            results.append(item)
+    return results

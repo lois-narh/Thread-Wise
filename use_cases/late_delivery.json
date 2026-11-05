@@ -1,0 +1,9 @@
+{
+  "name": "Late-delivery risk",
+  "description": "Predict at order time whether an order will be delivered after its promised date, so the shop can set a realistic date, reassign the order or ask for a bigger deposit.",
+  "task": "classification",
+  "target": "is_late",
+  "metrics": ["roc_auc", "precision", "recall", "f1"],
+  "kpi_sql": "kpis_late.sql",
+  "analysis_sql": "analysis_late.sql"
+}

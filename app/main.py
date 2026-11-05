@@ -1,11 +1,11 @@
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import pandas as pd
 import streamlit as st
-from app.services import auth, usecases, workspace
+from services import auth, usecases, workspace
 from scripts.generate_data import generate
 
 

@@ -1,0 +1,9 @@
+{
+  "name": "Weekly demand forecast",
+  "description": "Forecast how many orders will arrive next week, so the shop can plan tailors, fabric and overtime before the rush.",
+  "task": "regression",
+  "target": "orders",
+  "metrics": ["mae", "rmse", "r2"],
+  "kpi_sql": "kpis_demand.sql",
+  "analysis_sql": "analysis_demand.sql"
+}
