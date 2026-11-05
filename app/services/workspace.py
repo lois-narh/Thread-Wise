@@ -21,11 +21,12 @@ def _conn(user):
 
 
 def table_counts(user):
-    """{table: rows}, or {} if no data has been loaded yet."""
+    """{table: rows} for every data table in the workspace."""
     with _conn(user) as c:
-        have = {r[0] for r in c.execute("SELECT name FROM sqlite_master WHERE type='table'")}
-        return {t: c.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0] for t in TABLES if t in have}
-
+        names = [r[0] for r in c.execute(
+            "SELECT name FROM sqlite_master WHERE type='table' "
+            "AND name != 'meta' AND name NOT LIKE 'sqlite_%'")]
+        return {t: c.execute(f'SELECT COUNT(*) FROM "{t}"').fetchone()[0] for t in names}
 
 def preview(user, table="orders", n=5):
     with _conn(user) as c:

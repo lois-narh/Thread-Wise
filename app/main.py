@@ -1,11 +1,34 @@
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+import pandas as pd
 import streamlit as st
 from app.services import auth, usecases, workspace
 from scripts.generate_data import generate
+
+
+def fmt(v):
+    """Number for a KPI tile: 1,234 or 12.5."""
+    if pd.isna(v):
+        return "-"
+    return f"{v:,.0f}" if float(v).is_integer() else f"{v:,.1f}"
+
+
+def show_results(results):
+    """Each query: title, what it means, chart, table, and the SQL behind it."""
+    for r in results:
+        st.markdown(f"**{r['name']}**")
+        if r["note"]:
+            st.caption(r["note"])
+        if r["chart"]:
+            kind, cols = r["chart"]
+            chart = st.bar_chart if kind == "bar" else st.line_chart
+            chart(r["df"], x=r["df"].columns[0], y=cols)
+        st.dataframe(r["df"], hide_index=True)
+        with st.expander("Show SQL"):
+            st.code(r["sql"], language="sql")
 
 
 st.set_page_config(page_title="ThreadWise", page_icon="🧵")
@@ -61,7 +84,7 @@ else:
             with st.spinner("Generating..."):
                 generate(workspace.db_path(user), n_orders, int(seed))
             st.rerun()
- 
+
     # Step 2: business problem
     st.subheader("2. What do you want to solve?")
     if not counts:
@@ -80,5 +103,16 @@ else:
             st.rerun()
         if saved == choice:
             st.success(f"Selected: {uc['name']}")
-            st.info("Next: SQL analysis.")
- 
+
+            # Step 3: SQL analysis (every query lives in sql/*.sql, named in the use-case config)
+            st.subheader("3. SQL analysis")
+            kpis = workspace.run_sql_file(user, uc["kpi_sql"])[0]["df"]
+            for col, (label, value) in zip(st.columns(len(kpis.columns)), kpis.iloc[0].items()):
+                col.metric(label, fmt(value))
+
+            with st.expander("Data quality checks", expanded=True):
+                show_results(workspace.run_sql_file(user, "quality.sql"))
+
+            st.markdown("#### Findings")
+            show_results(workspace.run_sql_file(user, uc["analysis_sql"]))
+            st.info("Next: train the model.")
