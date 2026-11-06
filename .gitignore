@@ -4,4 +4,5 @@ __pycache__/
 *.pyc
 data/*.db
 .streamlit/secrets.toml
-data/workspaces
+data/workspacesdata/*.db
+data/workspaces/

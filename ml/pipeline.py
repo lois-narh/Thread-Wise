@@ -13,6 +13,7 @@ from pathlib import Path
 import joblib
 import numpy as np
 import pandas as pd
+from sklearn.base import clone
 from sklearn.compose import ColumnTransformer
 from sklearn.dummy import DummyClassifier
 from sklearn.ensemble import HistGradientBoostingClassifier
@@ -89,6 +90,8 @@ def run(db_path, sql_path, out_dir, target="is_late", id_col="order_id", date_co
     cat = [c for c in feats if c not in num]
 
     labeled = df[df[split_col] == "train"].sort_values([date_col, id_col]).reset_index(drop=True)
+    if len(labeled) < 200 or labeled[target].nunique() < 2:
+        raise ValueError("Need at least 200 labelled orders with both outcomes.")
     cut = int(len(labeled) * (1 - test_frac))           # time-based split: test = most recent orders
     tr, te = labeled.iloc[:cut], labeled.iloc[cut:]
     log.info("Train %d (to %s) | test %d (from %s)", len(tr), tr[date_col].max(), len(te), te[date_col].min())
@@ -107,13 +110,19 @@ def run(db_path, sql_path, out_dir, target="is_late", id_col="order_id", date_co
     best = max((n for n in metrics if not n.startswith("baseline")), key=lambda n: metrics[n]["roc_auc"])
     log.info("Best model: %s %s", best, metrics[best])
 
+    # Do the risk bands mean anything? Check the real late rate inside each band on the test set.
+    p_test = fitted[best].predict_proba(te[feats])[:, 1]
+    bands = pd.cut(p_test, [0, MEDIUM, HIGH, 1.0], labels=["low", "medium", "high"], include_lowest=True)
+    band_check = {str(b): {"orders": int(r["count"]), "late_rate": round(float(r["mean"]), 3)}
+                  for b, r in te[target].groupby(bands, observed=True).agg(["count", "mean"]).iterrows()}
+
     imp = permutation_importance(fitted[best], te[feats], te[target], scoring="roc_auc",
                                  n_repeats=5, random_state=seed)
     importance = sorted(({"feature": f, "importance": round(float(m), 4)}
                          for f, m in zip(feats, imp.importances_mean)), key=lambda r: -r["importance"])
 
     # refit the winner on all labelled data, then score open orders
-    final = make_pipeline(candidates[best].__class__(**candidates[best].get_params()), num, cat)
+    final = make_pipeline(clone(candidates[best]), num, cat)
     final.fit(labeled[feats], labeled[target])
     ref = {c: (labeled[c].median() if c in num else labeled[c].mode().iloc[0]) for c in feats}
     pending = df[df[split_col] == "score"].reset_index(drop=True)
@@ -130,7 +139,7 @@ def run(db_path, sql_path, out_dir, target="is_late", id_col="order_id", date_co
         preds.sort(key=lambda r: -r["probability"])
 
     out = Path(out_dir); out.mkdir(parents=True, exist_ok=True)
-    result = {"best_model": best, "metrics": metrics, "importance": importance,
+    result = {"best_model": best, "band_check": band_check, "metrics": metrics, "importance": importance,
               "features": feats, "n_train": len(tr), "n_test": len(te), "predictions": preds}
     joblib.dump(final, out / "model.joblib")
     (out / "results.json").write_text(json.dumps(result, indent=2))
@@ -143,11 +152,11 @@ def run(db_path, sql_path, out_dir, target="is_late", id_col="order_id", date_co
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(message)s")
     ap = argparse.ArgumentParser()
-    ap.add_argument("--db", default="data/workspaces/demo/business.db")
+    ap.add_argument("--db", required=True, help="path to a workspace database, e.g. data/workspaces/abc123.db")
     ap.add_argument("--sql", default="sql/features_late.sql")
     ap.add_argument("--out", default="ml/artifacts/demo")
     a = ap.parse_args()
     r = run(a.db, a.sql, a.out)
-    print(json.dumps({k: r[k] for k in ("best_model", "metrics")}, indent=2))
+    print(json.dumps({k: r[k] for k in ("best_model", "metrics", "band_check")}, indent=2))
     print("Top drivers:", r["importance"][:5])
     print("Open orders scored:", len(r["predictions"]))

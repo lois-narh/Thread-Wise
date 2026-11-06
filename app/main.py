@@ -7,22 +7,12 @@ import pandas as pd
 import streamlit as st
 from app.services import auth, usecases, workspace
 from scripts.generate_data import generate
-
-MONEY = {c: st.column_config.NumberColumn(format="%.0f") for c in
-         ["Price (GHS)", "Deposit (GHS)", "Balance (GHS)", "Total spent (GHS)"]}
+from app import analysis
 
 
-# ---------- small helpers ----------
-@st.cache_data(show_spinner=False)
-def _run(email, filename, version):
-    return workspace.run_sql_file({"email": email}, filename)
+sql = workspace.run_sql_file  
 
-
-def sql(user, filename):
-    """Run a SQL file (cached until the workspace database changes)."""
-    return _run(user["email"], filename, workspace.db_path(user).stat().st_mtime)
-
-
+# ---------- helpers ----------
 def fmt(v):
     """Number for a tile: 1,234 or 12.5 or 1.65M."""
     if pd.isna(v):
@@ -38,7 +28,7 @@ def tiles(df):
         col.metric(label, fmt(value))
 
 
-def show(results, show_sql=False, tables=False):
+def show(results, tables=False, show_sql=False):
     """Title, what it means, chart, table. Charts hide their table unless tables=True."""
     for r in results:
         st.markdown(f"**{r['name']}**")
@@ -46,21 +36,25 @@ def show(results, show_sql=False, tables=False):
             st.caption(r["note"])
         if r["chart"]:
             kind, cols = r["chart"]
-            (st.bar_chart if kind == "bar" else st.line_chart)(r["df"], x=r["df"].columns[0], y=cols)
+            chart = st.bar_chart if kind == "bar" else st.line_chart
+            chart(r["df"], x=r["df"].columns[0], y=cols)
         if tables or not r["chart"]:
             if r["df"].empty:
                 st.success("Nothing here right now.")
             else:
-                st.dataframe(r["df"], hide_index=True, column_config=MONEY)
-        if show_sql:  # expanders cannot be nested, so never use show_sql inside an expander
+                st.dataframe(r["df"], hide_index=True)
+        if show_sql:  # expanders cannot be nested, so not inside an expander
             with st.expander("Show SQL"):
                 st.code(r["sql"], language="sql")
 
 
-# ----------Side tabs ----------
-def overview_tab(user):
-    res = sql(user, "overview.sql")
+# ---------- tabs ----------
+def report(user, filename):
+    """Overview, Pending and Finances all look the same: tiles first, then charts/tables."""
+    res = sql(user, filename)
     tiles(res[0]["df"])
+    if res[0]["note"]:
+        st.caption(res[0]["note"])
     show(res[1:])
 
 
@@ -71,35 +65,23 @@ def orders_tab(user):
     picked = c1.multiselect("Status", statuses, default=statuses)
     tailor = c2.selectbox("Tailor", ["All"] + sorted(df["Tailor"].unique()))
     search = c3.text_input("Search customer or order number")
+
     df = df[df["Status"].isin(picked)]
     if tailor != "All":
         df = df[df["Tailor"] == tailor]
     if search:
-        df = df[df["Customer"].str.contains(search, case=False, na=False, regex=False)
-                | df["Order"].str.contains(search, case=False, na=False, regex=False)]
+        text = df["Customer"].fillna("") + " " + df["Order"].fillna("")
+        df = df[text.str.contains(search, case=False, regex=False)]
+
     st.caption(f"{len(df):,} orders")
-    st.dataframe(df, hide_index=True, column_config=MONEY, height=520)
+    st.dataframe(df, hide_index=True, height=520)
     st.download_button("Download as CSV", df.to_csv(index=False), "orders.csv", "text/csv")
-
-
-def pending_tab(user):
-    res = sql(user, "pending.sql")
-    tiles(res[0]["df"])
-    st.caption(res[0]["note"])
-    show(res[1:])
-
-
-def finances_tab(user):
-    res = sql(user, "finances.sql")
-    tiles(res[0]["df"])
-    st.caption(res[0]["note"])
-    show(res[1:])
 
 
 def insights_tab(user):
     options = usecases.all_usecases()
     if not options:
-        st.error(f"No business problems found. Put late_delivery.json and demand_forecast.json in: {usecases.DIR}")
+        st.error(f"No business problems found in: {usecases.DIR}")
         return
     keys = list(options)
     saved = workspace.get_usecase(user)
@@ -113,13 +95,13 @@ def insights_tab(user):
 
     tiles(sql(user, uc["kpi_sql"])[0]["df"])
     st.markdown("#### Findings")
-    show(sql(user, uc["analysis_sql"]), show_sql=True, tables=True)
+    show(sql(user, uc["analysis_sql"]), tables=True, show_sql=True)
     with st.expander("Data quality checks"):
         show(sql(user, "quality.sql"), tables=True)
     st.info("Next: train the model.")
 
 
-# ---------- Auth page ----------
+# ---------- page ----------
 st.set_page_config(page_title="ThreadWise", page_icon="🧵")
 user = st.session_state.get("user")
 
@@ -175,8 +157,16 @@ else:
     if not has_data:
         st.info("Generate some data to get started.")
         st.stop()
+    PAGES = ["Overview", "Orders", "Pending", "Finances", "Insights"]
+    page = st.sidebar.radio("Go to", PAGES)
 
-    tabs = st.tabs(["Overview", "Orders", "Pending", "Finances", "Insights"])
-    for tab, render in zip(tabs, [overview_tab, orders_tab, pending_tab, finances_tab, insights_tab]):
-        with tab:
-            render(user)
+    if page == "Overview":
+        report(user, "overview.sql")
+    elif page == "Orders":
+        orders_tab(user)
+    elif page == "Pending":
+        report(user, "pending.sql")
+    elif page == "Finances":
+        report(user, "finances.sql")
+    else:
+        insights_tab(user)

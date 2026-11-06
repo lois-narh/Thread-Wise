@@ -5,9 +5,12 @@ import time
 from collections import deque
 
 import requests
+from dotenv import load_dotenv
+
+load_dotenv() 
 
 log = logging.getLogger("threadwise.ai")
-RATE_LIMIT, WINDOW = 5, 60          # API allows 5 requests per minute
+RATE_LIMIT, WINDOW = 5, 60         
 _calls = deque()
 
 
@@ -62,7 +65,10 @@ def ask(message: str, chat_id: str | None = None, retries: int = 2) -> dict:
             log.error("Snwolley request failed: %s", type(e).__name__)
             raise AIError("Could not reach the AI service. Check your connection and try again.")
         if r.status_code == 429 and attempt < retries:
-            wait = min(int(r.headers.get("Retry-After", 20)), 65)
+            try:
+                wait = min(int(float(r.headers.get("Retry-After", 20))), 65)
+            except ValueError:
+                wait = 20
             log.warning("Rate limited, retrying in %ss", wait)
             time.sleep(wait + 1)
             continue
@@ -73,7 +79,10 @@ def ask(message: str, chat_id: str | None = None, retries: int = 2) -> dict:
         if not r.ok:
             log.error("Snwolley HTTP %s", r.status_code)
             raise AIError(f"The AI service returned an error ({r.status_code}).")
-        data = r.json()
+        try:
+            data = r.json()
+        except ValueError:
+            raise AIError("The AI service replied in an unexpected format.")
         text = extract_text(data)
         if not text:
             log.error("Unrecognised response keys: %s", list(data) if isinstance(data, dict) else type(data))
