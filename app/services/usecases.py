@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-DIR = Path(__file__).resolve().parents[1] / "usecases"
+DIR = Path(__file__).resolve().parents[2] / "use_cases"
 
 
 def all_usecases():

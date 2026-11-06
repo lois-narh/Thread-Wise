@@ -1,0 +1,1531 @@
+order_id,customer_id,tailor_id,order_date,promised_date,delivered_date,garment_type,fabric_source,complexity,is_rush,occasion,price_ghs,deposit_ghs,status
+TW-00001,103,7,2024-01-01,2024-01-15,2024-01-09,dress,Shop,4.0,0,Church,360.0,72.0,Delivered
+TW-00002,150,8,2024-01-02,2024-01-15,2024-01-12,kaba and slit,Shop,2.0,0,Everyday,350.0,,Delivered
+TW-00003,113,1,2024-01-06,2024-01-18,2024-01-15,DRESS,Shop,3.0,0,Wedding,430.0,86.0,Delivered
+TW-00004,295,3,2024-01-08,2024-01-16,2024-01-19,dress,Customer,4.0,0,Funeral,,66.0,Delivered
+TW-00005,198,5,2024-01-08,2024-01-14,2024-01-15,dress,Shop,3.0,0,Funeral,530.0,530.0,Delivered
+TW-00006,372,6,2024-01-08,2024-01-18,2024-01-16,DRESS,Shop,3.0,0,Funeral,280.0,168.0,Delivered
+TW-00007,47,5,2024-01-09,2024-01-24,2024-01-25,AGBADA,Customer,4.0,0,Everyday,800.0,400.0,Delivered
+TW-00008,282,2,2024-01-15,2024-01-27,2024-01-22,DRESS,Customer,3.0,0,Church,690.0,414.0,Delivered
+TW-00009,48,4,2024-01-18,2024-01-26,2024-01-23,Shirt,CUSTOMER,4.0,0,Graduation,180.0,54.0,Delivered
+TW-00010,116,5,2024-01-18,2024-01-23,2024-01-21,mens shirt,Shop,2.0,1,Everyday,260.0,78.0,Delivered
+TW-00011,89,1,2024-01-20,2024-01-30,2024-01-27,Kaba n Slit,Shop,3.0,0,Graduation,530.0,265.0,Delivered
+TW-00012,111,4,2024-01-20,2024-01-28,2024-01-23,Men's Shirt,Shop,2.0,0,Church,170.0,0.0,Delivered
+TW-00013,158,1,2024-01-23,2024-02-06,2024-02-08,Kaba & Slit,Customer,3.0,0,Wedding,380.0,114.0,Delivered
+TW-00014,131,7,2024-01-23,2024-02-10,2024-02-09,Suit,Customer,4.0,0,Graduation,1020.0,306.0,Delivered
+TW-00015,89,8,2024-01-26,2024-02-02,2024-01-31,ankara 2 piece,Customer,2.0,1,Funeral,390.0,117.0,Delivered
+TW-00016,355,1,2024-01-26,2024-02-08,2024-02-07,AGBADA,Customer,5.0,0,Church,880.0,176.0,Delivered
+TW-00017,159,5,2024-01-26,2024-02-10,2024-02-04,Kaba n Slit,Shop,4.0,0,Everyday,630.0,126.0,Delivered
+TW-00018,64,4,2024-01-27,2024-02-07,2024-02-04,kaba and slit,Shop,4.0,0,Everyday,480.0,240.0,Delivered
+TW-00019,67,5,2024-01-30,2024-02-11,2024-02-05,DRESS,Shop,3.0,0,Wedding,540.0,0.0,Delivered
+TW-00020,324,1,2024-01-30,2024-03-12,2024-02-29,Bridal gown,Shop,4.0,0,Wedding,4220.0,2110.0,Delivered
+TW-00021,117,8,2024-02-03,2024-02-17,2024-02-10,KABA & SLIT,Shop,1.0,0,Wedding,320.0,,Delivered
+TW-00022,197,2,2024-02-03,2024-02-11,2024-02-11,Kaba & Slit,Shop,3.0,0,Everyday,370.0,74.0,Delivered
+TW-00023,137,8,2024-02-04,2024-02-13,2024-02-14,DRESS,Customer,2.0,0,everyday,310.0,155.0,Delivered
+TW-00024,275,5,2024-02-05,2024-02-15,2024-02-16,Ankara two piece,Shop,,0,Everyday,500.0,250.0,Delivered
+TW-00025,234,8,2024-02-07,2024-02-14,2024-02-14,kaba and slit,,2.0,1,Church,590.0,354.0,Delivered
+TW-00026,231,2,2024-02-07,2024-02-16,2024-02-13,Kaba & Slit,,4.0,0,graduation,370.0,185.0,Delivered
+TW-00027,290,3,2024-02-07,2024-02-20,2024-02-15,Kaba n Slit,Customer,4.0,0,Church,540.0,162.0,Delivered
+TW-00028,218,8,2024-02-08,2024-02-18,2024-02-21,kaba and slit,Customer,3.0,0,Wedding,360.0,72.0,Delivered
+TW-00029,235,2,2024-02-08,2024-02-21,2024-02-17,kaba and slit,Shop,3.0,0,Everyday,250.0,50.0,Delivered
+TW-00030,103,6,2024-02-09,2024-03-06,2024-02-24,SUIT,Shop,3.0,0,Everyday,1860.0,372.0,Delivered
+TW-00031,181,2,2024-02-10,2024-02-21,2024-02-19,ankara 2 piece,Customer,3.0,0,Church,340.0,340.0,Delivered
+TW-00032,277,5,2024-02-11,2024-03-03,2024-02-24,SUIT,Shop,4.0,0,Everyday,2030.0,2030.0,Delivered
+TW-00033,288,3,2024-02-16,2024-03-03,2024-03-03,agbada ,Shop,5.0,0,Church,1180.0,354.0,Delivered
+TW-00034,182,7,2024-02-16,2024-02-27,2024-02-22,DRESS,Shop,3.0,0,Everyday,220.0,44.0,Delivered
+TW-00035,139,1,2024-02-16,2024-03-02,2024-02-27,kaba and slit,Shop,2.0,0,Everyday,430.0,86.0,Delivered
+TW-00036,252,6,2024-02-16,2024-02-21,2024-02-23,School uniform,Customer,2.0,0,school,140.0,42.0,Delivered
+TW-00037,178,6,2024-02-17,2024-02-23,2024-02-27,kaba and slit,Shop,2.0,1,Funeral,640.0,128.0,Delivered
+TW-00038,70,8,2024-02-17,2024-03-02,2024-02-28,Kaba & Slit,Customer,3.0,0,Everyday,600.0,0.0,Delivered
+TW-00039,78,7,2024-02-17,2024-02-25,2024-02-22,Kaba n Slit,Customer,3.0,0,Everyday,370.0,0.0,Delivered
+TW-00040,37,1,2024-02-18,2024-03-01,2024-02-28,Kaba & Slit,Shop,4.0,0,Everyday,350.0,0.0,Delivered
+TW-00041,4,6,2024-02-19,2024-02-23,2024-02-25,Shirt,Shop,1.0,1,School,210.0,210.0,Delivered
+TW-00042,64,3,2024-02-20,2024-02-26,2024-02-29,kaba and slit,,4.0,0,Funeral,390.0,78.0,Delivered
+TW-00043,288,5,2024-02-20,2024-03-09,2024-03-02,Agbada,Customer,4.0,0,Graduation,1880.0,,Delivered
+TW-00044,265,8,2024-02-21,2024-02-27,2024-02-28,kaba and slit,Customer,3.0,1,Funeral,660.0,330.0,Delivered
+TW-00045,263,1,2024-02-21,2024-02-29,2024-03-01,Kaba n Slit,Shop,3.0,1,Funeral,370.0,222.0,Delivered
+TW-00046,37,7,2024-02-22,2024-03-23,2024-03-11,,Customer,3.0,0,Graduation,1000.0,200.0,Delivered
+TW-00047,302,3,2024-02-23,2024-03-09,2024-03-05,dress,Shop,2.0,0,Church,580.0,290.0,Delivered
+TW-00048,129,3,2024-02-26,2024-03-14,2024-03-18,SUIT,Customer,4.0,0,Wedding,1630.0,0.0,Delivered
+TW-00049,358,3,2024-02-26,2024-03-10,2024-03-08,Kaba & Slit,Shop,2.0,0,Wedding,410.0,205.0,Delivered
+TW-00050,249,2,2024-02-26,2024-03-14,2024-03-18,Suit,Customer,4.0,0,Everyday,920000.0,276.0,Delivered
+TW-00051,189,6,2024-02-27,2024-03-12,2024-03-04,kaba and slit,Shop,4.0,0,Church,460.0,460.0,Delivered
+TW-00052,375,5,2024-02-27,2024-03-07,2024-03-08,Kaba n Slit,Customer,3.0,0,Church,500.0,0.0,Delivered
+TW-00053,39,2,2024-02-27,2024-03-06,2024-03-09,Ankara Two-piece,Customer,4.0,0,everyday,310.0,93.0,Delivered
+TW-00054,89,6,2024-02-28,2024-03-07,2024-03-07,Dress,Customer,3.0,0,Church,670.0,201.0,Delivered
+TW-00055,65,6,2024-02-28,2024-03-12,2024-03-06,DRESS,Customer,2.0,0,Church,230.0,115.0,Delivered
+TW-00056,139,7,2024-02-29,2024-03-17,2024-03-14,Agbada,Customer,4.0,0,Everyday,1310.0,393.0,Delivered
+TW-00057,263,6,2024-03-01,2024-03-17,2024-03-19,agbada ,Customer,5.0,0,Wedding,1650.0,330.0,Delivered
+TW-00058,118,3,2024-03-02,2024-03-14,2024-03-15,kaba and slit,Shop,3.0,0,Church,550.0,,Delivered
+TW-00059,365,4,2024-03-02,2024-03-17,2024-03-08,Dress,Customer,3.0,0,Church,210.0,105.0,Delivered
+TW-00060,306,6,2024-03-02,2024-03-10,2024-03-18,dress,Shop,3.0,0,Funeral,460.0,138.0,Delivered
+TW-00061,296,4,2024-03-04,2024-03-12,2024-03-15,Ankara Two-piece,Customer,3.0,1,Funeral,340.0,340.0,Delivered
+TW-00062,213,5,2024-03-05,2024-03-15,2024-03-13,Kaba n Slit,Shop,3.0,0,Church,450.0,450.0,Delivered
+TW-00063,12,7,2024-03-05,2024-03-20,2024-03-19,AGBADA,Customer,4.0,0,Wedding,1140.0,1140.0,Delivered
+TW-00064,372,2,2024-03-06,2024-03-11,2024-03-14,Shirt,CUSTOMER,2.0,1,everyday,290.0,290.0,Delivered
+TW-00065,130,4,2024-03-08,2024-03-16,2024-03-16,kaba and slit,Shop,3.0,0,Funeral,590.0,177.0,Delivered
+TW-00066,215,3,2024-03-08,2024-04-05,2024-03-28,SUIT,Shop,3.0,0,Church,1330.0,665.0,Delivered
+TW-00067,3,3,2024-03-11,2024-03-15,2024-03-21,Shirt,Customer,3.0,1,Easter,340.0,170.0,Delivered
+TW-00068,243,5,2024-03-11,2024-03-23,2024-03-22,DRESS,,3.0,0,Church,560.0,280.0,Delivered
+TW-00069,234,8,2024-03-11,2024-03-19,2024-03-18,Men's Shirt,Shop,1.0,0,Everyday,120.0,60.0,Delivered
+TW-00070,65,7,2024-03-12,2024-03-21,2024-03-27,AGBADA,Customer,4.0,0,Funeral,1770.0,885.0,Delivered
+TW-00071,206,3,2024-03-12,2024-03-18,2024-03-23,school uniform,Customer,1.0,0,School,190.0,,Delivered
+TW-00072,301,8,2024-03-12,2024-03-25,2024-03-24,ankara 2 piece,Customer,2.0,0,Everyday,380.0,380.0,Delivered
+TW-00073,63,2,2024-03-12,2024-03-22,2024-03-30,Dress,Customer,4.0,0,Everyday,390.0,117.0,Delivered
+TW-00074,342,7,2024-03-12,2024-03-17,2024-03-19,Shirt,Shop,2.0,0,Funeral,240.0,72.0,Delivered
+TW-00075,319,4,2024-03-13,2024-03-19,2024-03-18,School uniform,Customer,1.0,0,School,190.0,190.0,Delivered
+TW-00076,92,8,2024-03-13,2024-03-26,2024-03-23,KABA & SLIT,Customer,3.0,0,Everyday,480.0,144.0,Delivered
+TW-00077,181,2,2024-03-13,2024-03-25,2024-03-24,kaba and slit,Shop,3.0,0,Church,540.0,270.0,Delivered
+TW-00078,173,3,2024-03-14,2024-03-24,2024-04-02,Kaba n Slit,Shop,4.0,0,Easter,500.0,0.0,Delivered
+TW-00079,149,6,2024-03-15,2024-03-29,2024-03-27,Kaba n Slit,Customer,3.0,0,Church,390.0,117.0,Delivered
+TW-00080,20,7,2024-03-15,2024-03-30,2024-03-22,kaba and slit,,3.0,0,church,320.0,320.0,Delivered
+TW-00081,234,8,2024-03-15,2024-03-29,2024-04-01,KABA & SLIT,Shop,3.0,0,Church,350.0,105.0,Delivered
+TW-00082,177,3,2024-03-16,2024-03-25,2024-04-13,agbada ,Customer,4.0,0,Easter,1300.0,260.0,Delivered
+TW-00083,18,3,2024-03-18,2024-03-28,2024-04-06,Kaba & Slit,Customer,4.0,0,Easter,280.0,84.0,Delivered
+TW-00084,319,3,2024-03-19,2024-03-28,2024-04-10,Kaba n Slit,Shop,3.0,0,Funeral,520.0,520.0,Delivered
+TW-00085,310,5,2024-03-19,2024-03-29,2024-03-28,Dress,Shop,4.0,0,Easter,460.0,276.0,Delivered
+TW-00086,225,5,2024-03-19,2024-03-26,2024-03-27,dress,Shop,3.0,0,Easter,280.0,280.0,Delivered
+TW-00087,275,1,2024-03-20,2024-03-27,2024-03-28,Kaba & Slit,Customer,3.0,0,Christmas,340.0,340.0,Delivered
+TW-00088,351,1,2024-03-20,2024-03-27,2024-03-26,ankara 2 piece,Customer,2.0,1,Easter,350.0,350.0,Delivered
+TW-00089,258,3,2024-03-20,2024-04-05,2024-04-24,Suit,Shop,4.0,0,Easter,1960.0,1176.0,Delivered
+TW-00090,92,8,2024-03-22,2024-04-06,2024-03-30,Dress,Shop,2.0,0,Graduation,420.0,420.0,Delivered
+TW-00091,243,1,2024-03-22,2024-03-29,2024-03-30,KABA & SLIT,Customer,3.0,1,Easter,600.0,360.0,Delivered
+TW-00092,353,5,2024-03-24,2024-04-02,2024-04-03,Kaba & Slit,Shop,3.0,0,Wedding,530.0,265.0,Delivered
+TW-00093,291,7,2024-03-25,2024-04-06,2024-04-06,Agbada,Shop,4.0,0,Church,1490.0,745.0,Delivered
+TW-00094,238,7,2024-03-25,2024-04-09,2024-04-06,AGBADA,Customer,3.0,0,Wedding,1100.0,550.0,Delivered
+TW-00095,194,1,2024-03-26,2024-04-01,2024-04-01,Shirt,Shop,2.0,0,Church,230.0,115.0,Delivered
+TW-00096,302,8,2024-03-26,2024-04-07,2024-04-14,AGBADA,Customer,4.0,0,,1240.0,620.0,Delivered
+TW-00097,155,6,2024-03-26,2024-04-08,2024-04-10,agbada ,Shop,4.0,0,Everyday,930000.0,186.0,Delivered
+TW-00098,365,4,2024-03-26,2024-04-03,2024-03-28,Men's Shirt,Customer,2.0,0,Church,110.0,110.0,Delivered
+TW-00099,165,6,2024-03-26,2024-04-02,2024-04-06,Ankara Two-piece,Shop,3.0,0,Easter,300.0,60.0,Delivered
+TW-00100,308,3,2024-03-27,2024-04-06,2024-04-19,Ankara two piece,Customer,2.0,0,Eid,390000.0,195.0,Delivered
+TW-00101,345,2,2024-03-28,2024-04-04,2024-04-05,Ankara Two-piece,Shop,3.0,1,Eid,400.0,200.0,Delivered
+TW-00102,193,3,2024-03-28,2024-04-10,2024-04-15,ankara 2 piece,Customer,2.0,0,Everyday,310.0,93.0,Delivered
+TW-00103,320,6,2024-03-28,2024-05-27,2024-05-10,Bridal Gown,Customer,5.0,0,Wedding,3040.0,912.0,Delivered
+TW-00104,131,1,2024-03-28,2024-04-04,2024-04-11,DRESS,Customer,3.0,1,Easter,330.0,165.0,Delivered
+TW-00105,27,6,2024-03-29,2024-04-07,2024-04-21,agbada ,CUSTOMER,3.0,1,eid,1050.0,0.0,Delivered
+TW-00106,372,2,2024-03-29,2024-04-14,2024-04-10,Agbada,Customer,3.0,0,Church,1800.0,1800.0,Delivered
+TW-00107,310,3,2024-03-30,2024-04-08,2024-04-25,agbada ,Shop,3.0,1,Funeral,1110.0,555.0,Delivered
+TW-00108,13,3,2024-03-30,2024-05-09,2024-05-24,Bridal Gown,Shop,5.0,0,Wedding,4170.0,2085.0,Delivered
+TW-00109,356,6,2024-03-30,2024-04-07,2024-04-17,Kaba & Slit,Shop,2.0,0,Easter,430.0,215.0,Delivered
+TW-00110,131,7,2024-04-01,2024-04-15,2024-04-13,Ankara two piece,Customer,3.0,0,Church,550.0,165.0,Delivered
+TW-00111,356,1,2024-04-01,2024-04-11,2024-04-18,agbada ,Customer,4.0,1,Eid,1930.0,965.0,Delivered
+TW-00112,67,6,2024-04-02,2024-04-22,2024-04-22,AGBADA,Shop,3.0,0,,1300.0,260.0,Delivered
+TW-00113,167,1,2024-04-03,2024-04-16,2024-04-21,agbada ,Customer,4.0,0,Wedding,1520.0,,Delivered
+TW-00114,26,1,2024-04-04,2024-04-18,2024-04-13,ankara 2 piece,Shop,2.0,0,Church,280.0,56.0,Delivered
+TW-00115,245,4,2024-04-04,2024-04-19,2024-04-15,Ankara two piece,Shop,5.0,0,Church,540.0,162.0,Delivered
+TW-00116,291,3,2024-04-05,2024-04-12,2024-04-28,dress,Shop,3.0,0,Eid,450.0,270.0,Delivered
+TW-00117,373,4,2024-04-05,2024-04-28,2024-04-24,suit,Shop,4.0,0,Church,1080.0,540.0,Delivered
+TW-00118,8,4,2024-04-06,2024-04-15,2024-04-13,Ankara Two-piece,Customer,3.0,0,,430.0,430.0,Delivered
+TW-00119,179,1,2024-04-08,2024-04-18,2024-04-24,AGBADA,Customer,5.0,1,Funeral,,495.0,Delivered
+TW-00120,115,6,2024-04-08,2024-04-21,2024-04-25,Kaba & Slit,Customer,3.0,0,Everyday,550.0,165.0,Delivered
+TW-00121,209,6,2024-04-09,2024-04-18,2024-04-29,Dress,Customer,2.0,0,Eid,460.0,460.0,Delivered
+TW-00122,56,7,2024-04-13,2024-04-18,2024-04-20,school uniform,Customer,1.0,0,school,100.0,50.0,Delivered
+TW-00123,85,8,2024-04-15,2024-05-10,2024-05-06,SUIT,Customer,4.0,0,Wedding,1940.0,388.0,Delivered
+TW-00124,46,1,2024-04-16,2024-04-29,2024-04-28,kaba and slit,Customer,2.0,0,church,400.0,80.0,Delivered
+TW-00125,209,8,2024-04-16,2024-04-24,2024-04-25,Kaba n Slit,Shop,3.0,0,Wedding,340.0,340.0,Delivered
+TW-00126,243,2,2024-04-17,2024-04-25,2024-04-25,Kaba n Slit,Customer,3.0,0,Funeral,520.0,312.0,Delivered
+TW-00127,200,2,2024-04-17,2024-04-23,2024-05-16,KABA & SLIT,Customer,3.0,0,Funeral,550.0,0.0,Delivered
+TW-00128,306,2,2024-04-18,2024-05-03,2024-04-30,ankara 2 piece,Customer,2.0,0,Wedding,470.0,282.0,Delivered
+TW-00129,150,8,2024-04-18,2024-04-30,2024-05-02,Agbada,Shop,3.0,1,funeral,1670.0,334.0,Delivered
+TW-00130,229,1,2024-04-18,2024-04-25,2024-04-28,Ankara two piece,Customer,4.0,1,everyday,730.0,219.0,Delivered
+TW-00131,209,2,2024-04-18,2024-04-25,2024-04-25,mens shirt,Customer,3.0,0,Church,180.0,180.0,Delivered
+TW-00132,308,2,2024-04-19,2024-04-27,2024-05-04,Dress,Customer,3.0,0,Church,480.0,240.0,Delivered
+TW-00133,308,8,2024-04-19,2024-04-27,2024-04-15,Dress,Customer,4.0,0,everyday,260.0,0.0,Delivered
+TW-00134,197,4,2024-04-22,2024-05-26,2024-05-26,Bridal gown,Shop,4.0,0,Wedding,4850.0,970.0,Delivered
+TW-00135,205,6,2024-04-22,2024-04-30,2024-05-02,Men's Shirt,,3.0,0,,240.0,240.0,Delivered
+TW-00136,196,2,2024-04-23,2024-05-02,2024-05-04,Kaba & Slit,Customer,2.0,0,Church,280.0,140.0,Delivered
+TW-00136,196,2,2024-04-23,2024-05-02,2024-05-04,Kaba & Slit,Customer,2.0,0,Church,280.0,140.0,Delivered
+TW-00137,342,1,2024-04-23,2024-05-01,2024-05-08,ankara 2 piece,CUSTOMER,3.0,1,funeral,450.0,90.0,Delivered
+TW-00138,65,7,2024-04-23,2024-05-12,2024-05-01,AGBADA,Shop,3.0,0,Graduation,1530.0,918.0,Delivered
+TW-00139,157,7,2024-04-24,2024-05-03,2024-05-01,Ankara Two-piece,Shop,3.0,0,Church,270.0,135.0,Delivered
+TW-00140,235,2,2024-04-24,2024-05-02,2024-05-08,Kaba n Slit,Customer,3.0,0,funeral,330.0,165.0,Delivered
+TW-00141,308,1,2024-04-24,2024-05-04,2024-05-02,DRESS,Shop,3.0,0,Wedding,320.0,96.0,Delivered
+TW-00142,189,5,2024-04-25,2024-05-09,2024-05-04,dress,Customer,2.0,0,Everyday,430.0,0.0,Delivered
+TW-00143,172,6,2024-04-26,2024-05-02,2024-05-05,KABA & SLIT,Shop,2.0,1,Wedding,410.0,410.0,Delivered
+TW-00144,243,4,2024-04-26,2024-05-09,2024-05-05,Dress,Customer,4.0,0,Graduation,240.0,120.0,Delivered
+TW-00145,294,5,2024-04-27,2024-05-09,2024-05-04,Ankara Two-piece,Shop,3.0,0,Church,290.0,87.0,Delivered
+TW-00146,191,3,2024-04-28,2024-05-06,2024-05-11,Kaba n Slit,Customer,3.0,0,Everyday,550.0,330.0,Delivered
+TW-00147,197,7,2024-04-28,2024-05-11,2024-05-16,AGBADA,Customer,5.0,0,Wedding,1980.0,396.0,Delivered
+TW-00148,209,5,2024-04-30,2024-05-10,2024-05-12,agbada ,Shop,4.0,0,Funeral,1620.0,810.0,Delivered
+TW-00149,319,1,2024-05-01,2024-06-04,2024-06-02,bridal gown,Customer,4.0,0,Wedding,2190.0,657.0,Delivered
+TW-00150,24,6,2024-05-01,2024-05-14,2024-05-15,DRESS,Customer,3.0,0,Wedding,540.0,0.0,Delivered
+TW-00151,67,8,2024-05-01,2024-05-07,2024-05-12,Ankara Two-piece,Customer,5.0,1,Funeral,720.0,432.0,Delivered
+TW-00152,78,7,2024-05-02,2024-05-14,2024-05-10,Dress,Shop,3.0,0,Wedding,610.0,0.0,Delivered
+TW-00153,341,1,2024-05-02,2024-05-12,2024-05-13,Dress,Shop,4.0,0,Everyday,570.0,570.0,Delivered
+TW-00154,74,5,2024-05-04,2024-05-17,2024-05-08,Kaba n Slit,Customer,3.0,0,Everyday,370.0,111.0,Delivered
+TW-00155,365,6,2024-05-05,2024-05-12,2024-05-09,Men's Shirt,Customer,1.0,0,Graduation,220.0,66.0,Delivered
+TW-00156,355,1,2024-05-06,2024-05-12,2024-05-15,Ankara Two-piece,Customer,2.0,0,Funeral,430.0,430.0,Delivered
+TW-00157,111,5,2024-05-08,2024-05-19,2024-05-18,Kaba n Slit,Customer,3.0,0,Wedding,480.0,0.0,Delivered
+TW-00158,372,3,2024-05-08,2024-05-15,2024-05-20,KABA & SLIT,Customer,3.0,1,Funeral,710.0,213.0,Delivered
+TW-00159,220,1,2024-05-10,2024-05-20,2024-05-19,kaba and slit,Shop,3.0,0,Funeral,,150.0,Delivered
+TW-00160,320,1,2024-05-10,2024-05-17,2024-05-22,Ankara Two-piece,CUSTOMER,3.0,0,Funeral,350.0,70.0,Delivered
+TW-00161,287,8,2024-05-10,2024-05-18,2024-05-19,Kaba & Slit,Shop,3.0,0,Funeral,510.0,510.0,Delivered
+TW-00162,278,1,2024-05-11,2024-05-24,2024-05-24,dress,Customer,3.0,0,Church,630.0,189.0,Delivered
+TW-00163,125,3,2024-05-11,2024-05-20,2024-05-26,dress,Customer,4.0,0,everyday,270.0,81.0,Delivered
+TW-00164,230,2,2024-05-11,2024-05-22,2024-05-24,Dress,Customer,3.0,0,Church,450.0,90.0,Delivered
+TW-00165,343,2,2024-05-15,2024-05-30,2024-05-24,Ankara Two-piece,Customer,3.0,0,Wedding,370.0,111.0,Delivered
+TW-00166,295,3,2024-05-15,2024-05-21,2024-06-04,Kaba n Slit,Customer,3.0,1,Funeral,440.0,,Delivered
+TW-00167,172,2,2024-05-18,2024-05-28,2024-05-24,ankara 2 piece,Shop,2.0,0,Funeral,540.0,0.0,Delivered
+TW-00168,217,5,2024-05-20,2024-06-02,2024-05-25,Ankara two piece,Shop,2.0,0,Everyday,290.0,145.0,Delivered
+TW-00169,113,4,2024-05-21,2024-06-02,2024-06-03,AGBADA,Customer,4.0,1,Funeral,1910.0,573.0,Delivered
+TW-00170,259,1,2024-05-21,2024-05-31,2024-05-29,DRESS,Customer,2.0,0,Everyday,,0.0,Delivered
+TW-00171,17,2,2024-05-23,2024-06-01,2024-06-04,,Customer,4.0,0,Funeral,450.0,270.0,Delivered
+TW-00172,178,2,2024-05-23,2024-06-04,2024-06-01,,Shop,2.0,0,Church,230.0,69.0,Delivered
+TW-00173,166,8,2024-05-24,2024-06-01,2024-05-27,mens shirt,Shop,2.0,0,Church,140.0,42.0,Delivered
+TW-00174,308,4,2024-05-24,2024-06-06,2024-05-22,Agbada,,4.0,0,Church,,0.0,Delivered
+TW-00175,294,4,2024-05-25,2024-06-14,2024-06-03,Agbada,Shop,3.0,0,Church,840.0,420.0,Delivered
+TW-00176,115,2,2024-05-27,2024-06-03,2024-06-06,dress,Customer,4.0,0,Funeral,500.0,500.0,Delivered
+TW-00177,103,3,2024-05-29,2024-06-06,2024-06-06,Kaba n Slit,Shop,2.0,0,Funeral,440.0,220.0,Delivered
+TW-00178,231,4,2024-05-29,2024-06-08,2024-06-01,Ankara two piece,Customer,3.0,0,Funeral,460.0,138.0,Delivered
+TW-00179,262,5,2024-05-31,2024-06-07,2024-06-04,school uniform,Customer,1.0,0,School,150.0,45.0,Delivered
+TW-00180,219,3,2024-05-31,2024-06-19,2024-06-09,AGBADA,Shop,4.0,0,Church,1820.0,364.0,Delivered
+TW-00181,249,3,2024-05-31,2024-06-16,2024-06-17,AGBADA,Shop,5.0,0,church,2050.0,615.0,Delivered
+TW-00182,189,6,2024-06-01,2024-06-15,2024-06-09,dress,Customer,4.0,0,wedding,610.0,183.0,Delivered
+TW-00183,78,8,2024-06-03,2024-07-23,2024-07-12,Bridal gown,Shop,5.0,0,Wedding,5410.0,0.0,Delivered
+TW-00184,92,6,2024-06-04,2024-06-13,2024-06-07,school uniform,Shop,1.0,0,School,,,Delivered
+TW-00185,66,2,2024-06-04,2024-06-14,2024-06-11,DRESS,Shop,2.0,0,Wedding,400.0,120.0,Delivered
+TW-00186,25,2,2024-06-04,2024-06-22,2024-06-16,agbada ,Shop,4.0,0,Church,1080.0,1080.0,Delivered
+TW-00187,130,7,2024-06-05,2024-06-16,2024-06-16,agbada ,Shop,4.0,0,Eid,870.0,261.0,Delivered
+TW-00188,267,2,2024-06-05,2024-06-11,2024-06-15,dress,Shop,,1,Wedding,570.0,,Delivered
+TW-00189,67,3,2024-06-07,2024-06-18,2024-06-21,agbada ,Shop,4.0,1,Eid,900.0,270.0,Delivered
+TW-00190,277,7,2024-06-07,2024-06-19,2024-06-25,agbada ,Customer,5.0,0,Eid,1000.0,300.0,Delivered
+TW-00191,179,3,2024-06-07,2024-06-15,2024-06-16,Dress,Shop,3.0,0,Everyday,360.0,180.0,Delivered
+TW-00192,327,5,2024-06-07,2024-06-21,2024-06-17,Kaba n Slit,Customer,3.0,0,Everyday,320.0,,Delivered
+TW-00193,366,8,2024-06-08,2024-06-20,2024-06-16,Kaba n Slit,,2.0,0,Church,300.0,90.0,Delivered
+TW-00194,19,2,2024-06-10,2024-06-25,2024-06-23,agbada ,Shop,4.0,0,Everyday,880.0,176.0,Delivered
+TW-00195,146,4,2024-06-11,2024-06-19,2024-06-23,Ankara two piece,Customer,4.0,1,Eid,560.0,280.0,Delivered
+TW-00196,19,3,2024-06-11,2024-06-19,2024-06-24,Men's Shirt,Customer,1.0,0,Church,230.0,69.0,Delivered
+TW-00197,262,1,2024-06-11,2024-06-19,2024-06-14,mens shirt,Shop,1.0,0,Church,190.0,114.0,Delivered
+TW-00198,67,5,2024-06-12,2024-06-26,2024-06-19,kaba and slit,Customer,2.0,0,Church,320.0,160.0,Delivered
+TW-00199,194,8,2024-06-14,2024-06-25,2024-06-22,Kaba n Slit,Shop,3.0,0,Everyday,470.0,141.0,Delivered
+TW-00200,366,1,2024-06-15,2024-06-21,2024-06-24,Kaba & Slit,Shop,2.0,1,Eid,400.0,80.0,Delivered
+TW-00201,133,1,2024-06-15,2024-06-25,2024-06-20,Kaba & Slit,Shop,2.0,0,Funeral,520.0,156.0,Delivered
+TW-00202,183,5,2024-06-15,2024-06-18,2024-06-25,mens shirt,,2.0,0,,140.0,0.0,Delivered
+TW-00203,153,3,2024-06-17,2024-06-27,2024-06-30,DRESS,Shop,3.0,0,Everyday,570.0,114.0,Delivered
+TW-00204,3,6,2024-06-18,2024-06-26,2024-06-25,KABA & SLIT,Customer,3.0,1,Everyday,530.0,265.0,Delivered
+TW-00205,234,3,2024-06-18,2024-06-27,2024-07-05,Dress,Shop,3.0,0,Funeral,540.0,,Delivered
+TW-00206,70,5,2024-06-19,2024-07-02,2024-07-02,agbada ,Customer,4.0,0,Church,880.0,440.0,Delivered
+TW-00206,70,5,2024-06-19,2024-07-02,2024-07-02,agbada ,Customer,4.0,0,Church,880.0,440.0,Delivered
+TW-00207,167,7,2024-06-21,2024-06-27,2024-06-29,KABA & SLIT,SHOP,2.0,1,Funeral,460.0,138.0,Delivered
+TW-00208,186,8,2024-06-23,2024-06-29,2024-07-02,Kaba n Slit,Customer,,1,Funeral,460.0,92.0,Delivered
+TW-00209,179,4,2024-06-24,2024-07-09,2024-07-07,AGBADA,Customer,4.0,0,Church,1410.0,282.0,Delivered
+TW-00210,22,1,2024-06-25,2024-07-09,2024-07-01,KABA & SLIT,Customer,4.0,0,Church,370.0,222.0,Delivered
+TW-00211,324,4,2024-06-28,2024-07-19,2024-07-15,SUIT,Shop,4.0,0,Church,1370.0,0.0,Delivered
+TW-00212,159,2,2024-06-28,2024-07-11,2024-07-04,Dress,Shop,3.0,0,Church,580.0,290.0,Delivered
+TW-00213,46,8,2024-06-28,2024-07-08,2024-07-04,DRESS,Customer,3.0,0,Everyday,590.0,295.0,Delivered
+TW-00214,372,2,2024-06-29,2024-07-08,2024-07-09,DRESS,Shop,4.0,0,Church,350.0,105.0,Delivered
+TW-00215,121,1,2024-06-29,2024-07-03,2024-07-04,Men's Shirt,Shop,2.0,1,Church,170.0,51.0,Delivered
+TW-00216,167,8,2024-06-29,2024-07-14,2024-07-20,SUIT,Shop,4.0,1,Christmas,1640.0,328.0,Delivered
+TW-00217,290,2,2024-07-01,2024-07-08,2024-07-11,Kaba n Slit,Customer,3.0,0,Funeral,510.0,153.0,Delivered
+TW-00218,319,3,2024-07-02,2024-07-07,2024-07-07,Men's Shirt,Customer,2.0,0,Graduation,200.0,60.0,Delivered
+TW-00219,330,6,2024-07-03,2024-07-14,2024-07-14,KABA & SLIT,Shop,3.0,0,Graduation,570.0,285.0,Delivered
+TW-00220,324,6,2024-07-03,2024-07-17,2024-07-11,Ankara two piece,Shop,2.0,0,Everyday,520.0,156.0,Delivered
+TW-00221,105,5,2024-07-03,2024-07-17,2024-07-13,kaba and slit,Shop,5.0,0,wedding,600.0,180.0,Delivered
+TW-00222,32,6,2024-07-03,2024-07-12,2024-07-05,School uniform,SHOP,1.0,0,School,120.0,60.0,Delivered
+TW-00223,138,3,2024-07-04,2024-07-17,2024-07-14,dress,Customer,2.0,0,Wedding,490.0,0.0,Delivered
+TW-00224,110,3,2024-07-04,2024-07-17,2024-07-21,AGBADA,Shop,4.0,0,Everyday,1680.0,504.0,Delivered
+TW-00225,189,8,2024-07-05,2024-07-20,2024-07-12,KABA & SLIT,Customer,2.0,0,Church,470.0,0.0,Delivered
+TW-00226,178,4,2024-07-05,2024-07-19,2024-07-14,Ankara two piece,Shop,4.0,0,Everyday,560.0,112.0,Delivered
+TW-00227,111,3,2024-07-06,2024-07-14,2024-07-16,KABA & SLIT,Shop,4.0,0,Funeral,590.0,177.0,Delivered
+TW-00228,200,8,2024-07-08,2024-07-14,2024-07-23,Ankara Two-piece,Shop,4.0,1,Funeral,430.0,215.0,Delivered
+TW-00229,301,3,2024-07-11,2024-07-16,2024-07-17,School Uniform,,2.0,0,School,120.0,60.0,Delivered
+TW-00230,181,7,2024-07-12,2024-07-20,2024-07-16,Kaba n Slit,Customer,3.0,0,Everyday,450.0,450.0,Delivered
+TW-00231,131,6,2024-07-13,2024-07-23,2024-07-21,DRESS,Customer,3.0,0,Everyday,530.0,159.0,Delivered
+TW-00232,194,6,2024-07-15,2024-08-05,2024-07-28,Agbada,Customer,4.0,0,Everyday,810.0,405.0,Delivered
+TW-00233,46,6,2024-07-15,2024-07-24,2024-07-24,ankara 2 piece,Customer,3.0,0,Everyday,590.0,118.0,Delivered
+TW-00234,357,3,2024-07-15,2024-08-04,2024-07-30,agbada ,Customer,4.0,0,Graduation,1730.0,519.0,Delivered
+TW-00235,208,1,2024-07-18,2024-08-04,2024-08-01,AGBADA,Customer,5.0,0,Everyday,1580.0,790.0,Delivered
+TW-00236,246,8,2024-07-18,2024-08-02,2024-07-30,Agbada,Customer,3.0,0,Church,1650.0,495.0,Delivered
+TW-00237,246,7,2024-07-18,2024-08-08,2024-07-30,agbada ,,3.0,0,Everyday,790.0,158.0,Delivered
+TW-00238,256,2,2024-07-20,2024-08-02,2024-07-29,,,4.0,0,Church,690.0,414.0,Delivered
+TW-00239,189,1,2024-07-22,2024-09-15,2024-08-27,bridal gown,Shop,5.0,0,Wedding,4380.0,1314.0,Delivered
+TW-00240,220,3,2024-07-23,2024-07-29,2024-07-29,Ankara two piece,Customer,3.0,0,Funeral,420.0,210.0,Delivered
+TW-00241,18,3,2024-07-23,2024-08-05,2024-08-02,Ankara two piece,Customer,3.0,0,Church,500.0,,Delivered
+TW-00242,131,6,2024-07-23,2024-07-29,2024-08-03,Dress,Customer,,1,Church,720.0,360.0,Delivered
+TW-00243,26,8,2024-07-24,2024-08-03,2024-07-30,Kaba & Slit,Customer,3.0,0,Everyday,290.0,145.0,Delivered
+TW-00244,238,4,2024-07-24,2024-08-05,2024-08-05,agbada ,CUSTOMER,4.0,0,Church,960.0,,Delivered
+TW-00245,301,6,2024-07-24,2024-08-04,2024-08-02,ankara 2 piece,Customer,2.0,0,Church,270.0,135.0,Delivered
+TW-00246,308,8,2024-07-26,2024-08-03,2024-08-02,Ankara Two-piece,Shop,3.0,0,Funeral,470.0,470.0,Delivered
+TW-00247,319,4,2024-07-27,2024-08-08,2024-08-02,dress,Shop,3.0,0,Church,390.0,78.0,Delivered
+TW-00248,42,3,2024-07-29,2024-08-07,2024-08-08,Kaba & Slit,Customer,3.0,0,Funeral,440.0,440.0,Delivered
+TW-00249,201,8,2024-07-30,2024-08-13,2024-08-10,Kaba & Slit,Customer,3.0,0,Everyday,400.0,400.0,Delivered
+TW-00250,308,7,2024-07-30,2024-08-08,2024-08-07,Dress,Customer,2.0,0,Church,630.0,126.0,Delivered
+TW-00251,125,4,2024-07-30,2024-08-06,2024-08-04,Shirt,CUSTOMER,2.0,0,Everyday,150.0,150.0,Delivered
+TW-00252,276,8,2024-07-31,2024-08-15,2024-08-10,ankara 2 piece,Customer,,0,,470.0,282.0,Delivered
+TW-00253,287,7,2024-07-31,2024-08-09,2024-08-09,Dress,Customer,4.0,0,Funeral,630.0,126.0,Delivered
+TW-00254,235,4,2024-08-01,2024-08-11,2024-08-04,,CUSTOMER,1.0,0,Funeral,300.0,150.0,Delivered
+TW-00255,32,3,2024-08-01,2024-08-08,2024-08-04,School Uniform,Customer,1.0,0,School,200.0,200.0,Delivered
+TW-00256,308,6,2024-08-02,2024-08-07,2024-08-09,School Uniform,Customer,1.0,0,school,170000.0,,Delivered
+TW-00257,215,6,2024-08-03,2024-08-16,2024-08-11,ankara 2 piece,Shop,3.0,0,Everyday,430.0,215.0,Delivered
+TW-00257,215,6,2024-08-03,2024-08-16,2024-08-11,ankara 2 piece,Shop,3.0,0,Everyday,430.0,215.0,Delivered
+TW-00258,275,7,2024-08-06,2024-08-10,2024-08-11,Men's Shirt,Shop,2.0,1,,240.0,144.0,Delivered
+TW-00259,153,1,2024-08-06,2024-08-20,2024-08-16,agbada ,Shop,3.0,0,Church,790.0,395.0,Delivered
+TW-00260,208,2,2024-08-07,2024-08-14,2024-08-11,School Uniform,Shop,1.0,0,School,110.0,110.0,Delivered
+TW-00261,326,2,2024-08-08,2024-08-21,2024-08-18,AGBADA,Shop,3.0,0,Wedding,1730.0,519.0,Delivered
+TW-00261,326,2,2024-08-08,2024-08-21,2024-08-18,AGBADA,Shop,3.0,0,Wedding,1730.0,519.0,Delivered
+TW-00262,308,4,2024-08-12,2024-08-24,2024-08-24,DRESS,Customer,3.0,0,Everyday,490.0,245.0,Delivered
+TW-00263,54,4,2024-08-13,2024-08-19,2024-08-14,School uniform,,1.0,0,School,120.0,60.0,Delivered
+TW-00264,273,6,2024-08-13,2024-08-20,2024-08-16,KABA & SLIT,Customer,2.0,0,funeral,310.0,93.0,Delivered
+TW-00265,359,8,2024-08-15,2024-08-23,2024-08-18,School uniform,Shop,1.0,0,School,160.0,80.0,Delivered
+TW-00266,308,1,2024-08-15,2024-08-23,2024-08-26,School uniform,Customer,3.0,0,School,120.0,24.0,Delivered
+TW-00267,110,5,2024-08-15,2024-08-29,2024-08-23,kaba and slit,Customer,4.0,0,Church,500.0,300.0,Delivered
+TW-00268,67,3,2024-08-15,2024-08-29,2024-08-23,KABA & SLIT,Shop,4.0,0,Graduation,590.0,354.0,Delivered
+TW-00269,101,2,2024-08-16,2024-08-30,2024-08-25,Kaba n Slit,Customer,3.0,0,Everyday,390.0,195.0,Delivered
+TW-00270,249,5,2024-08-16,2024-08-20,2024-08-20,Men's Shirt,Customer,1.0,1,Funeral,190.0,95.0,Delivered
+TW-00271,7,3,2024-08-16,2024-08-23,2024-08-25,Ankara two piece,Shop,3.0,1,Church,380.0,190.0,Delivered
+TW-00272,159,3,2024-08-16,2024-08-31,2024-08-27,Ankara Two-piece,Shop,3.0,0,Wedding,270.0,135.0,Delivered
+TW-00273,203,8,2024-08-17,2024-08-30,2024-08-27,ankara 2 piece,Shop,2.0,0,Wedding,490.0,147.0,Delivered
+TW-00274,262,5,2024-08-17,2024-08-29,2024-09-06,agbada ,Customer,5.0,0,Funeral,2110.0,2110.0,Delivered
+TW-00274,262,5,2024-08-17,2024-08-29,2024-09-06,agbada ,Customer,5.0,0,Funeral,2110.0,2110.0,Delivered
+TW-00275,22,5,2024-08-20,2024-08-28,2024-08-25,Men's Shirt,,1.0,0,Everyday,170.0,85.0,Delivered
+TW-00276,48,2,2024-08-21,2024-08-26,2024-08-30,Men's Shirt,Shop,,1,,180.0,36.0,Delivered
+TW-00277,64,1,2024-08-21,2024-08-30,2024-08-30,dress,SHOP,3.0,0,Everyday,260.0,260.0,Delivered
+TW-00278,339,7,2024-08-21,2024-08-29,2024-08-28,kaba and slit,,3.0,0,Easter,350.0,105.0,Delivered
+TW-00279,194,3,2024-08-23,2024-08-29,2024-08-29,mens shirt,Customer,2.0,0,funeral,180.0,90.0,Delivered
+TW-00280,167,3,2024-08-24,2024-08-31,2024-09-10,ankara 2 piece,Shop,,0,Funeral,300.0,90.0,Delivered
+TW-00281,6,1,2024-08-24,2024-08-31,2024-08-28,school uniform,,1.0,0,School,120.0,72.0,Delivered
+TW-00282,220,1,2024-08-24,2024-09-07,2024-09-01,KABA & SLIT,Customer,2.0,0,,250.0,50.0,Delivered
+TW-00283,22,6,2024-08-24,2024-08-31,2024-09-02,kaba and slit,Shop,5.0,0,Funeral,530.0,265.0,Delivered
+TW-00284,366,3,2024-08-26,2024-09-07,2024-09-05,Dress,Shop,4.0,0,Wedding,290.0,87.0,Delivered
+TW-00285,55,4,2024-08-27,2024-09-08,2024-09-08,Agbada,Shop,5.0,0,Church,1960.0,0.0,Delivered
+TW-00286,200,4,2024-08-27,2024-09-09,2024-09-05,Kaba & Slit,Customer,4.0,0,Church,320.0,96.0,Delivered
+TW-00287,78,2,2024-08-28,2024-09-10,2024-09-05,kaba and slit,Customer,4.0,0,Church,340.0,68.0,Delivered
+TW-00288,150,4,2024-08-28,2024-09-06,2024-09-05,Dress,Shop,1.0,0,Church,270.0,81.0,Delivered
+TW-00289,218,8,2024-08-28,2024-09-06,2024-09-05,KABA & SLIT,,2.0,0,Funeral,510.0,255.0,Delivered
+TW-00290,177,3,2024-08-28,2024-09-03,2024-09-05,Men's Shirt,CUSTOMER,2.0,0,School,270.0,135.0,Delivered
+TW-00291,110,1,2024-08-30,2024-09-07,2024-09-04,School uniform,Shop,1.0,0,School,160.0,80.0,Delivered
+TW-00292,64,6,2024-08-30,2024-09-23,2024-09-20,Suit,Shop,5.0,0,Wedding,1620.0,1620.0,Delivered
+TW-00293,9,2,2024-08-30,2024-09-06,2024-09-09,ankara 2 piece,Customer,3.0,1,Funeral,640.0,192.0,Delivered
+TW-00294,216,7,2024-08-31,2024-09-05,2024-09-11,School uniform,Customer,1.0,0,School,110.0,55.0,Delivered
+TW-00295,27,4,2024-08-31,2024-09-14,2024-09-06,dress,Customer,1.0,0,Church,330.0,165.0,Delivered
+TW-00296,353,3,2024-09-02,2024-09-13,2024-09-13,Kaba & Slit,Customer,3.0,0,Wedding,590.0,295.0,Delivered
+TW-00297,188,7,2024-09-02,2024-09-15,2024-09-13,Agbada,Shop,4.0,0,Church,980.0,980.0,Delivered
+TW-00298,10,1,2024-09-02,2024-09-06,2024-09-08,school uniform,Shop,2.0,1,School,140.0,70.0,Delivered
+TW-00299,21,2,2024-09-02,2024-09-09,2024-09-10,Kaba & Slit,,2.0,1,Funeral,580.0,,Delivered
+TW-00300,326,6,2024-09-03,2024-09-18,2024-09-10,ankara 2 piece,,3.0,0,Everyday,500.0,500.0,Delivered
+TW-00301,193,7,2024-09-04,2024-09-12,2024-09-07,school uniform,Shop,1.0,0,School,150.0,30.0,Delivered
+TW-00302,356,2,2024-09-04,2024-09-21,2024-09-16,agbada ,Shop,3.0,0,Everyday,780.0,390.0,Delivered
+TW-00303,46,6,2024-09-05,2024-09-13,2024-09-09,School uniform,Customer,1.0,0,School,160.0,32.0,Delivered
+TW-00304,142,7,2024-09-06,2024-09-14,2024-09-11,School uniform,CUSTOMER,1.0,0,School,110.0,55.0,Delivered
+TW-00305,262,5,2024-09-06,2024-09-19,2024-09-20,Agbada,Shop,4.0,0,Christmas,1680.0,1680.0,Delivered
+TW-00306,183,4,2024-09-07,2024-10-01,2024-09-30,Suit,Customer,3.0,0,wedding,1220.0,610.0,Delivered
+TW-00307,365,3,2024-09-07,2024-09-17,2024-09-13,KABA & SLIT,Shop,3.0,0,Church,500.0,150.0,Delivered
+TW-00308,245,1,2024-09-09,2024-09-30,2024-09-24,agbada ,Shop,5.0,0,Everyday,1800.0,360.0,Delivered
+TW-00309,233,2,2024-09-10,2024-09-19,2024-09-14,Kaba n Slit,Customer,3.0,0,Everyday,520.0,312.0,Delivered
+TW-00310,277,2,2024-09-10,2024-09-23,2024-09-17,KABA & SLIT,Customer,3.0,0,Wedding,590.0,177.0,Delivered
+TW-00311,321,3,2024-09-11,2024-09-23,2024-09-20,Dress,Customer,3.0,0,Church,550.0,,Delivered
+TW-00312,62,2,2024-09-11,2024-09-17,2024-09-24,Kaba n Slit,Customer,2.0,0,Funeral,350.0,105.0,Delivered
+TW-00313,337,6,2024-09-12,2024-09-22,2024-09-21,Ankara Two-piece,,4.0,0,Church,600.0,360.0,Delivered
+TW-00314,118,4,2024-09-12,2024-09-19,2024-09-13,School Uniform,Customer,,0,School,150.0,45.0,Delivered
+TW-00315,110,3,2024-09-12,2024-09-18,2024-09-18,School uniform,Shop,2.0,0,School,170.0,170.0,Delivered
+TW-00316,217,6,2024-09-12,2024-09-26,2024-09-22,dress,Shop,3.0,0,Everyday,260.0,0.0,Delivered
+TW-00317,326,1,2024-09-13,2024-09-18,2024-09-20,Shirt,Shop,2.0,0,Church,150.0,75.0,Delivered
+TW-00318,6,8,2024-09-13,2024-10-26,2024-10-18,Bridal Gown,Shop,5.0,0,Wedding,3660.0,1830.0,Delivered
+TW-00319,355,2,2024-09-13,2024-10-01,2024-10-01,agbada ,Shop,5.0,0,Everyday,790.0,395.0,Delivered
+TW-00320,280,1,2024-09-13,2024-09-20,2024-09-20,Kaba n Slit,Customer,3.0,1,Funeral,600.0,180.0,Delivered
+TW-00321,196,3,2024-09-13,2024-09-23,2024-09-21,kaba and slit,Customer,4.0,0,Funeral,310.0,93.0,Delivered
+TW-00322,282,1,2024-09-14,2024-09-24,2024-09-24,kaba and slit,Customer,4.0,0,christmas,620.0,186.0,Delivered
+TW-00323,308,3,2024-09-14,2024-09-21,2024-09-30,ankara 2 piece,Shop,2.0,1,Funeral,310.0,62.0,Delivered
+TW-00324,355,2,2024-09-14,2024-09-26,2024-10-03,kaba and slit,CUSTOMER,3.0,0,Everyday,400.0,200.0,Delivered
+TW-00325,181,2,2024-09-16,2024-09-25,2024-09-20,School Uniform,Customer,1.0,0,School,170.0,170.0,Delivered
+TW-00326,360,5,2024-09-17,2024-09-23,2024-09-22,school uniform,Customer,2.0,0,school,210.0,105.0,Delivered
+TW-00327,161,4,2024-09-18,2024-09-28,2024-09-28,DRESS,Customer,2.0,0,Everyday,190.0,38.0,Delivered
+TW-00328,196,1,2024-09-19,2024-09-28,2024-09-30,Kaba n Slit,Customer,3.0,0,Wedding,290.0,290.0,Delivered
+TW-00329,337,5,2024-09-19,2024-09-25,2024-09-26,ankara 2 piece,Customer,3.0,1,,590.0,295.0,Delivered
+TW-00330,49,1,2024-09-20,2024-09-28,2024-09-28,Dress,Customer,2.0,0,Funeral,500.0,300.0,Delivered
+TW-00331,130,8,2024-09-20,2024-09-28,2024-09-27,Ankara two piece,Customer,2.0,1,Church,540.0,540.0,Delivered
+TW-00332,324,8,2024-09-21,2024-09-27,2024-09-26,Shirt,Customer,3.0,0,School,140.0,84.0,Delivered
+TW-00333,179,6,2024-09-21,2024-10-02,2024-09-29,Kaba & Slit,Customer,4.0,0,Graduation,540.0,108.0,Delivered
+TW-00334,150,5,2024-09-23,2024-09-30,2024-10-01,school uniform,Customer,1.0,0,School,190.0,190.0,Delivered
+TW-00335,276,4,2024-09-23,2024-09-30,2024-09-30,Shirt,Customer,3.0,0,Everyday,220.0,66.0,Delivered
+TW-00336,65,1,2024-09-23,2024-10-14,2024-10-09,Suit,Shop,4.0,0,Graduation,1080.0,1080.0,Delivered
+TW-00337,161,3,2024-09-24,2024-09-29,2024-09-28,school uniform,Shop,1.0,0,School,140.0,42.0,Delivered
+TW-00338,302,4,2024-09-25,2024-10-09,2024-10-06,Kaba & Slit,Shop,3.0,0,Church,440.0,440.0,Delivered
+TW-00339,151,3,2024-09-26,2024-10-05,2024-10-03,KABA & SLIT,Customer,2.0,0,Everyday,240.0,0.0,Delivered
+TW-00340,179,5,2024-09-26,2024-10-04,2024-09-30,School uniform,Shop,1.0,0,School,100.0,60.0,Delivered
+TW-00341,243,6,2024-09-26,2024-10-10,2024-10-06,Kaba n Slit,Shop,4.0,0,Wedding,600.0,300.0,Delivered
+TW-00342,159,3,2024-09-26,2024-10-07,2024-10-07,Ankara Two-piece,Customer,4.0,0,Church,430.0,215.0,Delivered
+TW-00343,276,1,2024-09-29,2024-10-10,2024-10-09,Ankara Two-piece,Customer,3.0,0,Church,520.0,312.0,Delivered
+TW-00344,66,4,2024-09-30,2024-10-07,2024-10-04,School uniform,SHOP,1.0,0,School,140.0,70.0,Delivered
+TW-00345,67,7,2024-10-01,2024-10-06,2024-10-05,mens shirt,Customer,2.0,0,Everyday,150.0,45.0,Delivered
+TW-00346,189,7,2024-10-02,2024-10-10,2024-10-10,Kaba & Slit,Shop,4.0,0,Funeral,290.0,145.0,Delivered
+TW-00347,365,1,2024-10-04,2024-10-12,2024-10-10,Ankara two piece,Shop,4.0,0,Everyday,430.0,86.0,Delivered
+TW-00348,233,3,2024-10-04,2024-10-10,2024-10-12,Men's Shirt,Customer,1.0,0,Everyday,110.0,33.0,Delivered
+TW-00349,138,7,2024-10-04,2024-11-12,2024-11-11,Bridal Gown,CUSTOMER,5.0,0,Wedding,2700.0,540.0,Delivered
+TW-00350,214,2,2024-10-05,2024-10-15,2024-10-18,agbada ,Shop,4.0,1,Church,1950.0,975.0,Delivered
+TW-00351,22,8,2024-10-06,2024-10-16,2024-10-13,Ankara two piece,Shop,3.0,0,Funeral,480.0,144.0,Delivered
+TW-00352,238,1,2024-10-07,2024-10-26,2024-10-20,SUIT,SHOP,4.0,0,Everyday,1300.0,0.0,Delivered
+TW-00353,263,7,2024-10-07,2024-10-21,2024-10-17,KABA & SLIT,Customer,4.0,0,Everyday,400.0,200.0,Delivered
+TW-00354,282,5,2024-10-08,2024-10-23,2024-10-19,AGBADA,Shop,3.0,0,Everyday,1500.0,1500.0,Delivered
+TW-00355,140,4,2024-10-09,2024-12-07,2024-11-23,Bridal gown,CUSTOMER,5.0,0,Wedding,2510.0,753.0,Delivered
+TW-00356,334,5,2024-10-09,2024-10-19,2024-10-15,Ankara two piece,Shop,3.0,0,Everyday,450.0,0.0,Delivered
+TW-00357,274,8,2024-10-09,2024-10-24,2024-10-20,ankara 2 piece,Shop,3.0,0,Church,560.0,280.0,Delivered
+TW-00358,152,6,2024-10-11,2024-10-15,2024-10-16,Men's Shirt,Shop,3.0,1,Eid,,105.0,Delivered
+TW-00359,216,5,2024-10-11,2024-10-21,2024-10-20,KABA & SLIT,,2.0,0,Wedding,470.0,141.0,Delivered
+TW-00360,364,5,2024-10-11,2024-10-20,2024-10-20,Dress,Shop,3.0,0,Funeral,680.0,204.0,Delivered
+TW-00361,108,8,2024-10-12,2024-10-28,2024-11-02,SUIT,Customer,4.0,1,Eid,2600.0,1300.0,Delivered
+TW-00362,231,2,2024-10-12,2024-10-23,2024-10-15,dress,Shop,2.0,0,Wedding,420.0,420.0,Delivered
+TW-00363,276,5,2024-10-17,2024-10-24,2024-10-26,Kaba & Slit,Shop,3.0,1,Funeral,420.0,420.0,Delivered
+TW-00364,188,1,2024-10-17,2024-10-26,2024-10-27,Ankara Two-piece,Customer,,0,Funeral,230.0,115.0,Delivered
+TW-00365,39,5,2024-10-18,2024-10-26,2024-10-29,Kaba n Slit,,4.0,1,Funeral,700.0,700.0,Delivered
+TW-00366,138,6,2024-10-18,2024-10-28,2024-10-25,Kaba n Slit,Customer,2.0,0,Funeral,390.0,117.0,Delivered
+TW-00367,68,3,2024-10-18,2024-10-27,2024-10-28,,Shop,3.0,1,Funeral,770.0,231.0,Delivered
+TW-00368,249,4,2024-10-19,2024-10-26,2024-10-22,Men's Shirt,Shop,2.0,0,Everyday,140.0,42.0,Delivered
+TW-00369,308,7,2024-10-19,2024-11-01,2024-10-26,Kaba & Slit,Shop,2.0,0,Church,480.0,144.0,Delivered
+TW-00370,220,7,2024-10-21,2024-11-09,2024-11-08,AGBADA,Customer,4.0,0,Everyday,1760.0,1056.0,Delivered
+TW-00371,111,7,2024-10-23,2024-11-04,2024-11-02,kaba and slit,Shop,4.0,0,Wedding,290.0,145.0,Delivered
+TW-00372,302,1,2024-10-23,2024-11-01,2024-11-06,Dress,Customer,,0,Funeral,710.0,213.0,Delivered
+TW-00373,181,8,2024-10-24,2024-10-31,2024-11-01,DRESS,Shop,4.0,1,Funeral,860.0,258.0,Delivered
+TW-00374,94,3,2024-10-26,2024-11-06,2024-11-12,Agbada,Customer,4.0,0,Funeral,,320.0,Delivered
+TW-00375,210,3,2024-10-26,2024-11-02,2024-11-02,Men's Shirt,SHOP,3.0,0,,250.0,,Delivered
+TW-00376,228,5,2024-10-29,2024-11-12,2024-11-05,DRESS,Customer,4.0,0,Everyday,470.0,,Delivered
+TW-00377,281,3,2024-10-29,2024-11-04,2024-11-11,Kaba n Slit,Customer,3.0,1,Everyday,600.0,180.0,Delivered
+TW-00378,23,5,2024-10-29,2024-11-13,2024-11-15,agbada ,Customer,3.0,0,wedding,1080.0,324.0,Delivered
+TW-00379,324,5,2024-10-31,2024-11-22,2024-11-16,suit,Shop,5.0,0,Wedding,1970.0,985.0,Delivered
+TW-00380,12,2,2024-11-01,2024-11-09,2024-11-12,dress,Customer,4.0,0,Funeral,320.0,160.0,Delivered
+TW-00381,88,2,2024-11-01,2024-11-06,2024-11-06,School uniform,CUSTOMER,2.0,0,School,130.0,65.0,Delivered
+TW-00382,84,2,2024-11-01,2024-11-15,2024-11-10,Kaba & Slit,Customer,4.0,0,Church,420.0,210.0,Delivered
+TW-00383,321,6,2024-11-01,2024-11-13,2024-11-24,Agbada,Customer,5.0,0,Christmas,1000.0,600.0,Delivered
+TW-00384,19,8,2024-11-01,2024-11-09,2024-11-07,KABA & SLIT,Shop,2.0,0,Christmas,500.0,300.0,Delivered
+TW-00385,343,3,2024-11-02,2024-11-11,2024-11-12,Kaba n Slit,Customer,3.0,0,Funeral,260.0,78.0,Delivered
+TW-00386,56,7,2024-11-02,2024-11-07,2024-11-10,,Customer,2.0,1,,320.0,320.0,Delivered
+TW-00387,28,6,2024-11-05,2024-11-16,2024-11-15,ankara 2 piece,Shop,3.0,0,Wedding,570.0,285.0,Delivered
+TW-00388,53,6,2024-11-05,2024-11-12,2024-11-20,Ankara Two-piece,Shop,2.0,1,Church,440.0,,Delivered
+TW-00389,18,6,2024-11-06,2024-11-21,2024-11-21,KABA & SLIT,Customer,,0,Church,320.0,96.0,Delivered
+TW-00390,150,3,2024-11-07,2024-11-28,2024-11-23,AGBADA,Shop,4.0,0,Church,1530.0,459.0,Delivered
+TW-00391,131,2,2024-11-07,2024-11-14,2024-11-16,DRESS,Shop,3.0,1,Funeral,590.0,177.0,Delivered
+TW-00392,159,1,2024-11-07,2024-11-14,2024-11-19,kaba and slit,Customer,4.0,0,Funeral,550.0,110.0,Delivered
+TW-00393,347,4,2024-11-08,2024-11-15,2024-11-13,School Uniform,Shop,1.0,0,School,130.0,78.0,Delivered
+TW-00394,150,8,2024-11-08,2024-11-14,2024-11-19,Kaba n Slit,Customer,4.0,0,Funeral,420.0,420.0,Delivered
+TW-00395,314,2,2024-11-08,2024-11-15,2024-11-18,Kaba n Slit,Customer,3.0,1,Funeral,710.0,213.0,Delivered
+TW-00396,358,6,2024-11-09,2024-11-23,2024-11-28,AGBADA,Customer,4.0,0,Wedding,1420.0,710.0,Delivered
+TW-00397,37,6,2024-11-09,2024-11-16,2024-11-28,ankara 2 piece,,4.0,1,Christmas,390.0,78.0,Delivered
+TW-00398,243,4,2024-11-09,2024-11-17,2024-11-20,Kaba & Slit,Shop,4.0,0,Everyday,550.0,110.0,Delivered
+TW-00399,18,6,2024-11-10,2024-11-21,2024-11-30,dress,Shop,3.0,0,Wedding,530.0,265.0,Delivered
+TW-00400,203,2,2024-11-11,2024-11-24,2024-11-26,Agbada,Shop,4.0,0,,1630.0,978.0,Delivered
+TW-00401,74,6,2024-11-12,2024-11-19,2024-12-03,Kaba & Slit,Customer,,0,Christmas,520.0,260.0,Delivered
+TW-00402,337,2,2024-11-12,2024-11-24,2024-11-20,Ankara Two-piece,Customer,2.0,0,Church,380.0,380.0,Delivered
+TW-00403,290,4,2024-11-14,2024-11-22,2024-11-22,KABA & SLIT,Shop,3.0,1,Wedding,360.0,360.0,Delivered
+TW-00404,181,8,2024-11-15,2024-11-25,2024-11-25,Kaba n Slit,Customer,3.0,0,Christmas,440.0,220.0,Delivered
+TW-00405,319,7,2024-11-15,2024-11-21,2024-11-24,ankara 2 piece,Shop,3.0,0,Christmas,490.0,147.0,Delivered
+TW-00406,291,5,2024-11-15,2024-11-24,2024-11-24,KABA & SLIT,Shop,2.0,0,Church,350.0,,Delivered
+TW-00407,356,2,2024-11-16,2024-12-01,2024-11-27,Dress,Customer,3.0,0,Church,390.0,195.0,Delivered
+TW-00408,125,3,2024-11-16,2024-11-26,2024-11-24,kaba and slit,Shop,3.0,0,Funeral,330.0,165.0,Delivered
+TW-00409,124,1,2024-11-18,2024-12-01,2024-11-29,DRESS,Customer,2.0,0,Everyday,580.0,0.0,Delivered
+TW-00410,8,4,2024-11-18,2024-11-25,2024-11-29,kaba and slit,Shop,3.0,0,Funeral,260.0,78.0,Delivered
+TW-00411,179,6,2024-11-18,2024-12-02,2024-12-07,ankara 2 piece,Shop,3.0,0,Graduation,380.0,380.0,Delivered
+TW-00412,373,5,2024-11-18,2024-12-06,2024-11-30,AGBADA,Shop,3.0,0,Everyday,1780.0,890.0,Delivered
+TW-00413,249,1,2024-11-18,2024-11-28,2024-11-28,KABA & SLIT,Shop,3.0,0,Christmas,400.0,120.0,Delivered
+TW-00414,62,6,2024-11-18,2024-11-28,2024-12-11,dress,Customer,2.0,0,Christmas,370.0,0.0,Delivered
+TW-00415,356,6,2024-11-19,2024-11-25,2024-12-18,Dress,Customer,4.0,1,Christmas,670.0,201.0,Delivered
+TW-00416,265,4,2024-11-19,2024-12-01,2024-12-07,AGBADA,Customer,4.0,0,Christmas,1740.0,522.0,Delivered
+TW-00417,353,8,2024-11-20,2024-11-29,2024-11-29,kaba and slit,Shop,3.0,0,Christmas,300.0,150.0,Delivered
+TW-00418,182,6,2024-11-20,2024-11-30,2024-12-16,DRESS,Customer,3.0,0,Eid,460.0,138.0,Delivered
+TW-00419,252,6,2024-11-21,2024-11-27,2024-12-20,Ankara two piece,Shop,3.0,1,Christmas,480.0,144.0,Delivered
+TW-00420,46,4,2024-11-22,2024-12-04,2024-12-04,kaba and slit,Shop,2.0,0,Wedding,410.0,82.0,Delivered
+TW-00421,295,1,2024-11-22,2024-12-02,2024-12-04,agbada ,Shop,3.0,0,eid,1110.0,333.0,Delivered
+TW-00421,295,1,2024-11-22,2024-12-02,2024-12-04,agbada ,Shop,3.0,0,eid,1110.0,333.0,Delivered
+TW-00422,20,4,2024-11-25,2024-12-01,2024-11-29,Men's Shirt,Shop,2.0,0,Everyday,170.0,170.0,Delivered
+TW-00423,308,5,2024-11-25,2024-12-03,2024-12-08,Kaba & Slit,Customer,3.0,0,Christmas,390.0,,Delivered
+TW-00423,308,5,2024-11-25,2024-12-03,2024-12-08,Kaba & Slit,Customer,3.0,0,Christmas,390.0,,Delivered
+TW-00424,243,2,2024-11-25,2024-12-03,2024-12-04,Men's Shirt,Customer,2.0,0,School,,90.0,Delivered
+TW-00425,355,7,2024-11-26,2024-12-09,2024-12-06,Kaba & Slit,Shop,3.0,0,Everyday,340.0,102.0,Delivered
+TW-00426,32,3,2024-11-26,2024-12-03,2024-12-10,dress,Customer,4.0,1,Church,930.0,465.0,Delivered
+TW-00427,263,7,2024-11-26,2024-12-05,2024-12-07,Agbada,Customer,4.0,1,Christmas,2220.0,1110.0,Delivered
+TW-00428,159,8,2024-11-26,2024-12-10,2024-12-08,Ankara two piece,Shop,2.0,0,Church,310.0,62.0,Delivered
+TW-00429,229,7,2024-11-26,2024-12-04,2024-12-07,dress,Customer,,0,Christmas,610.0,183.0,Delivered
+TW-00430,369,2,2024-11-27,2024-12-06,2024-12-02,Ankara Two-piece,Customer,3.0,0,Church,320.0,192.0,Delivered
+TW-00430,369,2,2024-11-27,2024-12-06,2024-12-02,Ankara Two-piece,Customer,3.0,0,Church,320.0,192.0,Delivered
+TW-00431,276,3,2024-11-27,2024-12-07,2024-12-06,kaba and slit,Customer,4.0,0,Christmas,560.0,168.0,Delivered
+TW-00432,207,3,2024-11-27,2024-12-20,2024-12-15,Suit,Shop,4.0,0,Wedding,1990.0,,Delivered
+TW-00433,54,7,2024-11-27,2024-12-05,2024-12-05,kaba and slit,Shop,3.0,0,Funeral,420.0,210.0,Delivered
+TW-00434,32,1,2024-11-27,2024-12-01,2024-12-05,Shirt,Customer,2.0,1,Christmas,240.0,48.0,Delivered
+TW-00435,89,7,2024-11-28,2024-12-05,2024-12-08,kaba and slit,Customer,4.0,1,Funeral,,340.0,Delivered
+TW-00436,125,3,2024-11-28,2024-12-06,2024-12-11,ankara 2 piece,,4.0,1,Church,520.0,260.0,Delivered
+TW-00437,63,8,2024-11-29,2024-12-09,2024-12-12,Ankara Two-piece,Customer,4.0,0,Funeral,430.0,430.0,Delivered
+TW-00438,221,8,2024-11-29,2024-12-18,2024-12-17,SUIT,Shop,4.0,0,Everyday,2000.0,400.0,Delivered
+TW-00439,88,1,2024-11-30,2024-12-25,2024-12-17,SUIT,Shop,3.0,0,Wedding,1070.0,321.0,Delivered
+TW-00440,330,3,2024-12-01,2024-12-15,2025-01-01,Agbada,Customer,4.0,0,Christmas,1520.0,760.0,Delivered
+TW-00441,272,3,2024-12-02,2024-12-14,2024-12-15,kaba and slit,Customer,2.0,0,Wedding,280.0,168.0,Delivered
+TW-00442,328,6,2024-12-02,2024-12-10,2024-12-21,Kaba & Slit,Shop,3.0,1,Christmas,680.0,680.0,Delivered
+TW-00443,356,7,2024-12-03,2024-12-15,2024-12-14,dress,CUSTOMER,2.0,0,Everyday,480.0,480.0,Delivered
+TW-00444,356,8,2024-12-03,2024-12-10,2024-12-16,Kaba & Slit,Customer,3.0,0,Funeral,450.0,450.0,Delivered
+TW-00445,151,1,2024-12-03,2024-12-11,2024-12-06,school uniform,Shop,1.0,0,School,100.0,30.0,Delivered
+TW-00446,103,6,2024-12-04,2024-12-13,2024-12-24,KABA & SLIT,Customer,3.0,0,christmas,420.0,126.0,Delivered
+TW-00447,189,7,2024-12-05,2024-12-11,2024-12-16,ankara 2 piece,Shop,3.0,1,Church,350.0,210.0,Delivered
+TW-00448,208,4,2024-12-06,2024-12-20,2024-12-16,Dress,Shop,4.0,0,Church,600.0,180.0,Delivered
+TW-00449,243,5,2024-12-06,2024-12-20,2024-12-14,Ankara Two-piece,Shop,2.0,0,Everyday,300.0,,Delivered
+TW-00450,200,8,2024-12-06,2024-12-21,2024-12-23,Agbada,Customer,4.0,0,Funeral,960.0,288.0,Delivered
+TW-00451,308,7,2024-12-06,2024-12-13,2024-12-19,KABA & SLIT,Shop,2.0,1,Everyday,650.0,130.0,Delivered
+TW-00452,199,2,2024-12-07,2024-12-17,2024-12-25,,Customer,3.0,0,Wedding,430.0,430.0,Delivered
+TW-00453,108,5,2024-12-07,2024-12-14,2024-12-17,Kaba & Slit,Shop,2.0,0,Funeral,520.0,260.0,Delivered
+TW-00454,272,3,2024-12-09,2024-12-24,2024-12-29,agbada ,Shop,3.0,0,Church,830.0,830.0,Delivered
+TW-00455,108,2,2024-12-09,2024-12-15,2024-12-17,Ankara Two-piece,Shop,3.0,0,Christmas,400.0,200.0,Delivered
+TW-00456,226,7,2024-12-10,2024-12-30,2024-12-23,AGBADA,SHOP,4.0,0,Wedding,1000.0,300.0,Delivered
+TW-00457,88,3,2024-12-10,2024-12-18,2024-12-26,ankara 2 piece,Shop,3.0,0,Christmas,330.0,99.0,Delivered
+TW-00458,84,7,2024-12-10,2024-12-29,2024-12-24,AGBADA,Shop,4.0,0,Wedding,1180.0,1180.0,Delivered
+TW-00459,105,3,2024-12-10,2024-12-16,2024-12-30,dress,Customer,3.0,0,Funeral,580.0,290.0,Delivered
+TW-00460,346,4,2024-12-12,2024-12-21,2024-12-22,Dress,Customer,3.0,0,Christmas,650.0,325.0,Delivered
+TW-00461,140,6,2024-12-12,2024-12-28,2025-01-05,Agbada,Customer,3.0,0,Everyday,1360.0,1360.0,Delivered
+TW-00462,306,4,2024-12-13,2024-12-23,2024-12-23,KABA & SLIT,Customer,4.0,0,Wedding,390.0,234.0,Delivered
+TW-00463,345,5,2024-12-14,2024-12-20,2024-12-24,Kaba n Slit,Customer,3.0,0,Christmas,460.0,460.0,Delivered
+TW-00464,355,2,2024-12-14,2024-12-23,2024-12-23,Kaba n Slit,Customer,3.0,0,Church,310.0,62.0,Delivered
+TW-00465,216,6,2024-12-14,2024-12-22,2025-01-06,mens shirt,Customer,3.0,0,everyday,190.0,38.0,Delivered
+TW-00466,365,7,2024-12-14,2024-12-18,2024-12-19,Shirt,Customer,2.0,0,Funeral,230.0,69.0,Delivered
+TW-00467,166,6,2024-12-16,2024-12-26,2025-01-08,Ankara two piece,Customer,3.0,0,Church,570.0,171.0,Delivered
+TW-00468,3,2,2024-12-18,2024-12-26,2024-12-29,Ankara two piece,Customer,3.0,0,,370.0,185.0,Delivered
+TW-00469,8,3,2024-12-18,2024-12-23,2024-12-26,Shirt,Shop,1.0,0,Christmas,140.0,42.0,Delivered
+TW-00470,355,3,2024-12-18,2025-01-13,2025-01-12,SUIT,Customer,4.0,0,Church,2020.0,,Delivered
+TW-00471,308,3,2024-12-18,2024-12-27,2025-01-06,Ankara Two-piece,Customer,2.0,0,Funeral,260.0,78.0,Delivered
+TW-00472,19,6,2024-12-18,2025-01-01,2025-01-16,ankara 2 piece,Customer,3.0,0,Everyday,570.0,570.0,Delivered
+TW-00473,157,4,2024-12-18,2024-12-24,2024-12-26,dress,Shop,3.0,1,Funeral,600.0,600.0,Delivered
+TW-00474,243,4,2024-12-18,2024-12-29,2025-01-06,agbada ,Customer,4.0,1,Funeral,1780.0,890.0,Delivered
+TW-00475,178,3,2024-12-19,2024-12-27,2025-01-11,KABA & SLIT,Shop,3.0,0,Funeral,450.0,225.0,Delivered
+TW-00476,301,5,2024-12-20,2024-12-29,2025-01-01,Ankara Two-piece,Shop,3.0,0,Funeral,430.0,86.0,Delivered
+TW-00477,243,2,2024-12-20,2024-12-30,2025-01-02,Ankara Two-piece,,3.0,0,Funeral,350.0,70.0,Delivered
+TW-00478,298,5,2024-12-20,2025-01-01,2024-12-27,ankara 2 piece,Shop,2.0,0,Everyday,300.0,300.0,Delivered
+TW-00479,353,4,2024-12-20,2024-12-30,2024-12-30,Ankara Two-piece,Customer,3.0,0,Everyday,310.0,186.0,Delivered
+TW-00480,365,7,2024-12-21,2024-12-30,2024-12-23,Shirt,Customer,1.0,0,Church,120.0,0.0,Delivered
+TW-00481,194,1,2024-12-22,2024-12-30,2024-12-29,,Customer,2.0,0,Christmas,390.0,117.0,Delivered
+TW-00482,305,4,2024-12-23,2025-01-06,2025-01-06,Kaba & Slit,Customer,3.0,0,Wedding,260.0,52.0,Delivered
+TW-00483,326,8,2024-12-23,2024-12-27,2024-12-26,Men's Shirt,Shop,1.0,1,Funeral,230.0,115.0,Delivered
+TW-00484,258,4,2024-12-24,2024-12-31,2025-01-02,KABA & SLIT,Shop,3.0,1,Funeral,430.0,215.0,Delivered
+TW-00485,351,1,2024-12-25,2025-01-12,2025-01-12,suit,Customer,4.0,0,Wedding,1090.0,545.0,Delivered
+TW-00486,282,5,2024-12-25,2025-01-02,2025-01-04,Kaba & Slit,Shop,2.0,0,Church,310.0,155.0,Delivered
+TW-00487,74,2,2024-12-25,2025-01-04,2025-01-04,Kaba n Slit,Customer,5.0,0,Christmas,300.0,90.0,Delivered
+TW-00488,272,3,2024-12-26,2025-01-04,2025-01-12,Ankara two piece,Shop,2.0,0,Christmas,470.0,94.0,Delivered
+TW-00489,181,6,2024-12-27,2025-01-09,2025-01-11,Dress,Customer,4.0,0,Wedding,600.0,360.0,Delivered
+TW-00490,65,8,2024-12-29,2025-01-10,2025-01-07,Ankara two piece,Shop,3.0,0,Everyday,450.0,135.0,Delivered
+TW-00491,14,1,2024-12-30,2025-01-08,2025-01-06,kaba and slit,Shop,4.0,0,church,610.0,305.0,Delivered
+TW-00492,125,5,2024-12-31,2025-01-08,2025-01-12,Ankara two piece,Customer,3.0,0,Christmas,600.0,300.0,Delivered
+TW-00493,218,8,2025-01-01,2025-01-05,2025-01-08,Shirt,CUSTOMER,2.0,1,Funeral,270.0,54.0,Delivered
+TW-00494,171,6,2025-01-02,2025-01-19,2025-01-23,Agbada,Shop,4.0,0,Graduation,1800.0,900.0,Delivered
+TW-00495,7,1,2025-01-04,2025-01-10,2025-01-12,Kaba & Slit,Customer,4.0,1,Christmas,480.0,480.0,Delivered
+TW-00495,7,1,2025-01-04,2025-01-10,2025-01-12,Kaba & Slit,Customer,4.0,1,Christmas,480.0,480.0,Delivered
+TW-00496,356,5,2025-01-05,2025-01-11,2025-01-11,School Uniform,Customer,2.0,0,School,220.0,44.0,Delivered
+TW-00497,244,7,2025-01-06,2025-01-24,2025-01-17,Agbada,Shop,4.0,0,Church,1260.0,630.0,Delivered
+TW-00498,278,1,2025-01-06,2025-01-14,2025-01-12,kaba and slit,Customer,2.0,1,Funeral,590.0,295.0,Delivered
+TW-00499,105,4,2025-01-06,2025-01-13,2025-01-10,Shirt,Customer,3.0,0,church,130.0,78.0,Delivered
+TW-00500,46,7,2025-01-07,2025-01-26,2025-01-25,Suit,Customer,4.0,0,Everyday,1240.0,620.0,Delivered
+TW-00501,296,4,2025-01-07,2025-01-13,2025-01-13,kaba and slit,Shop,2.0,0,Funeral,450.0,0.0,Delivered
+TW-00502,282,2,2025-01-09,2025-01-24,2025-01-16,Kaba & Slit,Shop,4.0,0,Church,470.0,470.0,Delivered
+TW-00503,290,6,2025-01-09,2025-01-16,2025-01-22,KABA & SLIT,Customer,4.0,0,Funeral,380.0,190.0,Delivered
+TW-00504,166,4,2025-01-11,2025-01-20,2025-01-20,Ankara two piece,Shop,3.0,0,Funeral,490.0,490.0,Delivered
+TW-00505,110,8,2025-01-11,2025-01-25,2025-01-23,Agbada,CUSTOMER,4.0,0,Everyday,880.0,264.0,Delivered
+TW-00506,368,2,2025-01-14,2025-02-18,2025-02-20,Bridal Gown,Shop,5.0,0,Wedding,4170.0,,Delivered
+TW-00507,99,3,2025-01-14,2025-01-23,2025-01-20,Shirt,Shop,1.0,0,Everyday,180.0,36.0,Delivered
+TW-00508,324,7,2025-01-15,2025-03-10,2025-02-21,Bridal Gown,SHOP,5.0,0,Wedding,5390.0,1617.0,Delivered
+TW-00509,115,2,2025-01-15,2025-02-12,2025-01-31,SUIT,,3.0,0,Church,950.0,285.0,Delivered
+TW-00510,359,2,2025-01-16,2025-01-30,2025-01-24,DRESS,Shop,4.0,0,Everyday,740.0,222.0,Delivered
+TW-00510,359,2,2025-01-16,2025-01-30,2025-01-24,DRESS,Shop,4.0,0,Everyday,740.0,222.0,Delivered
+TW-00511,321,7,2025-01-16,2025-01-31,2025-01-24,DRESS,Shop,3.0,0,Everyday,640.0,320.0,Delivered
+TW-00512,160,6,2025-01-18,2025-01-31,2025-01-26,KABA & SLIT,Shop,4.0,0,Everyday,310.0,155.0,Delivered
+TW-00513,231,3,2025-01-19,2025-01-27,2025-01-20,School uniform,Shop,1.0,0,School,180.0,90.0,Delivered
+TW-00514,77,7,2025-01-20,2025-01-30,2025-01-30,Kaba n Slit,Customer,3.0,0,Wedding,560.0,560.0,Delivered
+TW-00515,167,7,2025-01-21,2025-02-04,2025-02-04,,Customer,3.0,0,Everyday,480.0,240.0,Delivered
+TW-00516,276,4,2025-01-22,2025-01-30,2025-01-30,dress,Customer,4.0,0,Wedding,740.0,370.0,Delivered
+TW-00517,103,6,2025-01-24,2025-01-30,2025-01-29,Men's Shirt,Shop,2.0,0,Church,170.0,34.0,Delivered
+TW-00518,356,7,2025-01-25,2025-02-04,2025-02-03,KABA & SLIT,Customer,3.0,0,Funeral,330.0,99.0,Delivered
+TW-00519,89,6,2025-01-25,2025-02-05,2025-02-02,ankara 2 piece,,3.0,0,Church,550.0,275.0,Delivered
+TW-00520,159,5,2025-01-25,2025-02-14,2025-02-10,SUIT,Shop,4.0,0,Wedding,1340.0,670.0,Delivered
+TW-00521,353,5,2025-01-25,2025-01-30,2025-01-30,mens shirt,CUSTOMER,3.0,0,Everyday,140.0,28.0,Delivered
+TW-00522,194,4,2025-01-30,2025-02-06,2025-02-08,Ankara two piece,Customer,3.0,1,Funeral,460.0,460.0,Delivered
+TW-00523,154,4,2025-01-30,2025-02-06,2025-02-02,Ankara Two-piece,Shop,2.0,0,Funeral,280.0,140.0,Delivered
+TW-00524,125,5,2025-02-02,2025-02-17,2025-02-12,Dress,Customer,3.0,0,Church,240.0,0.0,Delivered
+TW-00525,366,5,2025-02-03,2025-02-18,2025-02-09,Ankara Two-piece,Shop,2.0,0,Church,240.0,72.0,Delivered
+TW-00526,182,3,2025-02-04,2025-02-18,2025-02-18,AGBADA,Shop,4.0,0,Funeral,1940.0,970.0,Delivered
+TW-00527,263,7,2025-02-04,2025-02-17,2025-02-11,Kaba & Slit,Customer,3.0,0,Church,260.0,78.0,Delivered
+TW-00528,306,5,2025-02-05,2025-02-20,2025-02-16,dress,Shop,2.0,0,Everyday,320.0,320.0,Delivered
+TW-00529,140,6,2025-02-06,2025-02-21,2025-02-16,Ankara Two-piece,Customer,3.0,0,Everyday,570.0,171.0,Delivered
+TW-00530,152,1,2025-02-06,2025-02-18,2025-02-15,AGBADA,Customer,4.0,0,Church,1460.0,438.0,Delivered
+TW-00531,351,3,2025-02-07,2025-02-15,2025-02-17,Kaba & Slit,,2.0,0,wedding,430.0,430.0,Delivered
+TW-00532,233,7,2025-02-07,2025-02-20,2025-02-14,DRESS,Customer,2.0,0,Everyday,340.0,170.0,Delivered
+TW-00533,8,4,2025-02-11,2025-02-17,2025-02-12,,Shop,3.0,0,Graduation,180.0,90.0,Delivered
+TW-00534,199,6,2025-02-13,2025-02-20,2025-02-22,Kaba & Slit,Shop,2.0,1,Funeral,450.0,225.0,Delivered
+TW-00535,364,2,2025-02-15,2025-02-23,2025-02-25,KABA & SLIT,Customer,3.0,0,Funeral,360.0,180.0,Delivered
+TW-00536,368,5,2025-02-15,2025-02-27,2025-02-26,Kaba n Slit,Customer,4.0,0,Everyday,420.0,210.0,Delivered
+TW-00537,149,7,2025-02-15,2025-02-25,2025-02-24,ankara 2 piece,Shop,3.0,0,church,550.0,550.0,Delivered
+TW-00538,229,7,2025-02-15,2025-04-03,2025-03-19,Bridal gown,Customer,,0,wedding,1750.0,875.0,Delivered
+TW-00539,276,5,2025-02-15,2025-02-25,2025-03-02,AGBADA,,5.0,1,,1330.0,665.0,Delivered
+TW-00540,342,1,2025-02-17,2025-03-03,2025-03-08,agbada ,Customer,4.0,0,Wedding,1270.0,254.0,Delivered
+TW-00541,125,8,2025-02-17,2025-03-05,2025-03-10,Suit,CUSTOMER,4.0,0,church,1110.0,555.0,Delivered
+TW-00542,37,2,2025-02-17,2025-03-05,2025-03-04,SUIT,Customer,4.0,1,Church,1760.0,1760.0,Delivered
+TW-00543,108,8,2025-02-18,2025-02-25,2025-02-22,mens shirt,Customer,2.0,0,Church,190.0,38.0,Delivered
+TW-00544,239,5,2025-02-19,2025-03-07,2025-03-06,Suit,Shop,2.0,1,Everyday,1460.0,438.0,Delivered
+TW-00545,372,8,2025-02-21,2025-03-01,2025-03-03,KABA & SLIT,SHOP,2.0,1,Wedding,590.0,118.0,Delivered
+TW-00546,295,8,2025-02-21,2025-03-01,2025-02-27,School Uniform,Shop,1.0,0,School,140.0,0.0,Delivered
+TW-00547,124,6,2025-02-21,2025-02-28,2025-03-05,kaba and slit,Shop,4.0,0,Funeral,470.0,0.0,Delivered
+TW-00548,144,8,2025-02-22,2025-03-14,2025-03-16,agbada ,Customer,5.0,0,Church,1740.0,1044.0,Delivered
+TW-00549,64,2,2025-02-24,2025-03-25,2025-03-14,SUIT,Shop,5.0,0,,1990.0,995.0,Delivered
+TW-00550,232,7,2025-02-25,2025-03-05,2025-03-06,Kaba n Slit,Shop,3.0,0,Everyday,270.0,270.0,Delivered
+TW-00551,39,2,2025-02-25,2025-03-08,2025-03-08,DRESS,Customer,2.0,0,Everyday,570.0,285.0,Delivered
+TW-00552,353,4,2025-02-26,2025-03-06,2025-03-06,school uniform,Customer,1.0,0,School,160.0,32.0,Delivered
+TW-00552,353,4,2025-02-26,2025-03-06,2025-03-06,school uniform,Customer,1.0,0,School,160.0,32.0,Delivered
+TW-00553,212,7,2025-02-26,2025-03-07,2025-03-05,dress,Shop,3.0,0,Church,330.0,165.0,Delivered
+TW-00554,116,2,2025-02-27,2025-03-15,2025-03-12,agbada ,Shop,4.0,0,Everyday,840.0,420.0,Delivered
+TW-00555,159,4,2025-02-27,2025-03-13,2025-03-05,Kaba n Slit,Shop,2.0,0,Church,420.0,210.0,Delivered
+TW-00556,308,1,2025-02-27,2025-03-06,2025-03-06,ankara 2 piece,CUSTOMER,3.0,1,Church,400.0,200.0,Delivered
+TW-00557,130,2,2025-02-27,2025-03-04,2025-03-05,Shirt,Shop,2.0,0,Funeral,270.0,135.0,Delivered
+TW-00558,110,6,2025-02-27,2025-03-26,2025-03-19,Suit,Shop,4.0,0,Wedding,1810.0,1086.0,Delivered
+TW-00559,373,7,2025-02-28,2025-03-09,2025-03-10,Kaba n Slit,Shop,3.0,0,Everyday,310.0,93.0,Delivered
+TW-00560,325,2,2025-03-02,2025-03-18,2025-03-25,Suit,Customer,5.0,0,Church,2140.0,642.0,Delivered
+TW-00561,249,1,2025-03-03,2025-03-08,2025-03-08,mens shirt,Shop,2.0,0,Funeral,220.0,110.0,Delivered
+TW-00562,144,7,2025-03-05,2025-04-04,2025-03-21,SUIT,Shop,4.0,0,Church,1350.0,405.0,Delivered
+TW-00563,217,4,2025-03-05,2025-03-13,2025-03-11,mens shirt,Customer,2.0,0,,140.0,70.0,Delivered
+TW-00564,209,1,2025-03-07,2025-03-19,2025-03-14,kaba and slit,Shop,2.0,0,Church,310.0,186.0,Delivered
+TW-00565,199,2,2025-03-07,2025-03-16,2025-03-23,mens shirt,Customer,1.0,0,Everyday,130.0,39.0,Delivered
+TW-00566,321,5,2025-03-07,2025-03-14,2025-03-23,Kaba & Slit,Shop,3.0,0,Funeral,260.0,78.0,Delivered
+TW-00567,8,8,2025-03-08,2025-03-16,2025-03-16,Ankara two piece,Shop,3.0,1,Funeral,350.0,105.0,Delivered
+TW-00568,243,1,2025-03-08,2025-04-28,2025-04-13,Bridal gown,Shop,5.0,0,Wedding,4940.0,1482.0,Delivered
+TW-00569,67,6,2025-03-11,2025-04-02,2025-03-26,AGBADA,Shop,5.0,0,Everyday,830.0,166.0,Delivered
+TW-00570,78,1,2025-03-11,2025-03-23,2025-03-25,Agbada,Shop,5.0,0,Eid,1760.0,0.0,Delivered
+TW-00571,343,8,2025-03-12,2025-03-20,2025-03-22,dress,Customer,3.0,0,,510.0,0.0,Delivered
+TW-00572,343,2,2025-03-13,2025-04-02,2025-04-03,Suit,Customer,4.0,0,Wedding,1350.0,1350.0,Delivered
+TW-00573,264,3,2025-03-14,2025-04-13,2025-04-06,suit,Customer,4.0,0,Everyday,1570.0,314.0,Delivered
+TW-00574,63,6,2025-03-14,2025-05-04,2025-04-28,Bridal Gown,Shop,5.0,0,Wedding,2040.0,1020.0,Delivered
+TW-00575,276,4,2025-03-15,2025-03-24,2025-03-30,kaba and slit,Shop,3.0,0,Everyday,270.0,135.0,Delivered
+TW-00576,303,4,2025-03-15,2025-03-22,2025-03-25,ankara 2 piece,Shop,2.0,1,,620.0,186.0,Delivered
+TW-00577,74,2,2025-03-16,2025-03-24,2025-03-27,kaba and slit,Customer,3.0,0,Eid,370.0,185.0,Delivered
+TW-00578,153,4,2025-03-17,2025-03-30,2025-03-24,DRESS,Shop,3.0,0,Wedding,670.0,335.0,Delivered
+TW-00579,280,1,2025-03-17,2025-03-27,2025-03-28,Kaba & Slit,Shop,4.0,0,eid,640.0,320.0,Delivered
+TW-00580,94,2,2025-03-18,2025-03-26,2025-03-31,DRESS,Shop,3.0,0,Church,360.0,180.0,Delivered
+TW-00581,317,8,2025-03-18,2025-03-28,2025-03-29,AGBADA,Shop,3.0,1,Eid,1500.0,450.0,Delivered
+TW-00582,308,1,2025-03-18,2025-03-27,2025-03-25,mens shirt,,2.0,0,Everyday,180.0,0.0,Delivered
+TW-00583,345,8,2025-03-18,2025-04-02,2025-03-29,DRESS,Shop,2.0,0,Wedding,570.0,171.0,Delivered
+TW-00584,167,8,2025-03-18,2025-04-02,2025-03-28,Kaba n Slit,Customer,4.0,0,Church,500.0,0.0,Delivered
+TW-00585,208,6,2025-03-19,2025-03-26,2025-03-25,KABA & SLIT,Shop,2.0,1,Funeral,430.0,215.0,Delivered
+TW-00586,54,1,2025-03-19,2025-03-27,2025-04-05,KABA & SLIT,Customer,4.0,1,Funeral,710.0,710.0,Delivered
+TW-00587,310,6,2025-03-20,2025-03-29,2025-03-30,Shirt,Customer,2.0,0,Everyday,110.0,55.0,Delivered
+TW-00588,158,1,2025-03-20,2025-04-01,2025-04-02,AGBADA,Customer,5.0,0,Wedding,2150.0,430.0,Delivered
+TW-00589,300,6,2025-03-20,2025-04-09,2025-04-10,suit,Shop,4.0,0,Eid,1760.0,1760.0,Delivered
+TW-00590,282,7,2025-03-21,2025-04-04,2025-04-03,AGBADA,Customer,4.0,0,Everyday,1350.0,0.0,Delivered
+TW-00591,158,4,2025-03-22,2025-04-08,2025-04-11,Suit,Shop,4.0,0,eid,1860.0,930.0,Delivered
+TW-00592,197,1,2025-03-24,2025-04-01,2025-04-07,ankara 2 piece,Customer,3.0,0,Funeral,480.0,144.0,Delivered
+TW-00593,79,7,2025-03-24,2025-04-03,2025-04-05,dress,Customer,2.0,0,Wedding,450.0,0.0,Delivered
+TW-00594,180,1,2025-03-25,2025-04-05,2025-04-07,AGBADA,Customer,3.0,0,Eid,1520.0,456.0,Delivered
+TW-00595,338,6,2025-03-25,2025-04-05,2025-04-09,KABA & SLIT,Shop,3.0,0,Wedding,440.0,132.0,Delivered
+TW-00596,272,7,2025-03-25,2025-04-03,2025-04-15,agbada ,Customer,4.0,0,Eid,1600.0,960.0,Delivered
+TW-00597,308,5,2025-03-25,2025-04-03,2025-04-11,Agbada,Customer,4.0,0,Eid,1170.0,351.0,Delivered
+TW-00598,193,5,2025-03-26,2025-04-01,2025-04-03,KABA & SLIT,Customer,4.0,0,Funeral,330.0,165.0,Delivered
+TW-00599,84,3,2025-03-26,2025-04-01,2025-04-02,Men's Shirt,Shop,2.0,0,Funeral,170.0,102.0,Delivered
+TW-00600,319,2,2025-03-26,2025-04-03,2025-04-03,KABA & SLIT,Customer,3.0,0,Wedding,510.0,306.0,Delivered
+TW-00601,263,8,2025-03-27,2025-04-03,2025-04-08,Dress,Shop,3.0,0,funeral,660.0,198.0,Delivered
+TW-00602,316,7,2025-03-28,2025-04-03,2025-04-02,mens shirt,Customer,2.0,0,Eid,130.0,65.0,Delivered
+TW-00603,12,5,2025-03-29,2025-04-11,2025-04-13,kaba and slit,Customer,,0,Church,280.0,280.0,Delivered
+TW-00604,118,5,2025-03-29,2025-04-11,2025-04-13,Agbada,Customer,4.0,0,Eid,1020.0,612.0,Delivered
+TW-00605,208,1,2025-03-31,2025-04-14,2025-04-19,agbada ,Customer,4.0,0,Easter,670.0,670.0,Delivered
+TW-00606,64,6,2025-03-31,2025-04-09,2025-04-23,Agbada,Customer,3.0,0,Funeral,1770.0,0.0,Delivered
+TW-00607,308,5,2025-04-01,2025-04-08,2025-04-20,dress,Customer,2.0,0,Funeral,230.0,46.0,Delivered
+TW-00608,148,6,2025-04-01,2025-04-07,2025-04-16,Shirt,Customer,3.0,0,,190.0,38.0,Delivered
+TW-00609,161,4,2025-04-02,2025-04-06,2025-04-09,mens shirt,Customer,3.0,1,Easter,370.0,74.0,Delivered
+TW-00610,277,2,2025-04-02,2025-04-12,2025-04-11,Kaba & Slit,Customer,3.0,0,Everyday,310.0,93.0,Delivered
+TW-00611,277,3,2025-04-02,2025-04-17,2025-04-12,KABA & SLIT,Shop,3.0,0,Everyday,290.0,290.0,Delivered
+TW-00612,245,7,2025-04-03,2025-04-12,2025-04-13,Ankara Two-piece,Shop,3.0,0,Easter,370.0,185.0,Delivered
+TW-00613,70,7,2025-04-03,2025-04-12,2025-04-11,Kaba & Slit,Customer,3.0,0,Easter,250.0,75.0,Delivered
+TW-00614,358,7,2025-04-03,2025-04-15,2025-04-16,KABA & SLIT,Customer,4.0,0,Everyday,360.0,72.0,Delivered
+TW-00615,92,4,2025-04-04,2025-04-13,2025-04-13,Ankara Two-piece,Shop,3.0,0,Easter,300.0,300.0,Delivered
+TW-00616,64,5,2025-04-05,2025-04-18,2025-04-21,Kaba n Slit,Customer,2.0,0,Everyday,420.0,420.0,Delivered
+TW-00617,138,1,2025-04-05,2025-04-11,2025-04-10,Shirt,Shop,1.0,0,Everyday,230.0,230.0,Delivered
+TW-00618,206,3,2025-04-06,2025-04-15,2025-04-15,dress,SHOP,,0,Church,430.0,129.0,Delivered
+TW-00619,159,6,2025-04-07,2025-04-14,2025-05-02,Kaba & Slit,Shop,3.0,1,funeral,700.0,140.0,Delivered
+TW-00620,308,1,2025-04-07,2025-04-11,2025-04-14,Shirt,Customer,4.0,1,Easter,240.0,48.0,Delivered
+TW-00621,143,4,2025-04-07,2025-04-14,2025-04-16,ankara 2 piece,Customer,3.0,1,Easter,530.0,318.0,Delivered
+TW-00622,308,3,2025-04-07,2025-04-19,2025-04-15,ankara 2 piece,Shop,2.0,0,Church,510000.0,102.0,Delivered
+TW-00623,320,5,2025-04-08,2025-05-12,2025-05-20,Bridal Gown,Customer,4.0,0,Wedding,4000.0,1200.0,Delivered
+TW-00624,183,6,2025-04-08,2025-04-17,2025-04-29,kaba and slit,Customer,3.0,0,Wedding,250.0,250.0,Delivered
+TW-00625,196,1,2025-04-08,2025-04-16,2025-04-16,DRESS,Shop,3.0,0,Easter,300.0,90.0,Delivered
+TW-00626,1,5,2025-04-09,2025-04-19,2025-04-26,Ankara Two-piece,Shop,2.0,0,Funeral,240.0,120.0,Delivered
+TW-00627,150,4,2025-04-09,2025-04-13,2025-04-17,mens shirt,Customer,1.0,0,Easter,170.0,102.0,Delivered
+TW-00628,142,1,2025-04-10,2025-04-19,2025-04-28,agbada ,Customer,5.0,1,Church,1460.0,876.0,Delivered
+TW-00629,171,1,2025-04-10,2025-04-24,2025-04-18,dress,Customer,4.0,0,Everyday,430.0,430.0,Delivered
+TW-00630,89,8,2025-04-11,2025-05-06,2025-04-26,SUIT,Shop,4.0,0,Church,1800.0,1800.0,Delivered
+TW-00631,309,6,2025-04-12,2025-04-16,2025-04-26,Shirt,Shop,3.0,1,Funeral,250.0,250.0,Delivered
+TW-00632,310,6,2025-04-12,2025-05-08,2025-05-09,suit,Shop,4.0,0,Everyday,1340.0,0.0,Delivered
+TW-00633,233,3,2025-04-12,2025-04-25,2025-04-16,KABA & SLIT,Customer,2.0,0,Everyday,380.0,76.0,Delivered
+TW-00634,173,7,2025-04-12,2025-04-19,2025-04-27,dress,Shop,3.0,0,Easter,600.0,300.0,Delivered
+TW-00635,309,7,2025-04-13,2025-04-20,2025-04-25,Kaba & Slit,Shop,2.0,0,Funeral,400.0,0.0,Delivered
+TW-00636,356,4,2025-04-15,2025-04-22,2025-04-20,Shirt,Customer,2.0,0,Church,170.0,102.0,Delivered
+TW-00637,189,5,2025-04-15,2025-05-12,2025-05-03,SUIT,Customer,3.0,0,Wedding,1590.0,795.0,Delivered
+TW-00638,193,6,2025-04-15,2025-04-21,2025-05-12,kaba and slit,Customer,2.0,0,Easter,540.0,162.0,Delivered
+TW-00639,8,4,2025-04-15,2025-04-25,2025-05-01,agbada ,Shop,4.0,1,Easter,2170.0,1302.0,Delivered
+TW-00640,216,5,2025-04-15,2025-04-21,2025-04-29,Kaba & Slit,Shop,3.0,0,,480.0,144.0,Delivered
+TW-00641,84,1,2025-04-16,2025-04-29,2025-04-23,DRESS,Shop,2.0,0,Everyday,530.0,265.0,Delivered
+TW-00642,183,2,2025-04-17,2025-04-26,2025-04-25,kaba and slit,Shop,3.0,0,Funeral,280.0,0.0,Delivered
+TW-00643,234,4,2025-04-17,2025-05-28,2025-05-22,bridal gown,Shop,5.0,0,Wedding,1820.0,910.0,Delivered
+TW-00644,125,4,2025-04-17,2025-04-30,2025-04-29,,Customer,2.0,0,Everyday,350.0,350.0,Delivered
+TW-00645,157,3,2025-04-17,2025-04-24,2025-04-25,KABA & SLIT,Shop,4.0,0,Funeral,580.0,290.0,Delivered
+TW-00646,316,2,2025-04-18,2025-04-29,2025-05-01,Ankara Two-piece,Customer,3.0,0,Everyday,380.0,76.0,Delivered
+TW-00647,365,8,2025-04-19,2025-05-02,2025-04-29,Kaba & Slit,Customer,4.0,0,church,290.0,174.0,Delivered
+TW-00648,179,8,2025-04-19,2025-04-30,2025-04-29,ankara 2 piece,Shop,3.0,0,everyday,570.0,570.0,Delivered
+TW-00649,283,7,2025-04-21,2025-05-03,2025-05-07,Agbada,Shop,5.0,0,Everyday,1560.0,312.0,Delivered
+TW-00650,243,7,2025-04-22,2025-05-04,2025-05-07,Agbada,Customer,4.0,1,Funeral,1810.0,1810.0,Delivered
+TW-00651,263,6,2025-04-22,2025-05-19,2025-05-26,suit,Customer,4.0,0,Everyday,970.0,291.0,Delivered
+TW-00652,292,5,2025-04-23,2025-05-05,2025-05-10,dress,,3.0,0,Church,320.0,192.0,Delivered
+TW-00653,26,2,2025-04-23,2025-04-30,2025-04-30,dress,Shop,3.0,0,Funeral,600.0,360.0,Delivered
+TW-00654,217,4,2025-04-24,2025-05-05,2025-05-03,KABA & SLIT,Shop,4.0,0,Church,470.0,141.0,Delivered
+TW-00655,196,7,2025-04-25,2025-05-21,2025-05-10,suit,Shop,4.0,0,everyday,1500.0,450.0,Delivered
+TW-00656,178,4,2025-04-25,2025-05-02,2025-05-03,ankara 2 piece,Shop,2.0,0,Funeral,480.0,240.0,Delivered
+TW-00657,48,7,2025-04-26,2025-05-05,2025-05-02,mens shirt,Shop,2.0,0,Everyday,170.0,170.0,Delivered
+TW-00658,125,4,2025-04-27,2025-05-06,2025-05-11,Dress,Customer,3.0,0,Funeral,540.0,540.0,Delivered
+TW-00659,67,5,2025-04-28,2025-05-02,2025-05-07,Men's Shirt,Shop,1.0,1,Church,170.0,170.0,Delivered
+TW-00660,308,5,2025-04-29,2025-05-12,2025-05-09,DRESS,Shop,3.0,0,Everyday,590.0,590.0,Delivered
+TW-00661,64,2,2025-04-29,2025-05-18,2025-05-12,agbada ,Customer,3.0,0,Everyday,1000.0,300.0,Delivered
+TW-00662,238,7,2025-05-01,2025-05-08,2025-05-13,Ankara Two-piece,Customer,2.0,0,Funeral,320.0,0.0,Delivered
+TW-00663,178,5,2025-05-01,2025-05-15,2025-05-15,DRESS,Shop,4.0,0,Everyday,490.0,294.0,Delivered
+TW-00664,368,1,2025-05-02,2025-05-07,2025-05-11,School uniform,Customer,1.0,0,School,190.0,95.0,Delivered
+TW-00665,64,7,2025-05-02,2025-05-14,2025-05-18,Ankara two piece,Shop,3.0,0,Church,480.0,96.0,Delivered
+TW-00666,70,4,2025-05-03,2025-05-08,2025-05-08,Men's Shirt,Customer,3.0,0,Easter,230.0,69.0,Delivered
+TW-00667,373,4,2025-05-03,2025-05-11,2025-05-13,Kaba n Slit,Customer,3.0,1,church,630.0,315.0,Delivered
+TW-00667,373,4,2025-05-03,2025-05-11,2025-05-13,Kaba n Slit,Customer,3.0,1,church,630.0,315.0,Delivered
+TW-00668,151,8,2025-05-03,2025-05-10,2025-05-12,ankara 2 piece,Customer,4.0,1,Funeral,530.0,265.0,Delivered
+TW-00669,176,3,2025-05-03,2025-05-10,2025-05-12,Dress,,3.0,0,Funeral,280.0,84.0,Delivered
+TW-00670,329,7,2025-05-03,2025-05-10,2025-05-12,Ankara Two-piece,Shop,4.0,0,easter,350.0,175.0,Delivered
+TW-00671,9,2,2025-05-05,2025-05-17,2025-05-15,Agbada,Shop,3.0,0,Eid,960.0,288.0,Delivered
+TW-00672,182,7,2025-05-05,2025-05-15,2025-05-19,DRESS,Customer,2.0,0,wedding,460.0,138.0,Delivered
+TW-00673,198,3,2025-05-06,2025-05-18,2025-05-17,Kaba n Slit,Shop,3.0,0,Everyday,,,Delivered
+TW-00674,22,7,2025-05-06,2025-05-16,2025-05-19,dress,Shop,2.0,0,Everyday,430.0,215.0,Delivered
+TW-00675,39,1,2025-05-06,2025-05-19,2025-05-11,DRESS,Customer,3.0,0,Wedding,240.0,120.0,Delivered
+TW-00676,262,6,2025-05-07,2025-05-14,2025-05-19,KABA & SLIT,Shop,2.0,1,Funeral,490.0,245.0,Delivered
+TW-00677,272,8,2025-05-08,2025-05-17,2025-05-14,Kaba & Slit,Customer,4.0,0,Funeral,320.0,160.0,Delivered
+TW-00678,301,3,2025-05-09,2025-05-20,2025-05-16,KABA & SLIT,Customer,3.0,0,Everyday,430.0,215.0,Delivered
+TW-00679,160,2,2025-05-09,2025-05-23,2025-05-22,agbada ,Shop,4.0,0,Everyday,1670.0,501.0,Delivered
+TW-00680,181,4,2025-05-10,2025-05-20,2025-05-18,Kaba & Slit,Shop,3.0,0,Wedding,300.0,180.0,Delivered
+TW-00681,314,8,2025-05-10,2025-05-25,2025-05-16,Kaba & Slit,Shop,,0,Church,570.0,570.0,Delivered
+TW-00682,101,1,2025-05-10,2025-05-18,2025-05-16,DRESS,Customer,3.0,1,Church,790.0,395.0,Delivered
+TW-00683,185,6,2025-05-13,2025-05-26,2025-05-24,kaba and slit,Customer,4.0,0,Everyday,370.0,0.0,Delivered
+TW-00684,178,4,2025-05-14,2025-05-22,2025-05-20,ankara 2 piece,Shop,3.0,0,Church,470.0,282.0,Delivered
+TW-00685,343,4,2025-05-15,2025-05-21,2025-05-21,Men's Shirt,Customer,3.0,0,Graduation,280.0,84.0,Delivered
+TW-00686,245,5,2025-05-15,2025-05-31,2025-05-27,Agbada,Shop,5.0,0,church,2060.0,1030.0,Delivered
+TW-00687,354,1,2025-05-15,2025-05-30,2025-05-21,dress,Customer,3.0,0,Everyday,380.0,228.0,Delivered
+TW-00688,359,4,2025-05-17,2025-06-04,2025-06-16,Suit,CUSTOMER,5.0,0,Church,1950.0,975.0,Delivered
+TW-00689,115,4,2025-05-19,2025-05-31,2025-05-27,Ankara two piece,Customer,3.0,0,Church,410.0,123.0,Delivered
+TW-00690,48,5,2025-05-21,2025-06-05,2025-05-31,kaba and slit,Customer,3.0,0,Wedding,600.0,180.0,Delivered
+TW-00691,206,1,2025-05-21,2025-05-29,2025-05-26,Kaba & Slit,Customer,2.0,0,Church,510.0,306.0,Delivered
+TW-00692,324,7,2025-05-21,2025-06-03,2025-05-31,kaba and slit,,3.0,0,Everyday,450.0,450.0,Delivered
+TW-00693,359,4,2025-05-22,2025-06-10,2025-06-10,Agbada,Customer,4.0,0,Church,1670.0,501.0,Delivered
+TW-00694,317,8,2025-05-22,2025-06-07,2025-06-07,agbada ,Customer,4.0,0,Everyday,1860.0,930.0,Delivered
+TW-00695,325,5,2025-05-23,2025-06-06,2025-06-02,agbada ,Shop,2.0,0,Everyday,1020.0,306.0,Delivered
+TW-00696,89,7,2025-05-23,2025-06-01,2025-05-29,DRESS,Shop,3.0,0,Church,330.0,330.0,Delivered
+TW-00697,179,3,2025-05-23,2025-06-04,2025-06-07,agbada ,Customer,4.0,1,Eid,1510.0,453.0,Delivered
+TW-00698,283,8,2025-05-23,2025-06-06,2025-06-05,agbada ,Customer,4.0,0,Everyday,1530.0,765.0,Delivered
+TW-00699,99,6,2025-05-24,2025-05-29,2025-05-29,mens shirt,Shop,,0,Everyday,220.0,,Delivered
+TW-00700,36,5,2025-05-26,2025-06-05,2025-06-02,ankara 2 piece,Shop,3.0,0,Funeral,480.0,240.0,Delivered
+TW-00701,43,6,2025-05-26,2025-06-02,2025-06-01,School uniform,Customer,2.0,0,School,160.0,80.0,Delivered
+TW-00702,357,5,2025-05-27,2025-06-03,2025-06-05,Dress,Customer,3.0,0,eid,360.0,108.0,Delivered
+TW-00703,334,6,2025-05-27,2025-06-06,2025-06-03,kaba and slit,Shop,2.0,0,Church,380.0,76.0,Delivered
+TW-00704,46,7,2025-05-27,2025-06-02,2025-06-05,Kaba & Slit,Customer,3.0,1,Funeral,610.0,122.0,Delivered
+TW-00705,103,2,2025-05-27,2025-06-08,2025-06-01,DRESS,Customer,2.0,0,Everyday,600.0,360.0,Delivered
+TW-00706,225,6,2025-05-28,2025-06-05,2025-06-06,School Uniform,Shop,2.0,0,School,170.0,51.0,Delivered
+TW-00707,162,5,2025-05-28,2025-06-07,2025-06-16,Agbada,SHOP,4.0,0,Eid,1900.0,950.0,Delivered
+TW-00708,234,1,2025-05-29,2025-06-07,2025-06-02,Kaba & Slit,Shop,2.0,0,Church,230.0,46.0,Delivered
+TW-00709,243,1,2025-05-30,2025-06-06,2025-06-09,ankara 2 piece,Customer,3.0,1,Funeral,670.0,134.0,Delivered
+TW-00710,291,5,2025-05-30,2025-06-05,2025-06-15,KABA & SLIT,,3.0,0,Funeral,380.0,190.0,Delivered
+TW-00711,19,3,2025-05-30,2025-06-06,2025-06-04,mens shirt,Customer,2.0,0,church,240.0,120.0,Delivered
+TW-00712,182,8,2025-05-31,2025-06-04,2025-06-04,Men's Shirt,Shop,2.0,0,Funeral,150.0,,Delivered
+TW-00713,94,7,2025-05-31,2025-06-04,2025-06-04,Shirt,Customer,3.0,1,Eid,230.0,115.0,Delivered
+TW-00714,259,1,2025-06-02,2025-06-12,2025-06-16,Agbada,Shop,4.0,1,Eid,910.0,182.0,Delivered
+TW-00715,128,2,2025-06-02,2025-06-14,2025-06-12,kaba and slit,Customer,4.0,0,wedding,310.0,155.0,Delivered
+TW-00716,151,4,2025-06-02,2025-06-14,2025-06-09,DRESS,Shop,3.0,0,Everyday,280.0,,Delivered
+TW-00717,358,4,2025-06-03,2025-06-08,2025-06-10,Men's Shirt,Customer,1.0,0,Eid,220.0,132.0,Delivered
+TW-00718,42,8,2025-06-03,2025-06-15,2025-06-13,agbada ,Customer,3.0,0,Wedding,870.0,261.0,Delivered
+TW-00719,262,2,2025-06-03,2025-06-25,2025-06-17,Agbada,Customer,4.0,0,Church,720.0,432.0,Delivered
+TW-00720,185,3,2025-06-03,2025-06-14,2025-06-19,agbada ,Customer,5.0,1,Church,1810000.0,543.0,Delivered
+TW-00721,19,3,2025-06-04,2025-06-17,2025-06-27,Suit,Customer,5.0,1,Eid,1950.0,0.0,Delivered
+TW-00722,127,8,2025-06-04,2025-06-13,2025-06-15,Kaba n Slit,,4.0,0,Wedding,520.0,520.0,Delivered
+TW-00723,22,3,2025-06-04,2025-06-08,2025-06-09,Shirt,Customer,3.0,0,Eid,130.0,130.0,Delivered
+TW-00724,103,8,2025-06-05,2025-06-15,2025-06-17,Agbada,Customer,4.0,0,Eid,850.0,425.0,Delivered
+TW-00725,64,3,2025-06-05,2025-06-17,2025-06-22,agbada ,Shop,3.0,0,Eid,1770.0,1062.0,Delivered
+TW-00726,196,6,2025-06-06,2025-07-10,2025-07-17,Bridal Gown,Customer,5.0,0,wedding,2590.0,518.0,Delivered
+TW-00727,42,8,2025-06-06,2025-06-12,2025-06-16,Dress,Shop,3.0,0,Christmas,530.0,,Delivered
+TW-00728,276,6,2025-06-07,2025-06-14,2025-06-17,kaba and slit,Customer,3.0,1,Funeral,680.0,,Delivered
+TW-00729,8,4,2025-06-08,2025-06-27,2025-06-26,Agbada,Customer,4.0,0,Everyday,1700.0,510.0,Delivered
+TW-00730,328,3,2025-06-09,2025-06-20,2025-06-19,kaba and slit,Customer,2.0,0,Wedding,230.0,115.0,Delivered
+TW-00731,165,3,2025-06-09,2025-06-14,2025-06-17,Shirt,Shop,2.0,0,Everyday,160.0,0.0,Delivered
+TW-00732,239,7,2025-06-09,2025-06-16,2025-06-15,dress,Shop,3.0,0,Funeral,260.0,130.0,Delivered
+TW-00733,8,6,2025-06-10,2025-06-21,2025-06-19,Dress,Customer,2.0,0,Everyday,260.0,130.0,Delivered
+TW-00734,189,1,2025-06-13,2025-07-04,2025-06-28,Suit,Customer,3.0,0,Church,800.0,800.0,Delivered
+TW-00735,19,1,2025-06-13,2025-06-28,2025-06-22,DRESS,Shop,4.0,0,wedding,690.0,0.0,Delivered
+TW-00736,21,4,2025-06-13,2025-06-19,2025-06-20,Men's Shirt,Customer,3.0,0,everyday,250.0,50.0,Delivered
+TW-00737,229,7,2025-06-14,2025-06-27,2025-06-27,kaba and slit,Customer,3.0,0,Everyday,370.0,111.0,Delivered
+TW-00738,276,6,2025-06-17,2025-06-24,2025-06-28,Ankara Two-piece,Shop,3.0,1,funeral,570.0,342.0,Delivered
+TW-00739,231,2,2025-06-17,2025-06-24,2025-06-22,KABA & SLIT,Shop,,0,funeral,490.0,490.0,Delivered
+TW-00740,209,4,2025-06-20,2025-06-30,2025-06-26,kaba and slit,Shop,2.0,0,Everyday,380.0,228.0,Delivered
+TW-00741,173,7,2025-06-20,2025-07-03,2025-06-28,dress,Customer,3.0,0,Everyday,320.0,320.0,Delivered
+TW-00742,110,2,2025-06-21,2025-06-26,2025-06-26,mens shirt,Customer,1.0,0,Church,240.0,48.0,Delivered
+TW-00743,64,1,2025-06-23,2025-06-30,2025-06-30,,Shop,3.0,1,Funeral,460.0,92.0,Delivered
+TW-00744,86,7,2025-06-23,2025-07-19,2025-07-10,Suit,Customer,4.0,0,Wedding,2170.0,651.0,Delivered
+TW-00745,338,4,2025-06-23,2025-07-02,2025-06-29,kaba and slit,Shop,2.0,0,Wedding,530.0,265.0,Delivered
+TW-00745,338,4,2025-06-23,2025-07-02,2025-06-29,kaba and slit,Shop,2.0,0,Wedding,530.0,265.0,Delivered
+TW-00746,143,6,2025-06-23,2025-07-05,2025-06-30,Ankara Two-piece,Customer,4.0,0,Church,600.0,180.0,Delivered
+TW-00747,291,4,2025-06-23,2025-07-01,2025-07-01,Ankara Two-piece,Customer,4.0,0,Funeral,440.0,132.0,Delivered
+TW-00748,243,8,2025-06-24,2025-06-29,2025-07-01,Shirt,Customer,1.0,0,School,160.0,96.0,Delivered
+TW-00749,309,7,2025-06-25,2025-07-09,2025-07-12,agbada ,Shop,4.0,0,Church,1770.0,354.0,Delivered
+TW-00750,310,8,2025-06-25,2025-06-30,2025-06-30,Men's Shirt,Customer,1.0,1,Funeral,250.0,125.0,Delivered
+TW-00751,29,1,2025-06-26,2025-07-09,2025-07-01,Kaba n Slit,Customer,3.0,0,Everyday,410.0,205.0,Delivered
+TW-00752,367,5,2025-06-26,2025-07-08,2025-07-03,Dress,Shop,2.0,0,Everyday,220.0,110.0,Delivered
+TW-00753,315,1,2025-06-26,2025-07-02,2025-07-04,Kaba & Slit,Shop,4.0,0,Funeral,420.0,420.0,Delivered
+TW-00754,372,2,2025-06-27,2025-07-18,2025-07-07,AGBADA,Customer,3.0,0,Everyday,950.0,285.0,Delivered
+TW-00755,250,4,2025-06-27,2025-07-07,2025-07-07,Dress,Shop,4.0,0,Everyday,750.0,225.0,Delivered
+TW-00756,23,6,2025-06-27,2025-07-13,2025-07-20,Suit,,4.0,0,Church,1660.0,996.0,Delivered
+TW-00757,3,5,2025-06-28,2025-07-28,2025-07-20,Suit,Customer,4.0,0,wedding,1340.0,402.0,Delivered
+TW-00758,292,1,2025-06-28,2025-07-05,2025-07-03,School uniform,Customer,1.0,0,School,120.0,60.0,Delivered
+TW-00759,290,4,2025-06-28,2025-07-06,2025-07-02,Men's Shirt,Customer,3.0,0,graduation,190.0,95.0,Delivered
+TW-00760,182,3,2025-06-28,2025-07-10,2025-07-05,ankara 2 piece,Shop,2.0,0,Church,520.0,520.0,Delivered
+TW-00761,296,1,2025-06-30,2025-07-07,2025-07-06,KABA & SLIT,Shop,4.0,0,Easter,530.0,265.0,Delivered
+TW-00762,225,3,2025-07-01,2025-07-09,2025-07-14,KABA & SLIT,Customer,3.0,1,Funeral,510.0,153.0,Delivered
+TW-00763,188,4,2025-07-01,2025-07-08,2025-07-08,DRESS,Customer,4.0,0,Funeral,640.0,320.0,Delivered
+TW-00764,207,4,2025-07-03,2025-07-18,2025-07-11,Dress,Customer,2.0,0,Wedding,460.0,230.0,Delivered
+TW-00765,89,7,2025-07-03,2025-07-22,2025-07-15,AGBADA,Shop,5.0,0,,780.0,390.0,Delivered
+TW-00766,238,2,2025-07-03,2025-07-14,2025-07-12,AGBADA,Customer,3.0,1,Church,1640.0,,Delivered
+TW-00767,65,3,2025-07-03,2025-07-11,2025-07-10,DRESS,Customer,2.0,0,Church,450.0,270.0,Delivered
+TW-00768,115,4,2025-07-04,2025-07-17,2025-07-12,Dress,Customer,4.0,0,Wedding,370.0,185.0,Delivered
+TW-00769,306,3,2025-07-04,2025-07-19,2025-07-19,dress,Customer,4.0,0,church,660.0,330.0,Delivered
+TW-00770,282,8,2025-07-05,2025-07-13,2025-07-09,mens shirt,Customer,1.0,0,Everyday,200.0,120.0,Delivered
+TW-00771,277,4,2025-07-05,2025-07-09,2025-07-08,Men's Shirt,SHOP,2.0,0,Eid,200.0,100.0,Delivered
+TW-00772,179,3,2025-07-05,2025-07-11,2025-07-16,ankara 2 piece,Customer,3.0,0,Funeral,550.0,165.0,Delivered
+TW-00773,72,1,2025-07-07,2025-07-13,2025-07-13,Men's Shirt,Customer,2.0,0,Graduation,230.0,69.0,Delivered
+TW-00774,138,4,2025-07-07,2025-07-19,2025-07-22,Agbada,Shop,4.0,0,Church,800.0,,Delivered
+TW-00775,73,1,2025-07-08,2025-07-17,2025-07-16,dress,Customer,3.0,0,Wedding,350.0,70.0,Delivered
+TW-00776,21,2,2025-07-09,2025-07-22,2025-07-18,DRESS,Shop,5.0,0,Wedding,480.0,288.0,Delivered
+TW-00777,336,5,2025-07-09,2025-07-24,2025-07-24,KABA & SLIT,Customer,3.0,0,Wedding,520.0,260.0,Delivered
+TW-00778,89,2,2025-07-11,2025-07-21,2025-07-20,Kaba n Slit,Shop,5.0,0,Wedding,420.0,126.0,Delivered
+TW-00779,83,8,2025-07-11,2025-07-20,2025-07-22,Ankara Two-piece,Customer,3.0,0,Graduation,470.0,282.0,Delivered
+TW-00780,345,5,2025-07-12,2025-07-16,2025-07-18,Shirt,Shop,2.0,1,Church,150.0,30.0,Delivered
+TW-00781,345,2,2025-07-14,2025-07-22,2025-07-24,Men's Shirt,Customer,2.0,0,Church,200.0,60.0,Delivered
+TW-00782,67,4,2025-07-17,2025-07-24,2025-07-18,Shirt,Customer,,0,Everyday,260.0,52.0,Delivered
+TW-00783,161,2,2025-07-18,2025-07-25,2025-07-23,Ankara two piece,Shop,2.0,0,Funeral,510.0,,Delivered
+TW-00784,235,2,2025-07-18,2025-07-24,2025-07-27,mens shirt,Customer,2.0,0,everyday,190.0,57.0,Delivered
+TW-00785,173,8,2025-07-19,2025-08-01,2025-07-30,KABA & SLIT,Customer,4.0,0,Wedding,510.0,255.0,Delivered
+TW-00786,67,4,2025-07-22,2025-08-02,2025-07-26,kaba and slit,Shop,4.0,0,Wedding,520.0,156.0,Delivered
+TW-00787,373,6,2025-07-22,2025-07-31,2025-08-05,KABA & SLIT,Customer,3.0,0,funeral,540.0,162.0,Delivered
+TW-00788,186,8,2025-07-23,2025-08-01,2025-07-31,Kaba n Slit,Customer,3.0,0,Funeral,510.0,306.0,Delivered
+TW-00789,205,8,2025-07-23,2025-08-06,2025-08-05,Agbada,Shop,5.0,0,Funeral,770.0,,Delivered
+TW-00789,205,8,2025-07-23,2025-08-06,2025-08-05,Agbada,Shop,5.0,0,Funeral,770.0,,Delivered
+TW-00790,366,2,2025-07-23,2025-07-28,2025-07-28,school uniform,Customer,2.0,0,school,110.0,55.0,Delivered
+TW-00791,308,2,2025-07-23,2025-07-31,2025-08-03,Ankara two piece,Shop,4.0,1,Funeral,480.0,240.0,Delivered
+TW-00792,303,5,2025-07-24,2025-08-06,2025-08-03,dress,Customer,3.0,0,Church,670.0,335.0,Delivered
+TW-00793,103,6,2025-07-24,2025-07-31,2025-08-07,Kaba n Slit,Customer,,1,Funeral,380.0,76.0,Delivered
+TW-00794,138,4,2025-07-25,2025-08-04,2025-08-12,dress,Customer,3.0,0,Eid,370.0,74.0,Delivered
+TW-00795,272,3,2025-07-25,2025-08-08,2025-08-06,AGBADA,Shop,3.0,0,Church,1470.0,0.0,Delivered
+TW-00796,27,5,2025-07-25,2025-08-07,2025-08-08,Ankara Two-piece,Customer,3.0,0,Everyday,570.0,570.0,Delivered
+TW-00797,198,3,2025-07-25,2025-08-05,2025-08-05,Kaba n Slit,,3.0,0,Graduation,490.0,245.0,Delivered
+TW-00798,268,5,2025-07-25,2025-07-29,2025-08-01,Men's Shirt,Shop,2.0,1,Funeral,140.0,42.0,Delivered
+TW-00799,68,2,2025-07-25,2025-08-23,2025-08-13,Suit,Customer,5.0,0,Church,1030.0,206.0,Delivered
+TW-00800,12,5,2025-07-25,2025-08-04,2025-08-03,dress,Shop,3.0,0,Church,680.0,680.0,Delivered
+TW-00801,275,3,2025-07-26,2025-08-04,2025-08-02,ankara 2 piece,,3.0,0,Funeral,330.0,165.0,Delivered
+TW-00802,181,6,2025-07-30,2025-08-06,2025-08-09,Kaba & Slit,Shop,3.0,0,Funeral,480.0,144.0,Delivered
+TW-00803,255,1,2025-07-30,2025-08-16,2025-08-25,Agbada,,4.0,0,Graduation,1140.0,684.0,Delivered
+TW-00804,229,4,2025-07-31,2025-08-12,2025-08-09,Kaba n Slit,Customer,,0,Church,270.0,81.0,Delivered
+TW-00805,238,6,2025-07-31,2025-08-09,2025-08-12,Kaba n Slit,Customer,2.0,0,wedding,370.0,370.0,Delivered
+TW-00806,320,6,2025-07-31,2025-08-13,2025-08-15,kaba and slit,Customer,3.0,0,,430.0,215.0,Delivered
+TW-00807,238,1,2025-08-01,2025-08-09,2025-08-09,dress,Customer,1.0,1,Wedding,690.0,690.0,Delivered
+TW-00808,78,2,2025-08-01,2025-08-09,2025-08-12,Kaba n Slit,,3.0,1,Everyday,350.0,350.0,Delivered
+TW-00809,282,3,2025-08-02,2025-08-09,2025-08-08,School uniform,Customer,1.0,0,School,170.0,51.0,Delivered
+TW-00810,231,5,2025-08-02,2025-08-15,2025-08-18,Agbada,Customer,5.0,0,Funeral,1690.0,,Delivered
+TW-00811,342,1,2025-08-02,2025-08-11,2025-08-07,School Uniform,,1.0,0,School,190.0,95.0,Delivered
+TW-00812,188,7,2025-08-04,2025-08-10,2025-08-09,Ankara two piece,CUSTOMER,,1,funeral,320.0,96.0,Delivered
+TW-00813,274,1,2025-08-05,2025-08-21,2025-08-27,suit,Customer,4.0,0,Everyday,1550.0,310.0,Delivered
+TW-00814,233,8,2025-08-05,2025-08-15,2025-08-10,Kaba & Slit,Shop,4.0,0,Church,590.0,177.0,Delivered
+TW-00815,301,8,2025-08-06,2025-08-12,2025-08-08,School Uniform,Customer,1.0,0,School,110.0,66.0,Delivered
+TW-00816,281,4,2025-08-06,2025-08-11,2025-08-10,school uniform,Customer,1.0,0,School,120.0,36.0,Delivered
+TW-00817,32,8,2025-08-06,2025-08-13,2025-08-11,school uniform,Shop,1.0,0,School,180.0,90.0,Delivered
+TW-00818,189,6,2025-08-07,2025-08-15,2025-08-18,Dress,CUSTOMER,2.0,1,Church,690.0,345.0,Delivered
+TW-00819,17,1,2025-08-07,2025-10-03,2025-09-10,Bridal Gown,Shop,5.0,0,Wedding,4760.0,2380.0,Delivered
+TW-00820,282,5,2025-08-08,2025-08-14,2025-08-23,KABA & SLIT,Customer,3.0,0,Funeral,430.0,129.0,Delivered
+TW-00821,243,4,2025-08-09,2025-08-21,2025-08-17,Kaba n Slit,Shop,3.0,0,Everyday,310.0,62.0,Delivered
+TW-00822,248,1,2025-08-09,2025-08-18,2025-08-18,dress,Shop,3.0,0,,360000.0,180.0,Delivered
+TW-00823,200,6,2025-08-11,2025-08-18,2025-08-20,Men's Shirt,Customer,2.0,0,Church,170.0,85.0,Delivered
+TW-00824,143,4,2025-08-12,2025-08-19,2025-08-18,Kaba & Slit,Customer,4.0,1,funeral,700.0,700.0,Delivered
+TW-00825,234,1,2025-08-12,2025-09-11,2025-08-29,SUIT,Shop,4.0,0,Everyday,1410.0,423.0,Delivered
+TW-00826,243,2,2025-08-12,2025-08-24,2025-08-22,kaba and slit,Shop,4.0,0,Graduation,400.0,,Delivered
+TW-00827,358,7,2025-08-12,2025-08-18,2025-08-18,school uniform,Shop,1.0,0,School,140.0,70.0,Delivered
+TW-00828,241,6,2025-08-14,2025-08-28,2025-08-24,DRESS,Shop,3.0,0,Everyday,650.0,195.0,Delivered
+TW-00829,185,1,2025-08-15,2025-08-28,2025-08-25,kaba and slit,Shop,3.0,0,Wedding,350.0,350.0,Delivered
+TW-00830,113,5,2025-08-19,2025-08-25,2025-08-24,school uniform,Customer,2.0,0,School,140.0,70.0,Delivered
+TW-00831,189,6,2025-08-19,2025-08-26,2025-08-30,KABA & SLIT,SHOP,4.0,1,church,620.0,310.0,Delivered
+TW-00832,178,5,2025-08-21,2025-08-30,2025-08-29,Dress,Customer,3.0,0,Church,270.0,162.0,Delivered
+TW-00833,138,2,2025-08-21,2025-08-31,2025-08-30,KABA & SLIT,Customer,3.0,0,Graduation,450.0,225.0,Delivered
+TW-00834,234,8,2025-08-22,2025-08-31,2025-08-29,DRESS,Customer,3.0,0,Church,350.0,70.0,Delivered
+TW-00835,282,1,2025-08-23,2025-09-10,2025-09-16,Agbada,Customer,,0,Everyday,960.0,192.0,Delivered
+TW-00836,201,4,2025-08-23,2025-08-30,2025-08-26,Men's Shirt,Customer,2.0,0,Everyday,220.0,110.0,Delivered
+TW-00837,196,7,2025-08-25,2025-09-02,2025-09-01,KABA & SLIT,Customer,,0,Funeral,,90.0,Delivered
+TW-00838,37,6,2025-08-25,2025-09-05,2025-09-05,AGBADA,Shop,3.0,1,Wedding,940.0,940.0,Delivered
+TW-00839,372,1,2025-08-26,2025-09-01,2025-08-30,Shirt,Shop,2.0,0,School,160.0,160.0,Delivered
+TW-00840,28,7,2025-08-27,2025-09-07,2025-09-02,Kaba n Slit,Shop,2.0,0,Everyday,490.0,147.0,Delivered
+TW-00841,95,1,2025-08-27,2025-09-07,2025-08-31,KABA & SLIT,,2.0,0,Everyday,320.0,96.0,Delivered
+TW-00842,44,7,2025-08-29,2025-09-03,2025-09-03,school uniform,Customer,1.0,0,School,130.0,65.0,Delivered
+TW-00843,182,3,2025-08-29,2025-09-02,2025-09-07,School uniform,Customer,1.0,1,School,220.0,44.0,Delivered
+TW-00844,243,1,2025-09-01,2025-09-06,2025-09-12,mens shirt,Customer,2.0,0,church,130.0,65.0,Delivered
+TW-00845,243,5,2025-09-01,2025-09-09,2025-09-05,School uniform,Customer,1.0,0,School,120.0,120.0,Delivered
+TW-00846,156,2,2025-09-01,2025-09-07,2025-09-02,School Uniform,Customer,1.0,0,School,200.0,120.0,Delivered
+TW-00847,282,8,2025-09-01,2025-09-09,2025-09-08,Ankara Two-piece,Shop,3.0,0,Funeral,300.0,90.0,Delivered
+TW-00848,194,2,2025-09-02,2025-09-10,2025-09-08,kaba and slit,CUSTOMER,3.0,0,Funeral,600.0,300.0,Delivered
+TW-00849,272,6,2025-09-02,2025-09-22,2025-09-21,SUIT,Customer,3.0,0,Wedding,1970.0,394.0,Delivered
+TW-00850,101,5,2025-09-03,2025-09-09,2025-09-08,Men's Shirt,Shop,3.0,0,Funeral,150.0,75.0,Delivered
+TW-00851,294,6,2025-09-03,2025-09-11,2025-09-11,School uniform,Customer,1.0,0,School,130.0,39.0,Delivered
+TW-00852,310,1,2025-09-05,2025-09-15,2025-09-15,Ankara Two-piece,Shop,3.0,0,funeral,360.0,108.0,Delivered
+TW-00853,111,7,2025-09-05,2025-09-11,2025-09-10,school uniform,Shop,1.0,0,School,160.0,96.0,Delivered
+TW-00854,290,5,2025-09-06,2025-09-11,2025-09-10,School Uniform,Shop,2.0,0,School,190.0,57.0,Delivered
+TW-00855,117,5,2025-09-06,2025-09-27,2025-09-15,Agbada,Customer,4.0,0,Church,1500.0,750.0,Delivered
+TW-00856,209,7,2025-09-08,2025-09-16,2025-09-18,ankara 2 piece,Shop,3.0,1,Funeral,560.0,280.0,Delivered
+TW-00857,181,3,2025-09-08,2025-09-25,2025-09-21,agbada ,Customer,3.0,0,Wedding,1330.0,798.0,Delivered
+TW-00858,200,6,2025-09-08,2025-09-18,2025-09-23,,Customer,3.0,0,Wedding,660.0,198.0,Delivered
+TW-00859,226,6,2025-09-08,2025-09-16,2025-09-23,Ankara two piece,Customer,3.0,0,Funeral,320.0,0.0,Delivered
+TW-00860,302,6,2025-09-08,2025-09-17,2025-09-21,kaba and slit,Customer,3.0,0,Funeral,330.0,0.0,Delivered
+TW-00861,160,6,2025-09-09,2025-09-20,2025-09-23,kaba and slit,Customer,3.0,0,Everyday,320.0,192.0,Delivered
+TW-00862,188,4,2025-09-09,2025-09-21,2025-09-14,Ankara two piece,Shop,3.0,0,Everyday,400.0,200.0,Delivered
+TW-00863,70,7,2025-09-09,2025-10-01,2025-10-09,suit,Customer,5.0,0,Church,1950.0,585.0,Delivered
+TW-00864,183,2,2025-09-10,2025-09-13,2025-09-15,School uniform,Customer,2.0,1,School,170.0,51.0,Delivered
+TW-00865,365,6,2025-09-10,2025-09-19,2025-09-26,ankara 2 piece,Customer,3.0,0,funeral,410.0,82.0,Delivered
+TW-00866,64,8,2025-09-11,2025-09-17,2025-09-14,mens shirt,Shop,1.0,0,School,150.0,45.0,Delivered
+TW-00867,358,3,2025-09-11,2025-09-19,2025-09-16,School uniform,Shop,1.0,0,School,130.0,0.0,Delivered
+TW-00868,7,5,2025-09-11,2025-09-19,2025-09-16,School Uniform,Customer,,0,School,190.0,95.0,Delivered
+TW-00869,150,2,2025-09-12,2025-10-10,2025-10-05,SUIT,Customer,4.0,0,Church,1050.0,,Delivered
+TW-00870,295,6,2025-09-12,2025-09-16,2025-10-09,School uniform,Customer,1.0,1,School,170.0,,Delivered
+TW-00871,19,3,2025-09-12,2025-10-02,2025-09-28,agbada ,Customer,4.0,0,Everyday,750.0,150.0,Delivered
+TW-00872,238,1,2025-09-13,2025-09-18,2025-09-18,School uniform,CUSTOMER,1.0,0,School,160000.0,80.0,Delivered
+TW-00873,125,4,2025-09-15,2025-09-23,2025-09-30,Ankara two piece,Customer,4.0,0,Church,590.0,295.0,Delivered
+TW-00874,282,2,2025-09-15,2025-09-24,2025-09-24,dress,Customer,3.0,0,funeral,590.0,177.0,Delivered
+TW-00875,308,6,2025-09-15,2025-09-30,2025-10-15,Suit,Customer,4.0,1,Church,1350.0,405.0,Delivered
+TW-00876,54,2,2025-09-15,2025-09-26,2025-09-28,DRESS,Customer,3.0,0,Wedding,260.0,130.0,Delivered
+TW-00877,36,6,2025-09-15,2025-09-25,2025-10-04,Kaba n Slit,Customer,4.0,0,Everyday,300.0,180.0,Delivered
+TW-00878,6,2,2025-09-16,2025-09-28,2025-09-28,Agbada,Shop,4.0,0,Church,1200.0,720.0,Delivered
+TW-00879,330,1,2025-09-17,2025-10-04,2025-09-28,AGBADA,Shop,4.0,0,Wedding,1620.0,486.0,Delivered
+TW-00880,197,5,2025-09-17,2025-09-30,2025-09-21,KABA & SLIT,Shop,3.0,0,Everyday,440.0,220.0,Delivered
+TW-00881,181,1,2025-09-19,2025-09-26,2025-09-20,School uniform,Customer,1.0,0,School,150.0,75.0,Delivered
+TW-00882,131,6,2025-09-20,2025-09-27,2025-10-16,ankara 2 piece,Customer,2.0,1,,670.0,134.0,Delivered
+TW-00883,268,1,2025-09-20,2025-09-28,2025-10-11,Kaba & Slit,Customer,3.0,1,everyday,320.0,160.0,Delivered
+TW-00884,242,2,2025-09-22,2025-10-06,2025-10-05,Kaba & Slit,Customer,,0,Wedding,360.0,108.0,Delivered
+TW-00885,215,1,2025-09-22,2025-11-23,2025-10-31,bridal gown,Shop,5.0,0,Wedding,3110.0,,Delivered
+TW-00886,291,3,2025-09-24,2025-09-29,2025-09-28,Shirt,Shop,1.0,0,School,170.0,85.0,Delivered
+TW-00887,327,7,2025-09-24,2025-10-19,2025-10-12,SUIT,Shop,4.0,0,Wedding,2160.0,2160.0,Delivered
+TW-00888,259,6,2025-09-24,2025-10-03,2025-10-12,Kaba n Slit,Shop,3.0,0,Everyday,250.0,150.0,Delivered
+TW-00889,295,7,2025-09-25,2025-10-06,2025-10-08,AGBADA,Customer,4.0,1,Church,2450.0,1225.0,Delivered
+TW-00890,133,1,2025-09-25,2025-10-01,2025-10-01,Ankara Two-piece,Customer,3.0,0,Funeral,420.0,126.0,Delivered
+TW-00891,310,7,2025-09-25,2025-10-02,2025-10-02,KABA & SLIT,Customer,3.0,1,Funeral,670.0,402.0,Delivered
+TW-00892,88,2,2025-09-26,2025-10-01,2025-10-04,Men's Shirt,Shop,3.0,0,Everyday,140.0,42.0,Delivered
+TW-00893,125,8,2025-09-27,2025-10-03,2025-10-04,Kaba & Slit,Customer,2.0,0,Funeral,440.0,220.0,Delivered
+TW-00894,318,4,2025-09-27,2025-10-07,2025-10-03,dress,,3.0,0,Everyday,330.0,165.0,Delivered
+TW-00895,300,3,2025-09-28,2025-10-03,2025-10-06,School uniform,,2.0,0,School,210.0,126.0,Delivered
+TW-00896,150,8,2025-09-29,2025-10-11,2025-10-14,ankara 2 piece,Customer,2.0,0,Church,440.0,0.0,Delivered
+TW-00897,324,8,2025-09-29,2025-10-11,2025-10-10,Kaba & Slit,Customer,3.0,0,Everyday,390.0,117.0,Delivered
+TW-00898,72,3,2025-09-30,2025-10-06,2025-10-03,school uniform,Customer,1.0,0,School,200.0,200.0,Delivered
+TW-00899,42,2,2025-09-30,2025-10-06,2025-10-10,School Uniform,Customer,1.0,0,School,140.0,84.0,Delivered
+TW-00900,200,7,2025-09-30,2025-10-09,2025-10-10,KABA & SLIT,Customer,3.0,0,Everyday,320.0,160.0,Delivered
+TW-00901,282,7,2025-10-02,2025-10-15,2025-10-11,Kaba n Slit,Customer,3.0,0,Church,300.0,90.0,Delivered
+TW-00902,283,2,2025-10-04,2025-10-14,2025-10-18,agbada ,Shop,4.0,0,Funeral,1910.0,573.0,Delivered
+TW-00903,372,1,2025-10-06,2025-10-20,2025-10-17,agbada ,Customer,3.0,0,Funeral,830.0,498.0,Delivered
+TW-00904,128,5,2025-10-06,2025-10-24,2025-10-20,suit,Shop,4.0,0,Wedding,1630.0,489.0,Delivered
+TW-00905,282,7,2025-10-07,2025-10-13,2025-10-17,mens shirt,Customer,2.0,0,Funeral,190.0,57.0,Delivered
+TW-00906,110,3,2025-10-07,2025-10-16,2025-10-15,Ankara Two-piece,CUSTOMER,2.0,0,Church,260.0,130.0,Delivered
+TW-00907,282,1,2025-10-07,2025-10-22,2025-10-14,Kaba n Slit,Shop,4.0,0,,620.0,,Delivered
+TW-00908,368,4,2025-10-08,2025-10-18,2025-10-15,Kaba & Slit,Shop,3.0,0,everyday,350.0,105.0,Delivered
+TW-00909,372,4,2025-10-09,2025-10-17,2025-10-19,kaba and slit,CUSTOMER,3.0,0,Everyday,550.0,275.0,Delivered
+TW-00910,319,5,2025-10-10,2025-10-19,2025-10-12,Men's Shirt,Customer,2.0,0,Graduation,160.0,0.0,Delivered
+TW-00911,245,3,2025-10-11,2025-10-26,2025-10-26,Dress,Customer,4.0,0,Church,570.0,285.0,Delivered
+TW-00912,301,3,2025-10-12,2025-10-26,2025-10-26,kaba and slit,Customer,3.0,0,Church,410.0,123.0,Delivered
+TW-00913,364,5,2025-10-13,2025-10-25,2025-10-26,agbada ,Shop,3.0,1,Funeral,1340.0,402.0,Delivered
+TW-00914,6,1,2025-10-14,2025-10-21,2025-10-17,Men's Shirt,Shop,2.0,0,,220.0,110.0,Delivered
+TW-00915,181,1,2025-10-16,2025-10-31,2025-10-30,kaba and slit,Customer,,0,everyday,340.0,340.0,Delivered
+TW-00916,282,8,2025-10-16,2025-10-23,2025-10-23,Kaba & Slit,Customer,2.0,1,Funeral,440.0,88.0,Delivered
+TW-00916,282,8,2025-10-16,2025-10-23,2025-10-23,Kaba & Slit,Customer,2.0,1,Funeral,440.0,88.0,Delivered
+TW-00917,139,1,2025-10-17,2025-10-24,2025-10-24,ankara 2 piece,Customer,3.0,1,Funeral,390.0,390.0,Delivered
+TW-00918,125,4,2025-10-17,2025-10-30,2025-10-27,Ankara Two-piece,Shop,3.0,0,Church,,450.0,Delivered
+TW-00919,189,7,2025-10-17,2025-10-26,2025-10-21,DRESS,Shop,1.0,0,Everyday,290.0,145.0,Delivered
+TW-00920,196,8,2025-10-18,2025-10-25,2025-10-25,kaba and slit,Customer,5.0,0,Funeral,440.0,132.0,Delivered
+TW-00921,22,5,2025-10-18,2025-10-24,2025-10-29,Kaba n Slit,Customer,4.0,1,Funeral,,228.0,Delivered
+TW-00922,232,2,2025-10-22,2025-10-30,2025-11-09,ankara 2 piece,Customer,3.0,1,Funeral,740.0,222.0,Delivered
+TW-00923,310,6,2025-10-22,2025-11-04,2025-10-30,kaba and slit,Shop,3.0,0,Church,600.0,300.0,Delivered
+TW-00924,308,6,2025-10-22,2025-11-02,2025-10-29,ankara 2 piece,Shop,3.0,0,Everyday,530.0,265.0,Delivered
+TW-00925,320,7,2025-10-22,2025-11-04,2025-11-06,SUIT,Shop,3.0,0,Eid,1830.0,549.0,Delivered
+TW-00926,319,5,2025-10-22,2025-10-31,2025-11-01,ankara 2 piece,Customer,3.0,0,Church,580.0,174.0,Delivered
+TW-00927,140,1,2025-10-23,2025-11-08,2025-11-06,AGBADA,Shop,4.0,0,Wedding,1120.0,1120.0,Delivered
+TW-00928,67,4,2025-10-24,2025-11-08,2025-11-02,dress,SHOP,5.0,0,Church,600.0,180.0,Delivered
+TW-00929,239,2,2025-10-27,2025-11-03,2025-11-02,Dress,Customer,4.0,0,Funeral,460.0,460.0,Delivered
+TW-00930,131,2,2025-10-27,2025-11-03,2025-11-05,Kaba n Slit,Shop,3.0,1,Eid,650.0,130.0,Delivered
+TW-00931,262,6,2025-10-27,2025-11-06,2025-11-12,KABA & SLIT,Customer,2.0,0,Funeral,440.0,220.0,Delivered
+TW-00932,37,6,2025-10-27,2025-11-09,2025-11-06,dress,Shop,3.0,0,Everyday,540.0,162.0,Delivered
+TW-00933,298,3,2025-10-28,2025-11-05,2025-11-05,kaba and slit,SHOP,3.0,0,Funeral,530.0,159.0,Delivered
+TW-00934,48,6,2025-10-29,2025-11-08,2025-11-12,ankara 2 piece,Shop,3.0,0,Funeral,520.0,156.0,Delivered
+TW-00935,341,1,2025-10-29,2025-11-27,2025-11-16,SUIT,CUSTOMER,4.0,0,Church,1300.0,650.0,Delivered
+TW-00936,150,5,2025-10-30,2025-11-14,2025-11-09,Kaba & Slit,Shop,4.0,0,Church,440.0,440.0,Delivered
+TW-00937,83,2,2025-10-30,2025-11-11,2025-11-05,Kaba n Slit,Customer,3.0,0,Wedding,420.0,126.0,Delivered
+TW-00938,325,6,2025-10-30,2025-11-07,2025-11-10,Shirt,Shop,2.0,0,Everyday,190.0,38.0,Delivered
+TW-00939,19,5,2025-10-30,2025-11-22,2025-11-15,suit,Shop,3.0,0,Wedding,1920.0,576.0,Delivered
+TW-00939,19,5,2025-10-30,2025-11-22,2025-11-15,suit,Shop,3.0,0,Wedding,1920.0,576.0,Delivered
+TW-00940,375,5,2025-10-31,2025-12-19,2025-12-15,Bridal gown,Customer,5.0,0,Wedding,4440.0,0.0,Delivered
+TW-00941,268,5,2025-10-31,2025-11-12,2025-11-12,Dress,Customer,3.0,0,Church,490.0,294.0,Delivered
+TW-00942,327,3,2025-11-04,2025-11-22,2025-11-25,suit,Shop,5.0,0,Christmas,2070.0,621.0,Delivered
+TW-00943,298,2,2025-11-04,2025-11-13,2025-11-09,mens shirt,Customer,2.0,0,Graduation,250.0,150.0,Delivered
+TW-00944,189,8,2025-11-05,2025-11-12,2025-11-11,KABA & SLIT,Shop,2.0,1,Christmas,610.0,610.0,Delivered
+TW-00945,308,8,2025-11-05,2025-11-10,2025-11-11,Shirt,Customer,2.0,1,graduation,190.0,190.0,Delivered
+TW-00946,373,2,2025-11-05,2025-11-13,2025-11-15,Shirt,Customer,1.0,0,Graduation,220.0,66.0,Delivered
+TW-00947,272,3,2025-11-06,2025-11-18,2025-11-22,agbada ,Customer,4.0,0,Wedding,1550.0,465.0,Delivered
+TW-00948,357,5,2025-11-06,2025-11-17,2025-11-20,Ankara Two-piece,Shop,3.0,0,Everyday,530.0,159.0,Delivered
+TW-00949,278,3,2025-11-06,2025-11-12,2025-11-07,School uniform,Customer,1.0,0,School,170.0,102.0,Delivered
+TW-00950,130,5,2025-11-06,2025-11-11,2025-11-15,mens shirt,Shop,1.0,0,Christmas,180.0,108.0,Delivered
+TW-00951,308,7,2025-11-08,2025-11-19,2025-11-20,Dress,Customer,2.0,0,Wedding,610.0,366.0,Delivered
+TW-00952,179,3,2025-11-10,2025-11-19,2025-11-23,KABA & SLIT,Customer,4.0,0,Funeral,510.0,510.0,Delivered
+TW-00953,150,8,2025-11-12,2025-11-20,2025-11-22,Ankara two piece,Customer,3.0,0,christmas,400.0,200.0,Delivered
+TW-00954,220,3,2025-11-13,2025-11-19,2025-11-27,Kaba n Slit,Customer,4.0,1,,790.0,395.0,Delivered
+TW-00955,138,5,2025-11-13,2025-11-21,2025-11-29,KABA & SLIT,Shop,4.0,0,Christmas,570.0,171.0,Delivered
+TW-00956,315,7,2025-11-13,2025-12-03,2025-11-29,suit,Customer,3.0,0,Church,830.0,415.0,Delivered
+TW-00957,319,4,2025-11-14,2025-11-23,2025-11-24,Dress,Shop,2.0,0,Christmas,610.0,366.0,Delivered
+TW-00958,70,3,2025-11-14,2025-11-23,2025-11-28,DRESS,Customer,3.0,0,Christmas,520.0,312.0,Delivered
+TW-00959,167,8,2025-11-15,2025-11-25,2025-11-25,Dress,Shop,3.0,0,Christmas,590.0,295.0,Delivered
+TW-00960,153,1,2025-11-17,2025-11-29,2025-11-29,ankara 2 piece,Customer,4.0,0,Church,490.0,294.0,Delivered
+TW-00961,182,6,2025-11-17,2025-11-27,2025-11-26,,Customer,4.0,0,christmas,310.0,155.0,Delivered
+TW-00962,21,7,2025-11-17,2025-11-27,2025-11-27,Kaba n Slit,Shop,4.0,0,Funeral,580.0,290.0,Delivered
+TW-00963,320,6,2025-11-17,2025-11-23,2025-11-29,kaba and slit,Customer,3.0,0,Funeral,500.0,500.0,Delivered
+TW-00964,138,8,2025-11-17,2025-11-30,2025-11-27,Ankara two piece,Customer,3.0,0,Wedding,360.0,360.0,Delivered
+TW-00965,138,7,2025-11-18,2025-12-03,2025-11-27,Dress,Shop,3.0,0,Church,590.0,177.0,Delivered
+TW-00966,243,1,2025-11-18,2025-11-24,2025-11-28,Kaba & Slit,Shop,3.0,0,funeral,250.0,0.0,Delivered
+TW-00967,98,1,2025-11-19,2025-11-27,2025-11-26,ankara 2 piece,CUSTOMER,,1,Christmas,620.0,,Delivered
+TW-00968,262,6,2025-11-19,2025-12-03,2025-12-03,Ankara Two-piece,Customer,4.0,0,Everyday,510.0,306.0,Delivered
+TW-00969,70,7,2025-11-20,2025-12-01,2025-11-30,Dress,Shop,2.0,0,Graduation,470.0,141.0,Delivered
+TW-00970,143,6,2025-11-21,2025-11-29,2025-12-01,ankara 2 piece,Customer,3.0,0,Christmas,380.0,380.0,Delivered
+TW-00971,244,4,2025-11-21,2025-12-06,2025-11-30,kaba and slit,Shop,4.0,0,Everyday,520.0,156.0,Delivered
+TW-00972,303,8,2025-11-21,2025-12-03,2025-12-17,suit,Customer,5.0,1,Everyday,2070.0,2070.0,Delivered
+TW-00973,243,8,2025-11-21,2025-12-01,2025-12-03,Ankara Two-piece,Customer,3.0,0,christmas,360.0,72.0,Delivered
+TW-00974,178,4,2025-11-21,2025-11-29,2025-12-07,Kaba n Slit,Customer,3.0,0,Funeral,460.0,138.0,Delivered
+TW-00975,36,5,2025-11-21,2025-11-27,2025-11-30,DRESS,Shop,5.0,1,Everyday,1000.0,600.0,Delivered
+TW-00976,108,5,2025-11-21,2025-12-06,2025-12-03,Kaba n Slit,Shop,3.0,0,Church,520.0,520.0,Delivered
+TW-00977,117,5,2025-11-22,2025-12-06,2025-12-09,SUIT,Customer,4.0,1,Christmas,2120.0,2120.0,Delivered
+TW-00978,140,4,2025-11-23,2025-12-01,2025-12-02,Kaba & Slit,CUSTOMER,3.0,0,Funeral,270.0,135.0,Delivered
+TW-00979,328,6,2025-11-23,2025-12-03,2025-12-13,Kaba n Slit,Customer,3.0,0,Christmas,510.0,510.0,Delivered
+TW-00980,232,3,2025-11-24,2025-12-05,2025-12-09,Kaba & Slit,Customer,4.0,0,Church,610.0,305.0,Delivered
+TW-00981,265,7,2025-11-24,2025-12-08,2025-12-04,kaba and slit,Customer,2.0,0,Everyday,330.0,,Delivered
+TW-00982,243,4,2025-11-24,2025-12-03,2025-12-05,ankara 2 piece,Customer,4.0,0,Funeral,320.0,,Delivered
+TW-00983,110,5,2025-11-25,2025-12-06,2025-12-15,dress,Shop,3.0,0,Graduation,330.0,165.0,Delivered
+TW-00984,84,2,2025-11-25,2025-12-06,2025-12-06,Agbada,Customer,4.0,0,Christmas,1060.0,1060.0,Delivered
+TW-00985,255,7,2025-11-26,2025-12-10,2025-12-15,SUIT,Customer,4.0,1,Graduation,2510.0,753.0,Delivered
+TW-00986,326,7,2025-11-27,2025-12-12,2025-12-06,KABA & SLIT,Shop,3.0,0,Church,350.0,175.0,Delivered
+TW-00987,250,2,2025-11-27,2025-12-10,2025-12-08,Kaba & Slit,Shop,2.0,0,Everyday,470.0,0.0,Delivered
+TW-00988,13,5,2025-11-28,2025-12-05,2025-12-13,Ankara Two-piece,Shop,3.0,0,Christmas,280.0,140.0,Delivered
+TW-00989,65,3,2025-11-29,2025-12-11,2025-12-11,DRESS,Shop,3.0,0,Graduation,310.0,62.0,Delivered
+TW-00990,366,2,2025-11-29,2025-12-08,2025-12-05,Dress,Shop,2.0,0,Church,450.0,450.0,Delivered
+TW-00991,306,1,2025-11-29,2025-12-05,2025-12-07,KABA & SLIT,Customer,3.0,1,Funeral,580.0,290.0,Delivered
+TW-00992,199,4,2025-11-30,2025-12-07,2025-12-13,Dress,Shop,2.0,0,Christmas,480.0,96.0,Delivered
+TW-00993,294,8,2025-12-01,2025-12-09,2025-12-07,Kaba & Slit,Customer,3.0,1,Church,450.0,225.0,Delivered
+TW-00994,294,3,2025-12-01,2026-01-21,2026-01-11,Bridal Gown,Shop,5.0,0,Wedding,5640.0,1128.0,Delivered
+TW-00995,310,8,2025-12-02,2025-12-07,2025-12-10,mens shirt,Shop,,0,Christmas,160.0,80.0,Delivered
+TW-00996,150,8,2025-12-02,2025-12-15,2025-12-16,Agbada,Customer,4.0,0,Church,1600.0,480.0,Delivered
+TW-00997,182,2,2025-12-02,2025-12-12,2025-12-10,Dress,Shop,3.0,0,Christmas,310.0,0.0,Delivered
+TW-00998,276,6,2025-12-03,2025-12-10,2025-12-11,Ankara two piece,Shop,2.0,0,Christmas,430.0,215.0,Delivered
+TW-00999,234,7,2025-12-03,2025-12-18,2025-12-14,DRESS,Customer,3.0,0,Everyday,240.0,48.0,Delivered
+TW-01000,308,4,2025-12-03,2025-12-14,2025-12-15,ankara 2 piece,Customer,3.0,0,Graduation,290.0,87.0,Delivered
+TW-01001,298,5,2025-12-04,2025-12-11,2025-12-16,Ankara two piece,Shop,3.0,1,Funeral,720.0,360.0,Delivered
+TW-01002,277,7,2025-12-05,2025-12-14,2025-12-22,DRESS,Customer,4.0,0,Christmas,330.0,198.0,Delivered
+TW-01003,139,5,2025-12-05,2025-12-13,2025-12-21,Ankara two piece,Customer,3.0,1,Everyday,460.0,230.0,Delivered
+TW-01004,139,1,2025-12-06,2025-12-15,2025-12-13,kaba and slit,Customer,3.0,0,Christmas,560.0,168.0,Delivered
+TW-01005,62,7,2025-12-06,2025-12-13,2025-12-16,KABA & SLIT,Shop,3.0,0,Christmas,510.0,255.0,Delivered
+TW-01006,206,2,2025-12-07,2025-12-13,2025-12-11,mens shirt,Shop,1.0,0,Church,230.0,138.0,Delivered
+TW-01007,302,3,2025-12-08,2025-12-16,2025-12-21,KABA & SLIT,Shop,3.0,0,Everyday,350.0,350.0,Delivered
+TW-01008,27,8,2025-12-09,2025-12-16,2025-12-20,ankara 2 piece,Shop,4.0,1,Christmas,580.0,116.0,Delivered
+TW-01009,4,3,2025-12-09,2025-12-21,2025-12-22,ankara 2 piece,Customer,3.0,0,Wedding,440.0,220.0,Delivered
+TW-01010,295,8,2025-12-09,2025-12-20,2025-12-19,dress,,4.0,0,Everyday,710.0,426.0,Delivered
+TW-01011,234,2,2025-12-11,2025-12-16,2025-12-14,School uniform,Customer,2.0,0,school,190.0,95.0,Delivered
+TW-01011,234,2,2025-12-11,2025-12-16,2025-12-14,School uniform,Customer,2.0,0,school,190.0,95.0,Delivered
+TW-01012,286,1,2025-12-11,2025-12-22,2025-12-21,dress,Customer,3.0,0,,670.0,335.0,Delivered
+TW-01013,175,1,2025-12-11,2025-12-17,2025-12-19,Shirt,Customer,3.0,0,Church,220.0,220.0,Delivered
+TW-01014,140,8,2025-12-12,2025-12-18,2025-12-31,Ankara Two-piece,CUSTOMER,2.0,1,church,520.0,0.0,Delivered
+TW-01015,88,7,2025-12-12,2025-12-16,2025-12-22,Shirt,Shop,2.0,0,Christmas,150.0,75.0,Delivered
+TW-01016,206,5,2025-12-12,2025-12-22,2025-12-26,Kaba n Slit,Customer,3.0,0,funeral,350.0,175.0,Delivered
+TW-01017,290,3,2025-12-13,2025-12-21,2025-12-31,Dress,Shop,5.0,1,Christmas,360.0,72.0,Delivered
+TW-01018,310,1,2025-12-15,2026-01-01,2026-01-05,Suit,Customer,5.0,0,Everyday,1560.0,1560.0,Delivered
+TW-01019,39,6,2025-12-15,2025-12-25,2025-12-25,KABA & SLIT,SHOP,2.0,0,Church,360.0,180.0,Delivered
+TW-01020,308,6,2025-12-15,2025-12-29,2025-12-26,Kaba & Slit,Customer,4.0,0,,450000.0,225.0,Delivered
+TW-01021,308,2,2025-12-16,2025-12-21,2025-12-24,Men's Shirt,Customer,3.0,0,Church,140.0,140.0,Delivered
+TW-01022,180,2,2025-12-16,2025-12-24,2025-12-25,dress,Shop,3.0,1,Christmas,260.0,130.0,Delivered
+TW-01023,138,7,2025-12-16,2025-12-23,2025-12-27,Ankara two piece,,2.0,0,Christmas,500.0,150.0,Delivered
+TW-01024,282,2,2025-12-16,2025-12-26,2025-12-26,Dress,Shop,3.0,0,Christmas,560.0,168.0,Delivered
+TW-01025,243,3,2025-12-17,2025-12-25,2025-12-30,Dress,Shop,3.0,1,Christmas,790.0,474.0,Delivered
+TW-01026,291,8,2025-12-17,2025-12-26,2026-01-02,dress,Customer,3.0,0,Everyday,640.0,320.0,Delivered
+TW-01027,179,3,2025-12-17,2025-12-27,2026-01-06,Ankara two piece,Customer,4.0,0,Wedding,450.0,,Delivered
+TW-01028,329,8,2025-12-18,2026-01-01,2025-12-30,Dress,Shop,3.0,0,Church,580.0,290.0,Delivered
+TW-01029,88,6,2025-12-19,2026-01-02,2025-12-31,ankara 2 piece,Customer,4.0,0,Church,600.0,0.0,Delivered
+TW-01030,142,2,2025-12-19,2025-12-29,2026-01-02,Ankara two piece,CUSTOMER,3.0,0,Funeral,480.0,480.0,Delivered
+TW-01031,121,8,2025-12-20,2025-12-29,2025-12-30,dress,Shop,2.0,0,Everyday,620.0,310.0,Delivered
+TW-01032,326,1,2025-12-21,2025-12-28,2025-12-26,school uniform,Customer,1.0,0,School,110.0,55.0,Delivered
+TW-01033,131,4,2025-12-21,2025-12-30,2026-01-04,kaba and slit,Customer,1.0,0,Christmas,430.0,86.0,Delivered
+TW-01034,308,7,2025-12-22,2026-01-02,2026-01-07,Ankara two piece,Shop,5.0,0,Graduation,390.0,195.0,Delivered
+TW-01035,86,8,2025-12-22,2026-01-06,2026-01-03,ankara 2 piece,Customer,2.0,0,Church,340.0,340.0,Delivered
+TW-01036,301,7,2025-12-22,2026-01-19,2026-01-07,Suit,,4.0,0,Church,1530.0,765.0,Delivered
+TW-01037,103,6,2025-12-22,2025-12-27,2026-01-09,Men's Shirt,Shop,2.0,0,Funeral,230.0,69.0,Delivered
+TW-01038,356,1,2025-12-23,2026-01-06,2026-01-03,Kaba & Slit,Customer,2.0,0,Church,240.0,240.0,Delivered
+TW-01039,153,1,2025-12-23,2026-01-01,2026-01-02,ankara 2 piece,Customer,3.0,0,Church,430.0,86.0,Delivered
+TW-01040,110,6,2025-12-24,2026-01-06,2026-01-19,Suit,Shop,3.0,1,Christmas,1060.0,530.0,Delivered
+TW-01041,89,8,2025-12-24,2026-01-03,2026-01-08,Ankara two piece,Customer,4.0,0,Graduation,340.0,0.0,Delivered
+TW-01041,89,8,2025-12-24,2026-01-03,2026-01-08,Ankara two piece,Customer,4.0,0,Graduation,340.0,0.0,Delivered
+TW-01042,239,7,2025-12-25,2026-01-02,2026-01-05,Kaba & Slit,Customer,5.0,1,funeral,780.0,234.0,Delivered
+TW-01043,181,3,2025-12-27,2026-01-02,2026-01-10,Dress,Shop,2.0,0,Christmas,380.0,228.0,Delivered
+TW-01044,131,3,2025-12-29,2026-01-03,2026-01-13,mens shirt,Customer,2.0,0,Christmas,230.0,46.0,Delivered
+TW-01045,233,1,2025-12-30,2026-01-09,2026-01-07,Dress,Shop,4.0,0,Funeral,660.0,132.0,Delivered
+TW-01045,233,1,2025-12-30,2026-01-09,2026-01-07,Dress,Shop,4.0,0,Funeral,660.0,132.0,Delivered
+TW-01046,319,3,2026-01-06,2026-01-23,2026-01-24,Suit,Customer,,0,Wedding,1090.0,218.0,Delivered
+TW-01047,8,4,2026-01-07,2026-01-13,2026-01-16,Kaba n Slit,Customer,3.0,0,Funeral,380.0,76.0,Delivered
+TW-01048,319,2,2026-01-07,2026-01-16,2026-01-13,Ankara Two-piece,Shop,3.0,0,Graduation,590.0,354.0,Delivered
+TW-01049,167,8,2026-01-08,2026-01-21,2026-01-26,Kaba n Slit,Customer,4.0,0,Everyday,550.0,110.0,Delivered
+TW-01050,303,7,2026-01-08,2026-01-16,2026-01-18,kaba and slit,Customer,3.0,1,Funeral,420.0,126.0,Delivered
+TW-01051,206,3,2026-01-12,2026-02-27,2026-02-19,Bridal gown,Shop,4.0,0,Wedding,4470.0,0.0,Delivered
+TW-01052,113,4,2026-01-12,2026-01-26,2026-01-21,Agbada,Customer,4.0,0,Church,790.0,395.0,Delivered
+TW-01053,329,5,2026-01-12,2026-01-20,2026-01-17,Ankara Two-piece,Shop,2.0,1,Funeral,510.0,153.0,Delivered
+TW-01054,182,2,2026-01-14,2026-01-23,2026-01-22,ankara 2 piece,Customer,2.0,0,Funeral,310.0,62.0,Delivered
+TW-01055,185,8,2026-01-14,2026-01-27,2026-01-22,kaba and slit,Customer,4.0,0,Church,530.0,530.0,Delivered
+TW-01056,355,7,2026-01-15,2026-01-30,2026-01-29,AGBADA,Customer,4.0,0,Church,1090.0,545.0,Delivered
+TW-01057,42,1,2026-01-16,2026-01-26,2026-01-25,DRESS,Shop,3.0,0,Wedding,490.0,147.0,Delivered
+TW-01058,89,7,2026-01-16,2026-01-23,2026-01-24,ankara 2 piece,Shop,3.0,0,Funeral,570.0,342.0,Delivered
+TW-01059,327,3,2026-01-17,2026-02-01,2026-02-04,agbada ,Shop,4.0,0,Wedding,,196.0,Delivered
+TW-01060,178,5,2026-01-19,2026-01-24,2026-01-25,mens shirt,Customer,4.0,0,everyday,300.0,90.0,Delivered
+TW-01061,10,4,2026-01-20,2026-02-02,2026-01-29,Kaba n Slit,Shop,3.0,0,Church,530.0,318.0,Delivered
+TW-01062,357,6,2026-01-23,2026-02-07,2026-01-31,Kaba n Slit,Customer,3.0,0,Everyday,470.0,141.0,Delivered
+TW-01063,139,3,2026-01-23,2026-02-05,2026-02-12,AGBADA,Shop,4.0,0,Everyday,1530.0,1530.0,Delivered
+TW-01064,253,3,2026-01-26,2026-01-31,2026-01-31,Men's Shirt,Customer,1.0,0,Everyday,180.0,108.0,Delivered
+TW-01065,243,5,2026-01-26,2026-02-07,2026-02-12,Kaba n Slit,Customer,,0,Everyday,560.0,280.0,Delivered
+TW-01066,39,4,2026-01-29,2026-02-11,2026-02-14,KABA & SLIT,Customer,2.0,0,,490.0,98.0,Delivered
+TW-01067,150,2,2026-01-30,2026-02-21,2026-02-12,agbada ,Shop,5.0,0,Everyday,950.0,475.0,Delivered
+TW-01068,46,3,2026-01-31,2026-02-12,2026-02-11,kaba and slit,Shop,3.0,0,Everyday,360.0,72.0,Delivered
+TW-01069,177,5,2026-01-31,2026-02-13,2026-02-10,ankara 2 piece,Customer,2.0,0,Church,270.0,135.0,Delivered
+TW-01070,294,5,2026-02-02,2026-02-10,2026-02-10,DRESS,Shop,3.0,0,Wedding,250.0,125.0,Delivered
+TW-01071,89,7,2026-02-02,2026-02-21,2026-02-14,AGBADA,Customer,4.0,0,Everyday,1390.0,417.0,Delivered
+TW-01072,319,7,2026-02-02,2026-04-03,2026-03-09,Bridal gown,Shop,5.0,0,Wedding,2840.0,0.0,Delivered
+TW-01073,152,7,2026-02-02,2026-02-17,2026-02-10,Dress,Shop,4.0,0,Church,220.0,66.0,Delivered
+TW-01074,226,5,2026-02-04,2026-02-14,2026-02-16,Ankara two piece,Customer,3.0,0,Everyday,410.0,0.0,Delivered
+TW-01075,3,1,2026-02-04,2026-02-15,2026-02-16,AGBADA,,4.0,1,Eid,1720.0,860.0,Delivered
+TW-01075,3,1,2026-02-04,2026-02-15,2026-02-16,AGBADA,,4.0,1,Eid,1720.0,860.0,Delivered
+TW-01076,89,5,2026-02-06,2026-02-14,2026-02-15,KABA & SLIT,CUSTOMER,2.0,0,Funeral,440.0,0.0,Delivered
+TW-01077,282,8,2026-02-07,2026-02-17,2026-02-22,kaba and slit,Customer,3.0,0,Church,,174.0,Delivered
+TW-01078,239,5,2026-02-07,2026-03-30,2026-03-21,Bridal Gown,,5.0,0,Wedding,4870.0,1461.0,Delivered
+TW-01079,9,2,2026-02-09,2026-02-17,2026-02-17,dress,Customer,4.0,0,Everyday,450.0,135.0,Delivered
+TW-01080,286,4,2026-02-09,2026-02-14,2026-02-16,Men's Shirt,Shop,3.0,0,Church,270.0,81.0,Delivered
+TW-01081,330,1,2026-02-09,2026-02-14,2026-02-12,Men's Shirt,Shop,2.0,0,Funeral,210.0,42.0,Delivered
+TW-01082,200,5,2026-02-09,2026-02-20,2026-02-27,agbada ,Shop,4.0,1,Wedding,,220.0,Delivered
+TW-01083,116,2,2026-02-12,2026-02-19,2026-02-17,ankara 2 piece,Shop,3.0,1,everyday,730.0,219.0,Delivered
+TW-01084,283,2,2026-02-13,2026-02-22,2026-02-21,KABA & SLIT,SHOP,2.0,0,Funeral,530.0,0.0,Delivered
+TW-01085,366,4,2026-02-13,2026-03-07,2026-03-01,agbada ,Customer,5.0,0,Everyday,1160.0,0.0,Delivered
+TW-01086,316,5,2026-02-13,2026-02-27,2026-02-24,,Shop,3.0,0,Wedding,260.0,260.0,Delivered
+TW-01087,203,3,2026-02-17,2026-03-09,2026-03-02,AGBADA,Shop,,0,Wedding,890.0,445.0,Delivered
+TW-01088,202,4,2026-02-17,2026-02-26,2026-02-25,Dress,Shop,2.0,0,Wedding,520.0,260.0,Delivered
+TW-01089,193,2,2026-02-18,2026-02-24,2026-02-22,mens shirt,Customer,2.0,0,Church,200.0,100.0,Delivered
+TW-01090,159,7,2026-02-19,2026-03-11,2026-03-11,AGBADA,Customer,5.0,0,Wedding,1140.0,0.0,Delivered
+TW-01091,225,2,2026-02-20,2026-03-04,2026-03-04,KABA & SLIT,Customer,4.0,0,Graduation,430.0,0.0,Delivered
+TW-01092,326,8,2026-02-24,2026-03-12,2026-03-06,Agbada,Shop,4.0,0,Everyday,1900.0,380.0,Delivered
+TW-01092,326,8,2026-02-24,2026-03-12,2026-03-06,Agbada,Shop,4.0,0,Everyday,1900.0,380.0,Delivered
+TW-01093,369,3,2026-02-24,2026-03-10,2026-03-05,Kaba n Slit,Shop,,0,Everyday,510.0,306.0,Delivered
+TW-01094,365,4,2026-02-25,2026-03-05,2026-03-03,Kaba & Slit,Customer,3.0,0,Funeral,280.0,168.0,Delivered
+TW-01095,179,4,2026-02-25,2026-03-10,2026-03-11,AGBADA,Customer,4.0,0,Everyday,1820.0,910.0,Delivered
+TW-01096,321,5,2026-02-25,2026-03-09,2026-03-06,ankara 2 piece,Customer,3.0,0,everyday,580.0,290.0,Delivered
+TW-01097,355,1,2026-02-26,2026-03-08,2026-03-09,Dress,Customer,4.0,0,Funeral,410.0,123.0,Delivered
+TW-01098,324,8,2026-02-26,2026-03-11,2026-03-07,KABA & SLIT,Customer,2.0,0,Everyday,350.0,350.0,Delivered
+TW-01099,359,6,2026-02-27,2026-03-14,2026-03-09,dress,Customer,4.0,0,Wedding,580.0,580.0,Delivered
+TW-01100,235,6,2026-02-27,2026-03-14,2026-03-13,agbada ,Shop,4.0,0,Funeral,1890.0,378.0,Delivered
+TW-01101,74,2,2026-02-28,2026-03-09,2026-03-10,AGBADA,Shop,4.0,0,Eid,730.0,365.0,Delivered
+TW-01102,67,2,2026-02-28,2026-03-08,2026-03-06,Dress,,2.0,1,Everyday,440.0,132.0,Delivered
+TW-01103,65,3,2026-02-28,2026-03-31,2026-04-10,bridal gown,Shop,5.0,1,Wedding,6970.0,0.0,Delivered
+TW-01104,67,2,2026-03-01,2026-03-10,2026-03-10,DRESS,Customer,4.0,0,Church,570.0,285.0,Delivered
+TW-01105,103,8,2026-03-02,2026-03-12,2026-03-12,Ankara two piece,Customer,4.0,0,Everyday,550.0,165.0,Delivered
+TW-01106,326,6,2026-03-02,2026-03-12,2026-03-10,kaba and slit,Customer,3.0,0,Church,500.0,250.0,Delivered
+TW-01107,235,2,2026-03-03,2026-03-22,2026-03-27,Agbada,Customer,5.0,0,Everyday,1150.0,575.0,Delivered
+TW-01108,271,1,2026-03-03,2026-03-09,2026-03-11,KABA & SLIT,Customer,2.0,1,Everyday,310.0,93.0,Delivered
+TW-01109,223,6,2026-03-03,2026-03-17,2026-03-16,kaba and slit,Shop,3.0,0,Church,580.0,174.0,Delivered
+TW-01110,103,4,2026-03-04,2026-03-15,2026-03-11,Kaba n Slit,SHOP,3.0,0,Wedding,440.0,220.0,Delivered
+TW-01111,372,6,2026-03-05,2026-03-22,2026-03-26,suit,Shop,4.0,1,wedding,1400.0,700.0,Delivered
+TW-01112,343,6,2026-03-05,2026-03-11,2026-03-24,mens shirt,Customer,3.0,0,Everyday,270.0,54.0,Delivered
+TW-01113,243,2,2026-03-06,2026-03-14,2026-03-15,DRESS,CUSTOMER,2.0,1,Funeral,490.0,147.0,Delivered
+TW-01114,282,7,2026-03-06,2026-03-13,2026-03-09,Men's Shirt,Shop,2.0,0,Everyday,230.0,69.0,Delivered
+TW-01115,8,3,2026-03-07,2026-03-23,2026-03-20,agbada ,Shop,5.0,0,Church,780.0,234.0,Delivered
+TW-01116,86,3,2026-03-07,2026-03-15,2026-03-17,Kaba n Slit,Customer,4.0,1,Eid,680.0,340.0,Delivered
+TW-01117,9,1,2026-03-07,2026-03-14,2026-03-15,Ankara two piece,Shop,3.0,1,Funeral,730.0,,Delivered
+TW-01118,234,2,2026-03-07,2026-03-15,2026-03-19,Men's Shirt,,2.0,0,Everyday,150.0,30.0,Delivered
+TW-01119,352,1,2026-03-09,2026-03-18,2026-03-17,Shirt,Customer,2.0,0,School,240.0,72.0,Delivered
+TW-01120,318,8,2026-03-09,2026-03-25,2026-03-23,agbada ,Customer,4.0,0,Everyday,1110.0,222.0,Delivered
+TW-01121,89,7,2026-03-09,2026-03-19,2026-03-19,Ankara Two-piece,Shop,4.0,0,Everyday,310.0,62.0,Delivered
+TW-01122,325,6,2026-03-09,2026-03-28,2026-04-10,suit,Customer,5.0,0,Church,2270.0,2270.0,Delivered
+TW-01123,28,8,2026-03-09,2026-03-17,2026-03-23,Ankara Two-piece,Shop,2.0,1,Funeral,440.0,0.0,Delivered
+TW-01124,18,7,2026-03-10,2026-03-22,2026-03-20,dress,Customer,3.0,0,Church,210.0,42.0,Delivered
+TW-01125,105,3,2026-03-10,2026-03-17,2026-03-23,DRESS,Shop,3.0,0,Funeral,290.0,87.0,Delivered
+TW-01126,243,5,2026-03-10,2026-03-26,2026-03-06,SUIT,Customer,4.0,0,Eid,880.0,440.0,Delivered
+TW-01127,197,3,2026-03-12,2026-03-23,2026-04-04,AGBADA,Customer,4.0,0,,1750.0,525.0,Delivered
+TW-01128,368,5,2026-03-12,2026-03-24,2026-03-27,KABA & SLIT,Customer,2.0,0,Everyday,260.0,156.0,Delivered
+TW-01129,159,8,2026-03-12,2026-03-25,2026-03-24,Kaba n Slit,Customer,3.0,0,Everyday,540.0,108.0,Delivered
+TW-01130,358,1,2026-03-12,2026-03-19,2026-03-21,dress,Shop,3.0,1,Funeral,280.0,280.0,Delivered
+TW-01131,113,4,2026-03-12,2026-03-27,2026-03-20,dress,Customer,2.0,0,Everyday,240.0,48.0,Delivered
+TW-01132,196,6,2026-03-12,2026-04-02,2026-04-10,suit,Customer,5.0,0,Church,1020.0,510.0,Delivered
+TW-01133,267,6,2026-03-14,2026-03-28,2026-03-28,KABA & SLIT,Customer,3.0,0,,400.0,120.0,Delivered
+TW-01134,359,2,2026-03-14,2026-03-27,2026-03-24,Dress,Shop,4.0,0,Everyday,270.0,270.0,Delivered
+TW-01135,193,2,2026-03-14,2026-03-19,2026-03-18,mens shirt,Shop,2.0,0,Church,200.0,100.0,Delivered
+TW-01136,46,2,2026-03-16,2026-03-22,2026-03-27,Dress,Customer,3.0,0,Easter,650.0,325.0,Delivered
+TW-01137,8,2,2026-03-16,2026-03-26,2026-03-27,KABA & SLIT,Shop,,0,Easter,380.0,114.0,Delivered
+TW-01138,131,3,2026-03-16,2026-03-31,2026-04-14,suit,Customer,4.0,0,Easter,2050.0,1025.0,Delivered
+TW-01139,307,4,2026-03-16,2026-03-28,2026-03-27,agbada ,Shop,4.0,0,,880.0,264.0,Delivered
+TW-01140,84,6,2026-03-16,2026-03-28,2026-03-29,dress,Customer,1.0,0,Church,310.0,155.0,Delivered
+TW-01141,216,7,2026-03-17,2026-03-31,2026-03-25,Kaba & Slit,Shop,3.0,0,Everyday,560.0,168.0,Delivered
+TW-01142,65,5,2026-03-18,2026-04-08,2026-04-06,Agbada,Customer,4.0,0,,1660.0,830.0,Delivered
+TW-01143,272,6,2026-03-18,2026-03-27,2026-04-12,agbada ,Shop,5.0,0,Eid,900.0,270.0,Delivered
+TW-01144,271,4,2026-03-19,2026-03-27,2026-03-29,kaba and slit,Customer,4.0,0,Easter,450.0,450.0,Delivered
+TW-01145,116,1,2026-03-20,2026-03-30,2026-03-29,Kaba n Slit,Customer,3.0,0,Graduation,520.0,260.0,Delivered
+TW-01146,64,2,2026-03-20,2026-04-03,2026-04-04,DRESS,,3.0,0,Everyday,230.0,69.0,Delivered
+TW-01147,196,2,2026-03-20,2026-04-01,2026-04-03,Agbada,,4.0,0,Eid,1690.0,1014.0,Delivered
+TW-01148,238,8,2026-03-20,2026-03-31,2026-03-31,Ankara Two-piece,Shop,4.0,0,Graduation,650.0,,Delivered
+TW-01149,368,4,2026-03-21,2026-03-27,2026-04-01,Ankara Two-piece,Shop,3.0,1,Easter,420.0,252.0,Delivered
+TW-01150,46,7,2026-03-21,2026-03-28,2026-03-31,DRESS,Customer,3.0,1,easter,420.0,84.0,Delivered
+TW-01151,22,2,2026-03-21,2026-03-28,2026-04-05,ankara 2 piece,Customer,3.0,0,Easter,420.0,210.0,Delivered
+TW-01152,168,7,2026-03-21,2026-03-25,2026-03-25,mens shirt,Customer,2.0,1,Funeral,310.0,93.0,Delivered
+TW-01153,185,8,2026-03-23,2026-04-06,2026-03-30,dress,Customer,2.0,0,Everyday,280.0,140.0,Delivered
+TW-01154,150,2,2026-03-23,2026-04-09,2026-04-18,suit,Shop,4.0,1,Wedding,1210.0,605.0,Delivered
+TW-01155,64,5,2026-03-24,2026-03-30,2026-04-01,dress,,4.0,0,,720.0,216.0,Delivered
+TW-01156,366,6,2026-03-24,2026-03-29,2026-04-13,Men's Shirt,Shop,3.0,1,Funeral,160.0,80.0,Delivered
+TW-01157,139,4,2026-03-25,2026-04-02,2026-04-03,Shirt,Customer,2.0,0,Everyday,140.0,84.0,Delivered
+TW-01158,314,3,2026-03-26,2026-04-01,2026-04-10,KABA & SLIT,Customer,4.0,1,Easter,520.0,156.0,Delivered
+TW-01159,262,2,2026-03-27,2026-04-05,2026-04-13,Dress,SHOP,2.0,0,Easter,480.0,0.0,Delivered
+TW-01160,212,4,2026-03-27,2026-04-04,2026-04-07,Kaba & Slit,Customer,3.0,1,Funeral,490.0,490.0,Delivered
+TW-01161,308,8,2026-03-28,2026-04-02,2026-04-07,mens shirt,Shop,,0,Easter,260.0,78.0,Delivered
+TW-01162,179,3,2026-03-28,2026-04-01,2026-04-08,Men's Shirt,Shop,2.0,1,Funeral,150.0,150.0,Delivered
+TW-01163,337,2,2026-03-28,2026-04-02,2026-04-07,,Customer,2.0,0,Funeral,130.0,39.0,Delivered
+TW-01164,238,8,2026-03-30,2026-04-21,2026-04-15,AGBADA,Customer,4.0,0,Everyday,1200.0,720.0,Delivered
+TW-01165,83,5,2026-03-30,2026-04-05,2026-04-02,school uniform,Customer,1.0,0,School,180.0,180.0,Delivered
+TW-01166,67,2,2026-03-31,2026-04-17,2026-04-22,Agbada,Customer,5.0,0,church,1430.0,715.0,Delivered
+TW-01167,303,3,2026-04-01,2026-04-15,2026-05-07,suit,Customer,5.0,0,Easter,1580.0,1580.0,Delivered
+TW-01168,265,2,2026-04-01,2026-04-11,2026-04-19,Ankara Two-piece,,5.0,0,Easter,710.0,426.0,Delivered
+TW-01169,243,2,2026-04-02,2026-04-14,2026-04-29,,Customer,2.0,0,Everyday,400.0,80.0,Delivered
+TW-01170,134,8,2026-04-02,2026-04-12,2026-04-13,Ankara two piece,Shop,4.0,0,Easter,290.0,290.0,Delivered
+TW-01171,189,5,2026-04-03,2026-04-14,2026-04-11,KABA & SLIT,Shop,4.0,0,Church,620.0,310.0,Delivered
+TW-01172,213,2,2026-04-04,2026-04-12,2026-04-28,DRESS,Customer,3.0,1,Easter,460.0,0.0,Delivered
+TW-01173,181,2,2026-04-05,2026-04-14,2026-04-26,Ankara two piece,Customer,2.0,0,Easter,360.0,108.0,Delivered
+TW-01174,216,4,2026-04-06,2026-04-27,2026-04-17,Agbada,SHOP,3.0,0,Graduation,1700.0,850.0,Delivered
+TW-01175,7,5,2026-04-07,2026-04-16,2026-04-22,,SHOP,4.0,1,Graduation,2080.0,1040.0,Delivered
+TW-01176,147,6,2026-04-08,2026-04-19,2026-05-04,,Customer,5.0,0,Everyday,760.0,228.0,Delivered
+TW-01177,19,5,2026-04-08,2026-04-19,2026-04-15,KABA & SLIT,Shop,2.0,0,Wedding,420.0,252.0,Delivered
+TW-01178,44,5,2026-04-09,2026-04-13,2026-04-16,Shirt,Customer,2.0,0,Funeral,250.0,125.0,Delivered
+TW-01179,249,5,2026-04-09,2026-04-16,2026-04-18,Men's Shirt,Shop,3.0,0,Everyday,130.0,39.0,Delivered
+TW-01179,249,5,2026-04-09,2026-04-16,2026-04-18,Men's Shirt,Shop,3.0,0,Everyday,130.0,39.0,Delivered
+TW-01180,327,1,2026-04-09,2026-04-22,2026-04-22,agbada ,Shop,4.0,0,Church,770.0,462.0,Delivered
+TW-01181,179,2,2026-04-10,2026-04-18,2026-05-01,Kaba & Slit,Shop,3.0,0,Funeral,300.0,0.0,Delivered
+TW-01182,157,8,2026-04-11,2026-04-25,2026-04-20,Dress,Customer,4.0,0,Church,460.0,276.0,Delivered
+TW-01183,372,5,2026-04-13,2026-04-20,2026-04-24,Kaba & Slit,Shop,3.0,0,,590.0,177.0,Delivered
+TW-01184,296,6,2026-04-13,2026-04-19,2026-04-25,Kaba n Slit,Shop,3.0,0,Funeral,450.0,,Delivered
+TW-01185,92,3,2026-04-14,2026-04-24,2026-04-23,Dress,Shop,2.0,0,Funeral,260.0,260.0,Delivered
+TW-01186,259,4,2026-04-14,2026-04-21,2026-04-23,ankara 2 piece,Shop,3.0,1,Funeral,450.0,450.0,Delivered
+TW-01187,32,3,2026-04-16,2026-04-24,2026-04-26,kaba and slit,Shop,3.0,0,wedding,590.0,118.0,Delivered
+TW-01188,189,8,2026-04-16,2026-04-23,2026-04-23,Kaba & Slit,Shop,3.0,1,Everyday,360.0,180.0,Delivered
+TW-01189,283,2,2026-04-16,2026-06-05,2026-06-03,Bridal gown,Customer,5.0,0,Wedding,2640.0,1320.0,Delivered
+TW-01190,21,8,2026-04-20,2026-04-25,2026-04-23,,,1.0,0,Funeral,120.0,120.0,Delivered
+TW-01190,21,8,2026-04-20,2026-04-25,2026-04-23,,,1.0,0,Funeral,120.0,120.0,Delivered
+TW-01191,301,4,2026-04-20,2026-05-05,2026-04-29,ankara 2 piece,Customer,1.0,0,Church,230.0,0.0,Delivered
+TW-01192,64,1,2026-04-21,2026-05-11,2026-05-04,agbada ,Customer,4.0,0,Church,1630.0,815.0,Delivered
+TW-01193,263,8,2026-04-21,2026-04-27,2026-05-07,Dress,Customer,3.0,1,Funeral,430.0,215.0,Delivered
+TW-01194,323,3,2026-04-21,2026-05-01,2026-05-02,Dress,Shop,3.0,0,Church,350.0,105.0,Delivered
+TW-01195,23,6,2026-04-23,2026-05-03,2026-05-01,kaba and slit,Customer,3.0,0,Everyday,530.0,318.0,Delivered
+TW-01196,197,5,2026-04-24,2026-05-09,2026-05-06,dress,Customer,3.0,0,Everyday,540.0,108.0,Delivered
+TW-01197,316,2,2026-04-24,2026-05-18,2026-05-18,SUIT,Customer,3.0,0,Wedding,1990.0,0.0,Delivered
+TW-01198,308,6,2026-04-25,2026-05-04,2026-05-03,mens shirt,Customer,1.0,0,Church,160.0,0.0,Delivered
+TW-01199,32,4,2026-04-25,2026-05-16,2026-05-06,Agbada,Shop,4.0,0,Everyday,1900.0,380.0,Delivered
+TW-01200,18,4,2026-04-27,2026-05-10,2026-05-10,Kaba & Slit,Shop,4.0,0,Graduation,480.0,0.0,Delivered
+TW-01201,372,3,2026-04-27,2026-05-12,2026-05-05,Kaba n Slit,Shop,4.0,0,Wedding,470.0,235.0,Delivered
+TW-01202,265,3,2026-04-27,2026-05-05,2026-05-05,Ankara Two-piece,Shop,3.0,1,Everyday,360.0,108.0,Delivered
+TW-01203,282,5,2026-04-27,2026-05-16,2026-05-11,Agbada,Customer,4.0,0,Everyday,1800.0,0.0,Delivered
+TW-01204,196,5,2026-04-29,2026-05-08,2026-05-08,,Shop,4.0,0,Wedding,370.0,111.0,Delivered
+TW-01205,318,3,2026-04-29,2026-05-13,2026-05-15,Dress,Customer,2.0,0,Everyday,580.0,116.0,Delivered
+TW-01205,318,3,2026-04-29,2026-05-13,2026-05-15,Dress,Customer,2.0,0,Everyday,580.0,116.0,Delivered
+TW-01206,32,2,2026-04-30,2026-05-10,2026-05-09,Kaba n Slit,Shop,3.0,0,Everyday,400.0,240.0,Delivered
+TW-01207,77,3,2026-05-01,2026-05-09,2026-05-12,School Uniform,Shop,1.0,0,School,190.0,114.0,Delivered
+TW-01208,94,7,2026-05-01,2026-05-10,2026-05-09,Ankara two piece,CUSTOMER,3.0,0,Funeral,460.0,92.0,Delivered
+TW-01209,84,1,2026-05-03,2026-05-11,2026-05-13,KABA & SLIT,Shop,4.0,0,Funeral,540.0,270.0,Delivered
+TW-01210,223,8,2026-05-04,2026-06-05,2026-06-14,Bridal gown,Customer,4.0,0,wedding,4500.0,2250.0,Delivered
+TW-01211,157,5,2026-05-05,2026-05-22,2026-05-24,SUIT,Shop,4.0,0,Church,1330.0,0.0,Delivered
+TW-01211,157,5,2026-05-05,2026-05-22,2026-05-24,SUIT,Shop,4.0,0,Church,1330.0,0.0,Delivered
+TW-01212,150,8,2026-05-05,2026-05-12,2026-05-16,DRESS,Shop,4.0,0,Funeral,510.0,255.0,Delivered
+TW-01213,110,7,2026-05-05,2026-05-13,2026-05-15,dress,,3.0,0,funeral,400.0,200.0,Delivered
+TW-01214,84,1,2026-05-05,2026-05-17,2026-05-12,DRESS,Shop,3.0,0,Wedding,300.0,,Delivered
+TW-01215,366,2,2026-05-06,2026-05-18,2026-05-13,kaba and slit,Customer,3.0,0,Everyday,290.0,87.0,Delivered
+TW-01216,308,6,2026-05-06,2026-05-16,2026-05-14,Kaba n Slit,Customer,3.0,0,Funeral,260.0,156.0,Delivered
+TW-01217,113,1,2026-05-08,2026-05-14,2026-05-15,Ankara Two-piece,Shop,3.0,1,Funeral,600.0,300.0,Delivered
+TW-01218,373,1,2026-05-08,2026-06-02,2026-05-27,Suit,Shop,4.0,0,Wedding,1650.0,825.0,Delivered
+TW-01219,330,1,2026-05-08,2026-05-18,2026-05-18,Kaba n Slit,Shop,4.0,0,Everyday,280.0,140.0,Delivered
+TW-01220,347,1,2026-05-09,2026-05-16,2026-05-19,Shirt,Shop,3.0,0,,260.0,130.0,Delivered
+TW-01221,261,2,2026-05-11,2026-05-23,2026-05-19,DRESS,Customer,2.0,0,Church,450.0,450.0,Delivered
+TW-01222,42,6,2026-05-13,2026-05-21,2026-05-19,Dress,Shop,3.0,0,Eid,620.0,372.0,Delivered
+TW-01223,282,8,2026-05-13,2026-05-23,2026-05-24,ankara 2 piece,Shop,4.0,0,Church,640.0,0.0,Delivered
+TW-01223,282,8,2026-05-13,2026-05-23,2026-05-24,ankara 2 piece,Shop,4.0,0,Church,640.0,0.0,Delivered
+TW-01224,243,6,2026-05-13,2026-05-19,2026-05-20,Men's Shirt,Shop,1.0,0,Funeral,140.0,0.0,Delivered
+TW-01225,115,6,2026-05-13,2026-05-23,2026-06-14,agbada ,Customer,4.0,1,Eid,2210.0,1105.0,Delivered
+TW-01226,148,3,2026-05-13,2026-06-24,2026-06-24,Bridal gown,Customer,5.0,0,,3010.0,1505.0,Delivered
+TW-01227,37,8,2026-05-13,2026-05-23,2026-05-19,Kaba & Slit,Shop,2.0,0,Funeral,480.0,144.0,Delivered
+TW-01228,88,6,2026-05-14,2026-06-01,2026-06-09,suit,Shop,4.0,0,Eid,2150.0,645.0,Delivered
+TW-01229,166,5,2026-05-14,2026-05-23,2026-05-25,Ankara Two-piece,Shop,2.0,0,Eid,250.0,50.0,Delivered
+TW-01230,277,5,2026-05-14,2026-05-26,2026-05-25,agbada ,Shop,4.0,0,Eid,1690.0,0.0,Delivered
+TW-01231,216,1,2026-05-15,2026-05-22,2026-05-18,School uniform,Shop,2.0,0,School,150.0,75.0,Delivered
+TW-01232,149,1,2026-05-15,2026-05-22,2026-05-19,school uniform,Shop,1.0,0,School,160.0,,Delivered
+TW-01233,319,5,2026-05-15,2026-05-23,2026-05-19,mens shirt,Shop,2.0,0,Church,170.0,170.0,Delivered
+TW-01234,64,4,2026-05-16,2026-05-21,2026-05-21,Men's Shirt,Customer,2.0,0,Church,230.0,115.0,Delivered
+TW-01235,295,5,2026-05-18,2026-06-03,2026-06-08,Agbada,,4.0,0,Wedding,1380.0,276.0,Delivered
+TW-01236,36,2,2026-05-19,2026-05-26,2026-05-26,Dress,Shop,3.0,1,funeral,760.0,760.0,Delivered
+TW-01237,70,8,2026-05-19,2026-05-31,2026-05-28,KABA & SLIT,Shop,4.0,0,Church,500.0,300.0,Delivered
+TW-01238,366,4,2026-05-20,2026-05-29,2026-05-29,Kaba n Slit,Customer,5.0,0,Everyday,470.0,141.0,Delivered
+TW-01239,209,1,2026-05-20,2026-05-26,2026-05-26,Ankara Two-piece,Customer,3.0,0,Funeral,570.0,171.0,Delivered
+TW-01240,24,1,2026-05-20,2026-06-02,2026-06-02,suit,CUSTOMER,3.0,1,Eid,1760.0,1056.0,Delivered
+TW-01241,343,3,2026-05-21,2026-05-28,2026-06-01,Ankara Two-piece,Customer,3.0,0,Funeral,340.0,340.0,Delivered
+TW-01242,358,6,2026-05-21,2026-05-31,2026-05-30,dress,Shop,4.0,0,Eid,660.0,330.0,Delivered
+TW-01243,319,3,2026-05-21,2026-06-02,2026-05-28,Dress,Customer,3.0,0,Everyday,570.0,570.0,Delivered
+TW-01244,19,8,2026-05-21,2026-06-19,2026-06-05,suit,Shop,3.0,0,Wedding,1670.0,334.0,Delivered
+TW-01245,60,5,2026-05-22,2026-05-31,2026-06-07,Agbada,Customer,4.0,1,Eid,2040.0,612.0,Delivered
+TW-01246,272,2,2026-05-23,2026-06-09,2026-06-11,SUIT,Customer,5.0,0,Eid,1420.0,852.0,Delivered
+TW-01247,110,1,2026-05-25,2026-06-14,2026-06-12,Suit,Shop,4.0,0,Everyday,1200.0,720.0,Delivered
+TW-01248,150,4,2026-05-25,2026-06-02,2026-06-03,dress,Shop,4.0,0,Funeral,660.0,330.0,Delivered
+TW-01249,89,5,2026-05-26,2026-06-10,2026-06-07,kaba and slit,Customer,3.0,0,Everyday,540.0,270.0,Delivered
+TW-01250,151,5,2026-05-26,2026-06-04,2026-06-03,Ankara two piece,Customer,5.0,0,Eid,590.0,0.0,Delivered
+TW-01251,67,1,2026-05-26,2026-06-04,2026-06-04,Dress,Customer,4.0,0,Everyday,730.0,730.0,Delivered
+TW-01252,181,7,2026-05-27,2026-06-07,2026-06-08,Agbada,Shop,5.0,1,Eid,2040.0,2040.0,Delivered
+TW-01253,295,4,2026-05-28,2026-06-17,2026-06-18,Suit,Customer,3.0,0,Church,1240.0,1240.0,Delivered
+TW-01254,226,4,2026-05-29,2026-06-27,2026-06-18,Suit,Customer,4.0,0,Everyday,1240.0,620.0,Delivered
+TW-01255,88,4,2026-05-29,2026-06-20,2026-06-11,Agbada,Customer,4.0,0,Everyday,1840.0,552.0,Delivered
+TW-01256,125,3,2026-05-30,2026-06-07,2026-06-09,DRESS,Customer,4.0,0,Funeral,300.0,150.0,Delivered
+TW-01257,69,5,2026-05-30,2026-06-05,2026-06-11,Shirt,Customer,2.0,0,Funeral,270.0,54.0,Delivered
+TW-01258,99,6,2026-05-31,2026-06-26,2026-06-19,SUIT,Shop,3.0,0,Church,1340.0,402.0,Delivered
+TW-01259,193,1,2026-06-01,2026-06-10,2026-06-07,DRESS,Customer,2.0,0,Church,360.0,180.0,Delivered
+TW-01260,27,4,2026-06-01,2026-06-13,2026-06-11,kaba and slit,Shop,4.0,0,Everyday,430.0,258.0,Delivered
+TW-01261,92,6,2026-06-02,2026-06-11,2026-06-14,KABA & SLIT,Shop,3.0,0,Funeral,510.0,153.0,Delivered
+TW-01262,203,2,2026-06-02,2026-06-09,2026-06-13,Ankara Two-piece,Customer,3.0,0,funeral,570.0,285.0,Delivered
+TW-01263,26,6,2026-06-02,2026-06-14,2026-06-17,Dress,Customer,3.0,0,Everyday,660.0,132.0,Delivered
+TW-01264,158,1,2026-06-03,2026-07-03,2026-06-19,suit,Shop,4.0,0,Wedding,,321.0,Delivered
+TW-01265,189,2,2026-06-04,2026-06-10,2026-06-13,DRESS,SHOP,4.0,1,Funeral,620.0,620.0,Delivered
+TW-01266,283,4,2026-06-04,2026-06-14,2026-06-15,Ankara two piece,Shop,3.0,0,Funeral,,153.0,Delivered
+TW-01267,351,1,2026-06-04,2026-06-19,2026-06-13,Ankara two piece,Customer,3.0,0,Church,570.0,285.0,Delivered
+TW-01268,360,2,2026-06-04,2026-06-08,2026-06-08,mens shirt,Customer,2.0,0,Eid,140.0,70.0,Delivered
+TW-01269,308,2,2026-06-05,2026-06-12,2026-06-16,Ankara Two-piece,Customer,3.0,1,Everyday,460.0,230.0,Delivered
+TW-01270,250,6,2026-06-05,2026-06-18,2026-06-27,Kaba & Slit,Customer,4.0,0,everyday,640.0,384.0,Delivered
+TW-01271,19,3,2026-06-08,2026-06-28,2026-06-28,Suit,SHOP,4.0,0,Everyday,1950.0,975.0,Delivered
+TW-01272,40,3,2026-06-08,2026-06-23,2026-06-18,dress,Shop,4.0,0,,760.0,380.0,Delivered
+TW-01273,3,6,2026-06-09,2026-06-18,2026-07-01,agbada ,Shop,4.0,1,Easter,1170.0,585.0,Delivered
+TW-01274,62,7,2026-06-09,2026-06-17,2026-06-17,ankara 2 piece,Customer,4.0,0,Funeral,580.0,580.0,Delivered
+TW-01275,181,2,2026-06-09,2026-07-04,2026-07-05,SUIT,Shop,5.0,0,Everyday,1050.0,0.0,Delivered
+TW-01276,256,7,2026-06-11,2026-06-23,2026-06-21,ankara 2 piece,Customer,3.0,0,Graduation,550.0,550.0,Delivered
+TW-01277,206,7,2026-06-12,2026-06-24,2026-06-28,dress,Customer,5.0,0,Wedding,620.0,620.0,Delivered
+TW-01278,239,1,2026-06-12,2026-06-22,2026-06-19,Dress,Customer,4.0,0,Wedding,500.0,500.0,Delivered
+TW-01279,282,7,2026-06-12,2026-06-20,2026-06-23,Kaba n Slit,Shop,4.0,0,Funeral,280.0,280.0,Delivered
+TW-01280,274,7,2026-06-13,2026-06-24,2026-06-23,Kaba n Slit,Customer,3.0,0,Everyday,590.0,177.0,Delivered
+TW-01281,262,7,2026-06-13,2026-06-23,2026-06-27,Kaba n Slit,Shop,3.0,0,Church,590.0,118.0,Delivered
+TW-01282,168,8,2026-06-13,2026-06-25,2026-06-21,Ankara two piece,Customer,3.0,0,Wedding,290.0,87.0,Delivered
+TW-01283,46,8,2026-06-15,2026-08-11,2026-07-21,bridal gown,Customer,5.0,0,Wedding,3680.0,1840.0,Delivered
+TW-01284,62,6,2026-06-16,2026-06-27,2026-07-12,AGBADA,Customer,5.0,1,Graduation,1560.0,780.0,Delivered
+TW-01285,213,1,2026-06-16,2026-06-27,2026-06-27,Ankara two piece,Shop,3.0,0,church,250.0,50.0,Delivered
+TW-01286,193,5,2026-06-17,2026-07-01,2026-06-22,DRESS,Shop,3.0,0,wedding,680.0,136.0,Delivered
+TW-01287,144,6,2026-06-17,2026-07-01,2026-07-01,Dress,Customer,2.0,0,Everyday,400.0,120.0,Delivered
+TW-01288,117,1,2026-06-18,2026-06-26,2026-06-21,mens shirt,Shop,3.0,0,church,120.0,120.0,Delivered
+TW-01289,8,2,2026-06-19,2026-06-27,2026-06-21,mens shirt,Shop,2.0,0,Everyday,110.0,33.0,Delivered
+TW-01290,63,4,2026-06-19,2026-07-06,2026-07-02,Agbada,Shop,4.0,0,church,1140.0,570.0,Delivered
+TW-01291,12,1,2026-06-20,2026-06-29,2026-06-29,KABA & SLIT,Customer,2.0,0,Everyday,250.0,150.0,Delivered
+TW-01292,343,4,2026-06-20,2026-06-29,2026-07-01,Kaba n Slit,Shop,3.0,0,Wedding,270.0,0.0,Delivered
+TW-01293,295,8,2026-06-20,2026-07-01,2026-06-29,DRESS,Customer,3.0,0,Wedding,270.0,270.0,Delivered
+TW-01294,295,6,2026-06-22,2026-06-30,2026-07-06,kaba and slit,Customer,2.0,1,Wedding,580.0,290.0,Delivered
+TW-01295,73,7,2026-06-23,2026-06-30,2026-07-01,kaba and slit,Customer,4.0,1,Wedding,720.0,360.0,Delivered
+TW-01296,125,4,2026-06-23,2026-07-03,2026-07-03,KABA & SLIT,Shop,3.0,0,Wedding,420.0,210.0,Delivered
+TW-01297,158,5,2026-06-24,2026-07-01,2026-07-04,,Customer,2.0,0,school,160.0,32.0,Delivered
+TW-01298,110,6,2026-06-25,2026-07-16,2026-08-01,agbada ,Customer,4.0,0,Wedding,790.0,237.0,Delivered
+TW-01299,336,1,2026-06-25,2026-07-04,2026-06-29,Shirt,Customer,2.0,0,Church,160.0,160.0,Delivered
+TW-01300,282,3,2026-06-26,2026-06-30,2026-07-02,Shirt,Customer,2.0,1,Funeral,280.0,140.0,Delivered
+TW-01301,364,4,2026-06-26,2026-07-28,2026-08-01,Bridal gown,Shop,4.0,1,Wedding,3750.0,0.0,Delivered
+TW-01302,114,1,2026-06-26,2026-07-16,2026-07-04,AGBADA,Shop,4.0,0,church,1100.0,220.0,Delivered
+TW-01303,153,4,2026-06-28,2026-07-23,2026-07-19,SUIT,Shop,5.0,0,wedding,2030.0,406.0,Delivered
+TW-01304,181,4,2026-06-29,2026-07-04,2026-07-02,Men's Shirt,Shop,2.0,0,Graduation,160.0,0.0,Delivered
+TW-01305,158,5,2026-06-30,2026-07-06,2026-07-09,Ankara two piece,Shop,2.0,1,Funeral,670.0,335.0,Delivered
+TW-01306,203,2,2026-06-30,2026-07-15,2026-07-09,KABA & SLIT,Customer,4.0,0,Graduation,540.0,270.0,Delivered
+TW-01307,128,5,2026-06-30,2026-07-06,2026-07-08,kaba and slit,Customer,2.0,0,Funeral,480.0,,Delivered
+TW-01308,180,8,2026-07-01,2026-07-10,2026-07-10,dress,Shop,4.0,0,Wedding,630.0,189.0,Delivered
+TW-01309,239,6,2026-07-01,2026-07-07,2026-07-14,Ankara Two-piece,Shop,5.0,1,Funeral,890.0,0.0,Delivered
+TW-01310,262,7,2026-07-02,2026-07-07,2026-07-08,School Uniform,Customer,1.0,0,School,140.0,70.0,Delivered
+TW-01311,315,5,2026-07-03,2026-07-18,2026-07-16,ankara 2 piece,Customer,3.0,0,Church,460.0,92.0,Delivered
+TW-01312,178,5,2026-07-03,2026-07-12,2026-07-11,Shirt,Customer,3.0,0,Church,180.0,36.0,Delivered
+TW-01313,159,1,2026-07-06,2026-07-14,2026-07-13,,,2.0,0,Everyday,160.0,,Delivered
+TW-01314,196,3,2026-07-07,2026-08-06,2026-07-24,SUIT,Shop,3.0,0,Everyday,1560.0,468.0,Delivered
+TW-01315,301,4,2026-07-07,2026-07-17,2026-07-13,kaba and slit,Customer,3.0,0,Everyday,370.0,370.0,Delivered
+TW-01316,263,6,2026-07-08,2026-07-23,2026-07-22,Dress,Customer,3.0,0,wedding,250.0,125.0,Delivered
+TW-01317,131,8,2026-07-08,2026-07-15,2026-07-12,Shirt,Shop,1.0,0,Everyday,150.0,150.0,Delivered
+TW-01318,360,7,2026-07-10,2026-07-21,2026-07-18,KABA & SLIT,Shop,3.0,0,Everyday,480.0,144.0,Delivered
+TW-01319,242,3,2026-07-10,2026-07-25,2026-07-24,KABA & SLIT,Customer,3.0,0,Everyday,260.0,260.0,Delivered
+TW-01320,276,3,2026-07-11,2026-07-19,2026-07-20,KABA & SLIT,Customer,3.0,0,Funeral,500.0,250.0,Delivered
+TW-01321,67,2,2026-07-11,2026-07-17,2026-07-14,mens shirt,Shop,2.0,0,Funeral,220.0,132.0,Delivered
+TW-01322,129,3,2026-07-13,2026-07-31,2026-07-29,AGBADA,,4.0,0,Wedding,670.0,335.0,Delivered
+TW-01323,258,4,2026-07-13,2026-07-26,2026-07-22,Ankara Two-piece,Shop,2.0,0,Wedding,410.0,205.0,Delivered
+TW-01324,372,4,2026-07-13,2026-07-25,2026-07-26,agbada ,Customer,5.0,0,Everyday,1330.0,399.0,Delivered
+TW-01325,74,3,2026-07-13,2026-07-28,2026-07-29,agbada ,Customer,4.0,0,wedding,1080.0,216.0,Delivered
+TW-01326,366,1,2026-07-15,2026-08-10,2026-07-27,SUIT,Shop,3.0,0,Graduation,1930.0,965.0,Delivered
+TW-01327,306,8,2026-07-15,2026-07-21,2026-07-21,ankara 2 piece,Shop,2.0,1,Everyday,350.0,210.0,Delivered
+TW-01328,302,5,2026-07-15,2026-08-03,2026-08-01,,Customer,4.0,0,Wedding,960.0,480.0,Delivered
+TW-01329,234,6,2026-07-17,2026-07-25,2026-07-26,Dress,Shop,3.0,1,Church,490.0,147.0,Delivered
+TW-01330,324,3,2026-07-18,2026-07-24,2026-08-06,Ankara two piece,Customer,4.0,0,Funeral,510.0,306.0,Delivered
+TW-01331,319,7,2026-07-18,2026-07-28,2026-07-24,Ankara Two-piece,Customer,3.0,0,Funeral,460.0,230.0,Delivered
+TW-01331,319,7,2026-07-18,2026-07-28,2026-07-24,Ankara Two-piece,Customer,3.0,0,Funeral,460.0,230.0,Delivered
+TW-01332,306,3,2026-07-19,2026-07-28,2026-08-13,DRESS,Customer,3.0,0,Christmas,520.0,520.0,Delivered
+TW-01333,138,8,2026-07-20,2026-08-01,2026-07-28,kaba and slit,Customer,2.0,0,Wedding,440.0,220.0,Delivered
+TW-01334,356,3,2026-07-20,2026-08-05,2026-08-15,agbada ,Shop,4.0,0,,1020.0,204.0,Delivered
+TW-01335,231,7,2026-07-20,2026-07-25,2026-07-24,Shirt,Customer,3.0,0,Everyday,280.0,140.0,Delivered
+TW-01336,268,5,2026-07-21,2026-07-28,2026-07-26,Men's Shirt,Shop,1.0,0,Everyday,130.0,65.0,Delivered
+TW-01337,262,4,2026-07-21,2026-07-30,2026-08-04,dress,Customer,3.0,0,Funeral,360.0,0.0,Delivered
+TW-01338,142,2,2026-07-22,2026-08-03,2026-08-07,Agbada,CUSTOMER,5.0,0,Everyday,1940.0,1940.0,Delivered
+TW-01339,125,4,2026-07-24,2026-08-07,2026-08-07,agbada ,Customer,3.0,0,Wedding,1110.0,555.0,Delivered
+TW-01340,231,6,2026-07-24,2026-08-13,2026-08-16,suit,Customer,5.0,0,Everyday,1560.0,312.0,Delivered
+TW-01341,366,5,2026-07-24,2026-08-01,2026-07-30,kaba and slit,Shop,2.0,1,Funeral,620.0,310.0,Delivered
+TW-01342,353,1,2026-07-25,2026-08-06,2026-08-07,Agbada,Customer,3.0,0,Everyday,1040.0,312.0,Delivered
+TW-01343,284,4,2026-07-26,2026-08-02,2026-07-31,mens shirt,Shop,2.0,0,Church,250.0,50.0,Delivered
+TW-01344,308,7,2026-07-28,2026-08-04,2026-08-06,Ankara Two-piece,Shop,2.0,1,Funeral,490.0,98.0,Delivered
+TW-01345,84,3,2026-07-28,2026-08-21,2026-08-23,Suit,Shop,4.0,0,Graduation,1840.0,0.0,Delivered
+TW-01346,181,5,2026-07-29,2026-08-07,2026-08-04,school uniform,Customer,1.0,0,School,190.0,190.0,Delivered
+TW-01346,181,5,2026-07-29,2026-08-07,2026-08-04,school uniform,Customer,1.0,0,School,190.0,190.0,Delivered
+TW-01347,101,8,2026-07-29,2026-08-02,2026-08-03,Shirt,Shop,2.0,0,Christmas,240.0,120.0,Delivered
+TW-01348,44,8,2026-07-30,2026-08-04,2026-08-02,mens shirt,Shop,2.0,0,Everyday,130.0,39.0,Delivered
+TW-01349,193,1,2026-08-01,2026-08-05,2026-08-04,,Customer,1.0,1,School,160.0,80.0,Delivered
+TW-01350,23,4,2026-08-01,2026-08-06,2026-08-05,School Uniform,Shop,1.0,0,School,160.0,96.0,Delivered
+TW-01351,103,3,2026-08-01,2026-08-07,2026-08-08,Men's Shirt,Shop,2.0,0,Church,150.0,150.0,Delivered
+TW-01352,146,6,2026-08-03,2026-08-12,2026-08-14,Kaba n Slit,Customer,3.0,0,Funeral,600.0,360.0,Delivered
+TW-01353,78,6,2026-08-04,2026-08-15,2026-08-17,Agbada,Shop,4.0,1,Funeral,1150.0,1150.0,Delivered
+TW-01354,292,2,2026-08-05,2026-08-19,2026-08-12,DRESS,Shop,4.0,0,Church,600.0,120.0,Delivered
+TW-01355,259,8,2026-08-05,2026-08-19,2026-08-13,Kaba n Slit,Customer,4.0,0,Church,360.0,180.0,Delivered
+TW-01356,6,7,2026-08-07,2026-08-16,2026-08-15,Kaba & Slit,Customer,3.0,0,Everyday,490.0,147.0,Delivered
+TW-01357,181,2,2026-08-08,2026-08-13,2026-08-11,Men's Shirt,Customer,2.0,0,School,130.0,26.0,Delivered
+TW-01358,8,2,2026-08-08,2026-08-20,2026-08-15,kaba and slit,Shop,2.0,0,Everyday,230.0,138.0,Delivered
+TW-01359,304,3,2026-08-09,2026-08-21,2026-08-25,ankara 2 piece,Customer,3.0,0,Church,390.0,390.0,Delivered
+TW-01360,291,5,2026-08-09,2026-08-15,2026-08-16,DRESS,Shop,4.0,1,Funeral,910.0,455.0,Delivered
+TW-01361,235,7,2026-08-09,2026-08-16,2026-08-17,Ankara two piece,Customer,4.0,0,funeral,390.0,78.0,Delivered
+TW-01362,6,4,2026-08-12,2026-08-20,2026-08-16,School Uniform,Customer,1.0,0,School,180.0,90.0,Delivered
+TW-01363,213,3,2026-08-13,2026-08-24,2026-08-24,ankara 2 piece,Shop,3.0,0,Everyday,360.0,180.0,Delivered
+TW-01364,173,7,2026-08-14,2026-08-27,2026-08-22,ankara 2 piece,Shop,3.0,0,Everyday,310.0,155.0,Delivered
+TW-01365,306,4,2026-08-15,2026-08-21,2026-08-21,School uniform,Customer,2.0,0,School,160.0,160.0,Delivered
+TW-01366,353,4,2026-08-18,2026-08-23,2026-08-24,School uniform,Shop,1.0,0,School,200.0,40.0,Delivered
+TW-01367,308,3,2026-08-18,2026-08-28,2026-09-03,agbada ,Shop,,1,Funeral,1270.0,635.0,Delivered
+TW-01368,74,2,2026-08-19,2026-08-26,2026-08-27,DRESS,Shop,4.0,1,Church,610.0,305.0,Delivered
+TW-01369,48,6,2026-08-20,2026-09-03,2026-08-28,Kaba & Slit,SHOP,2.0,0,Wedding,430.0,215.0,Delivered
+TW-01370,26,1,2026-08-20,2026-08-29,2026-08-28,Kaba & Slit,Customer,3.0,0,Funeral,490.0,147.0,Delivered
+TW-01371,110,8,2026-08-20,2026-09-03,2026-08-29,Kaba & Slit,Customer,3.0,0,Everyday,490.0,147.0,Delivered
+TW-01372,264,3,2026-08-21,2026-08-31,2026-09-06,ankara 2 piece,Customer,4.0,0,Wedding,550.0,550.0,Delivered
+TW-01373,306,6,2026-08-22,2026-08-31,2026-08-28,Shirt,Customer,1.0,0,Everyday,110.0,55.0,Delivered
+TW-01374,116,3,2026-08-22,2026-08-29,2026-09-02,,Shop,1.0,0,School,110.0,55.0,Delivered
+TW-01375,129,8,2026-08-24,2026-09-01,2026-08-28,School Uniform,Shop,1.0,0,School,190.0,57.0,Delivered
+TW-01376,189,3,2026-08-24,2026-09-02,2026-09-02,school uniform,Customer,2.0,0,School,210.0,105.0,Delivered
+TW-01377,185,5,2026-08-24,2026-09-01,2026-08-29,Men's Shirt,Shop,2.0,0,School,130.0,65.0,Delivered
+TW-01378,296,8,2026-08-24,2026-08-30,2026-08-28,School uniform,Customer,2.0,0,School,110.0,66.0,Delivered
+TW-01379,366,7,2026-08-25,2026-09-02,2026-09-01,dress,Shop,2.0,0,Wedding,330.0,99.0,Delivered
+TW-01380,282,6,2026-08-25,2026-08-29,2026-08-31,school uniform,Customer,2.0,1,School,150.0,75.0,Delivered
+TW-01381,273,6,2026-08-25,2026-09-08,2026-08-29,Kaba & Slit,Customer,2.0,0,everyday,490.0,245.0,Delivered
+TW-01382,105,5,2026-08-26,2026-09-01,2026-09-02,Ankara two piece,Customer,2.0,1,funeral,500.0,150.0,Delivered
+TW-01383,37,5,2026-08-26,2026-09-06,2026-09-02,kaba and slit,Shop,3.0,0,everyday,570.0,570.0,Delivered
+TW-01384,77,3,2026-08-26,2026-09-03,2026-09-17,Kaba n Slit,Customer,2.0,0,funeral,230.0,0.0,Delivered
+TW-01385,113,3,2026-08-26,2026-09-03,2026-09-05,school uniform,Shop,1.0,0,school,110.0,0.0,Delivered
+TW-01386,324,4,2026-08-26,2026-09-05,2026-09-04,Kaba n Slit,Customer,3.0,0,Funeral,500.0,500.0,Delivered
+TW-01387,308,8,2026-08-26,2026-09-06,2026-09-08,kaba and slit,Shop,4.0,0,church,580.0,290.0,Delivered
+TW-01388,180,1,2026-08-27,2026-09-05,2026-09-03,School uniform,Customer,2.0,0,school,180.0,54.0,Delivered
+TW-01389,295,3,2026-08-27,2026-09-11,2026-09-14,Dress,Shop,4.0,0,Wedding,310.0,186.0,Delivered
+TW-01390,243,4,2026-08-27,2026-09-01,2026-09-01,School uniform,Shop,1.0,0,School,140.0,84.0,Delivered
+TW-01391,6,3,2026-08-28,2026-09-11,2026-09-23,Kaba & Slit,Customer,3.0,0,Everyday,330.0,0.0,Delivered
+TW-01392,327,8,2026-08-28,2026-09-04,2026-09-01,School Uniform,Customer,1.0,0,School,190.0,95.0,Delivered
+TW-01393,295,5,2026-08-29,2026-09-04,2026-09-02,School uniform,,3.0,0,School,120.0,120.0,Delivered
+TW-01394,130,6,2026-08-29,2026-09-06,2026-09-09,DRESS,Customer,3.0,0,Funeral,350.0,70.0,Delivered
+TW-01395,203,3,2026-08-30,2026-09-09,2026-09-24,DRESS,Shop,3.0,0,Funeral,470.0,282.0,Delivered
+TW-01396,197,7,2026-09-01,2026-09-08,2026-09-10,school uniform,,1.0,0,School,120.0,60.0,Delivered
+TW-01397,301,4,2026-09-02,2026-09-11,2026-09-17,mens shirt,Customer,2.0,0,Everyday,210.0,63.0,Delivered
+TW-01398,89,1,2026-09-02,2026-09-09,2026-09-09,Dress,Shop,3.0,0,Funeral,310.0,0.0,Delivered
+TW-01399,305,2,2026-09-02,2026-09-08,2026-09-09,Ankara two piece,Shop,3.0,1,Funeral,340.0,170.0,Delivered
+TW-01400,37,8,2026-09-02,2026-09-14,2026-09-23,Agbada,Customer,4.0,0,Everyday,1740.0,870.0,Delivered
+TW-01401,27,6,2026-09-02,2026-09-10,2026-09-06,Men's Shirt,Shop,3.0,0,Everyday,160.0,160.0,Delivered
+TW-01402,316,4,2026-09-02,2026-09-28,2026-09-18,SUIT,Shop,4.0,0,Wedding,1300.0,1300.0,Delivered
+TW-01403,359,7,2026-09-03,2026-09-13,2026-09-13,DRESS,Customer,,0,Funeral,490.0,0.0,Delivered
+TW-01404,233,3,2026-09-04,2026-09-10,2026-09-14,Men's Shirt,Shop,1.0,0,School,130.0,65.0,Delivered
+TW-01405,366,6,2026-09-05,2026-09-20,2026-09-18,Dress,Customer,2.0,0,Church,380.0,76.0,Delivered
+TW-01406,305,2,2026-09-05,2026-11-04,2026-10-08,Bridal gown,Customer,4.0,0,Wedding,3800.0,1900.0,Delivered
+TW-01407,213,2,2026-09-07,2026-09-14,2026-09-14,kaba and slit,Shop,2.0,1,Church,350.0,350.0,Delivered
+TW-01408,67,6,2026-09-07,2026-09-10,2026-09-11,school uniform,Shop,2.0,1,School,170.0,51.0,Delivered
+TW-01409,44,2,2026-09-07,2026-09-16,2026-09-19,KABA & SLIT,Customer,3.0,0,Everyday,460.0,460.0,Delivered
+TW-01410,46,4,2026-09-08,2026-09-13,2026-09-12,mens shirt,Shop,4.0,0,Everyday,280.0,140.0,Delivered
+TW-01411,59,3,2026-09-08,2026-09-24,2026-10-03,AGBADA,Customer,4.0,0,Wedding,980.0,294.0,Delivered
+TW-01412,174,5,2026-09-08,2026-10-02,2026-10-06,suit,Customer,,0,Everyday,2380.0,,Delivered
+TW-01413,142,1,2026-09-09,2026-09-24,2026-09-17,Kaba & Slit,Shop,3.0,0,Everyday,360.0,108.0,Delivered
+TW-01414,39,4,2026-09-09,2026-11-01,2026-10-16,bridal gown,Shop,5.0,0,Wedding,1810.0,0.0,Delivered
+TW-01415,317,5,2026-09-09,2026-09-29,2026-09-25,suit,Shop,4.0,0,Everyday,,685.0,Delivered
+TW-01416,131,6,2026-09-09,2026-09-20,2026-09-20,kaba and slit,Shop,3.0,0,Wedding,400.0,0.0,Delivered
+TW-01417,46,3,2026-09-10,2026-09-22,2026-09-29,Ankara two piece,Customer,2.0,0,Everyday,360.0,360.0,Delivered
+TW-01418,130,3,2026-09-10,2026-09-21,2026-10-06,agbada ,Customer,3.0,1,Everyday,2100.0,630.0,Delivered
+TW-01419,172,3,2026-09-11,2026-09-17,2026-09-28,School Uniform,SHOP,1.0,0,School,100.0,50.0,Delivered
+TW-01420,291,2,2026-09-11,2026-09-17,2026-09-21,Ankara two piece,Customer,3.0,0,Eid,350.0,175.0,Delivered
+TW-01421,306,8,2026-09-11,2026-09-17,2026-09-16,School uniform,Shop,2.0,0,School,,90.0,Delivered
+TW-01422,341,6,2026-09-11,2026-09-18,2026-09-15,School Uniform,Shop,2.0,0,School,220.0,66.0,Delivered
+TW-01423,8,3,2026-09-11,2026-09-25,2026-10-07,agbada ,Shop,3.0,0,Church,1480.0,740.0,Delivered
+TW-01424,143,3,2026-09-12,2026-09-26,2026-10-11,Ankara two piece,SHOP,2.0,0,Everyday,310.0,93.0,Delivered
+TW-01425,283,1,2026-09-12,2026-09-22,2026-09-20,kaba and slit,Customer,3.0,0,Wedding,260.0,130.0,Delivered
+TW-01426,291,3,2026-09-12,2026-09-20,2026-10-06,school uniform,Shop,1.0,0,School,150.0,75.0,Delivered
+TW-01427,26,3,2026-09-12,2026-09-24,2026-10-17,Agbada,Customer,5.0,0,Everyday,1460.0,730.0,Delivered
+TW-01428,110,2,2026-09-14,2026-09-22,2026-09-27,Kaba & Slit,Customer,4.0,0,Funeral,310.0,93.0,Delivered
+TW-01429,74,1,2026-09-15,2026-09-27,2026-09-26,,Customer,3.0,0,Graduation,500.0,100.0,Delivered
+TW-01430,51,7,2026-09-15,2026-09-24,2026-09-19,School Uniform,,2.0,0,School,160.0,48.0,Delivered
+TW-01431,355,4,2026-09-17,2026-09-23,2026-09-24,Ankara Two-piece,Customer,2.0,1,funeral,650.0,130.0,Delivered
+TW-01432,125,7,2026-09-17,2026-10-02,2026-09-28,Kaba n Slit,Shop,3.0,0,Everyday,530.0,318.0,Delivered
+TW-01433,357,1,2026-09-18,2026-09-25,2026-09-24,School uniform,Shop,1.0,0,school,130.0,78.0,Delivered
+TW-01434,76,5,2026-09-18,2026-09-26,2026-09-22,School uniform,Shop,2.0,0,School,130.0,65.0,Delivered
+TW-01435,189,5,2026-09-19,2026-10-04,2026-10-01,Kaba & Slit,Shop,3.0,0,Wedding,550.0,165.0,Delivered
+TW-01436,281,7,2026-09-19,2026-09-28,2026-09-24,Ankara Two-piece,Customer,3.0,0,Church,580.0,290.0,Delivered
+TW-01437,243,8,2026-09-19,2026-10-01,2026-09-29,Kaba & Slit,Customer,4.0,0,Church,390.0,78.0,Delivered
+TW-01438,121,3,2026-09-21,2026-09-30,2026-10-25,school uniform,,1.0,0,School,130.0,39.0,Delivered
+TW-01439,101,8,2026-09-21,2026-09-29,2026-10-06,school uniform,Customer,2.0,0,School,200.0,60.0,Delivered
+TW-01440,9,4,2026-09-22,2026-10-04,2026-09-29,Kaba n Slit,Shop,2.0,0,Everyday,420.0,210.0,Delivered
+TW-01441,366,4,2026-09-24,2026-10-05,2026-10-01,DRESS,Customer,3.0,0,Everyday,420.0,84.0,Delivered
+TW-01442,308,6,2026-09-24,2026-10-03,2026-09-25,School Uniform,Shop,1.0,0,School,160.0,80.0,Delivered
+TW-01443,71,6,2026-09-24,2026-10-01,2026-10-01,kaba and slit,Shop,2.0,1,Everyday,660.0,660.0,Delivered
+TW-01444,308,6,2026-09-25,2026-09-30,2026-10-01,School Uniform,Shop,1.0,0,School,190.0,114.0,Delivered
+TW-01445,261,8,2026-09-26,2026-10-02,2026-09-30,School Uniform,Customer,2.0,0,School,170.0,85.0,Delivered
+TW-01446,85,5,2026-09-28,2026-10-02,2026-09-30,School uniform,Shop,1.0,1,School,230.0,138.0,Delivered
+TW-01447,231,1,2026-09-29,2026-10-06,2026-10-01,School uniform,Customer,1.0,0,School,140.0,,Delivered
+TW-01448,89,2,2026-09-30,2026-10-05,2026-10-03,Shirt,Customer,3.0,0,Eid,200.0,60.0,Delivered
+TW-01449,66,3,2026-09-30,2026-10-09,2026-10-23,Kaba & Slit,Customer,3.0,0,Everyday,490.0,147.0,Delivered
+TW-01450,139,3,2026-09-30,2026-10-09,2026-10-17,School uniform,Customer,1.0,0,School,190.0,38.0,Delivered
+TW-01451,28,2,2026-10-01,2026-10-09,2026-10-13,Kaba & Slit,Shop,3.0,1,Funeral,680.0,0.0,Delivered
+TW-01452,181,7,2026-10-01,2026-10-05,2026-10-02,Men's Shirt,CUSTOMER,3.0,1,Everyday,290.0,145.0,Delivered
+TW-01453,243,3,2026-10-01,2026-10-20,2026-10-31,agbada ,Shop,,0,Everyday,650.0,0.0,Delivered
+TW-01454,167,2,2026-10-01,2026-10-15,2026-10-10,Dress,Customer,3.0,0,Wedding,370.0,222.0,Delivered
+TW-01455,366,3,2026-10-02,2026-10-10,2026-10-29,DRESS,Customer,3.0,1,funeral,450.0,450.0,Delivered
+TW-01456,150,1,2026-10-02,2026-10-08,2026-10-06,School Uniform,Customer,1.0,0,School,140.0,70.0,Delivered
+TW-01457,356,8,2026-10-03,2026-10-09,2026-10-11,dress,Shop,4.0,0,Funeral,350.0,175.0,Delivered
+TW-01458,89,7,2026-10-05,2026-11-23,,Bridal Gown,Shop,5.0,0,Wedding,1830.0,0.0,In progress
+TW-01459,185,3,2026-10-06,2026-10-13,2026-10-27,Ankara two piece,Shop,2.0,1,Funeral,300.0,300.0,Delivered
+TW-01460,288,6,2026-10-07,2026-10-18,2026-10-16,dress,Customer,3.0,0,Everyday,360.0,360.0,Delivered
+TW-01461,258,4,2026-10-07,2026-10-13,2026-10-12,Men's Shirt,Shop,2.0,0,church,260.0,130.0,Delivered
+TW-01462,63,4,2026-10-07,2026-10-15,2026-10-12,Men's Shirt,Shop,2.0,0,Everyday,230.0,230.0,Delivered
+TW-01463,259,1,2026-10-08,2026-10-20,2026-10-15,Kaba & Slit,Customer,4.0,0,Everyday,530.0,265.0,Delivered
+TW-01464,338,3,2026-10-09,2026-10-17,2026-10-29,Ankara two piece,Customer,2.0,1,Funeral,620.0,310.0,Delivered
+TW-01465,283,6,2026-10-09,2026-12-01,,bridal gown,Customer,5.0,0,Wedding,3490.0,3490.0,In progress
+TW-01466,308,8,2026-10-11,2026-10-15,2026-10-15,Men's Shirt,Shop,2.0,0,Funeral,230000.0,138.0,Delivered
+TW-01467,181,7,2026-10-12,2026-10-20,2026-10-18,DRESS,Customer,3.0,0,funeral,700.0,700.0,Delivered
+TW-01468,202,5,2026-10-13,2026-10-20,2026-10-23,Ankara two piece,Customer,4.0,1,Funeral,370.0,111.0,Delivered
+TW-01469,353,4,2026-10-13,2026-10-20,2026-10-25,KABA & SLIT,Customer,4.0,0,Funeral,580.0,116.0,Delivered
+TW-01470,272,2,2026-10-14,2026-10-19,2026-10-17,Shirt,Shop,1.0,0,Funeral,100.0,30.0,Delivered
+TW-01470,272,2,2026-10-14,2026-10-19,2026-10-17,Shirt,Shop,1.0,0,Funeral,100.0,30.0,Delivered
+TW-01471,262,1,2026-10-15,2026-10-26,2026-10-24,kaba and slit,Customer,2.0,0,Wedding,240.0,120.0,Delivered
+TW-01472,29,5,2026-10-16,2026-10-31,2026-10-26,agbada ,Customer,4.0,0,Everyday,,225.0,Delivered
+TW-01473,103,1,2026-10-17,2026-10-22,2026-10-20,school uniform,Shop,2.0,0,School,210.0,63.0,Delivered
+TW-01474,231,2,2026-10-17,2026-10-31,2026-10-26,Agbada,Shop,3.0,0,Church,1230.0,246.0,Delivered
+TW-01475,303,5,2026-10-18,2026-10-29,2026-10-28,DRESS,Shop,3.0,0,Church,250.0,75.0,Delivered
+TW-01476,22,7,2026-10-18,2026-10-26,2026-10-29,ankara 2 piece,Shop,3.0,1,Funeral,480.0,288.0,Delivered
+TW-01477,309,2,2026-10-19,2026-10-27,2026-10-29,Dress,Customer,4.0,0,Everyday,490.0,147.0,Delivered
+TW-01478,334,1,2026-10-19,2026-10-30,2026-10-31,AGBADA,Customer,3.0,1,everyday,1030.0,309.0,Delivered
+TW-01479,121,6,2026-10-19,2026-10-31,2026-10-30,Ankara two piece,Customer,3.0,0,church,560.0,336.0,Delivered
+TW-01480,8,6,2026-10-19,2026-10-27,2026-10-29,DRESS,Shop,5.0,0,Funeral,470.0,235.0,Delivered
+TW-01481,49,2,2026-10-21,2026-10-30,,Ankara Two-piece,Customer,4.0,0,Funeral,480.0,144.0,In progress
+TW-01482,7,8,2026-10-21,2026-11-05,,ankara 2 piece,Customer,4.0,0,Everyday,320.0,160.0,In progress
+TW-01483,99,3,2026-10-22,2026-11-11,,AGBADA,Customer,,0,Everyday,1730.0,865.0,In progress
+TW-01484,194,7,2026-10-22,2026-10-30,2026-11-01,Kaba n Slit,Customer,,0,funeral,550.0,330.0,Delivered
+TW-01484,194,7,2026-10-22,2026-10-30,2026-11-01,Kaba n Slit,Customer,,0,funeral,550.0,330.0,Delivered
+TW-01485,310,1,2026-10-23,2026-11-04,,ankara 2 piece,Customer,4.0,0,Church,410.0,246.0,In progress
+TW-01486,294,2,2026-10-24,2026-10-30,2026-10-28,Shirt,Shop,2.0,0,School,200.0,100.0,Delivered
+TW-01487,364,5,2026-10-24,2026-11-01,2026-10-31,School uniform,Customer,2.0,0,School,,140.0,Delivered
+TW-01488,32,6,2026-10-26,2026-11-25,,SUIT,Customer,4.0,0,Graduation,1380.0,828.0,In progress
+TW-01489,105,1,2026-10-26,2026-11-08,,Ankara two piece,Customer,3.0,0,Church,540.0,540.0,In progress
+TW-01490,67,8,2026-10-26,2026-11-02,,KABA & SLIT,Shop,2.0,0,Funeral,380.0,228.0,In progress
+TW-01491,358,2,2026-10-26,2026-11-05,,ankara 2 piece,Customer,3.0,0,Funeral,590.0,295.0,In progress
+TW-01492,372,2,2026-10-27,2026-10-31,,mens shirt,Customer,3.0,1,Church,280.0,84.0,In progress
+TW-01493,324,1,2026-10-27,2026-11-10,,suit,Customer,,1,Church,2400.0,480.0,In progress
+TW-01494,67,3,2026-10-27,2026-11-09,,Kaba n Slit,SHOP,3.0,0,Everyday,470.0,0.0,In progress
+TW-01495,230,7,2026-10-28,2026-11-06,2026-10-31,Shirt,Shop,2.0,0,Everyday,200.0,100.0,Delivered
+TW-01496,125,2,2026-10-29,2026-11-06,,Ankara two piece,Customer,3.0,0,funeral,490.0,98.0,In progress
+TW-01497,179,6,2026-10-29,2026-11-07,,School uniform,Customer,1.0,0,School,130.0,65.0,In progress
+TW-01498,2,1,2026-10-31,2026-11-07,,Shirt,Shop,2.0,0,Church,250.0,125.0,In progress
+TW-01499,114,2,2026-10-31,2026-11-12,,Kaba & Slit,Shop,4.0,0,Wedding,400.0,120.0,In progress
+TW-01500,259,3,2026-10-31,2026-11-17,,suit,Shop,5.0,0,Everyday,1730.0,0.0,In progress
