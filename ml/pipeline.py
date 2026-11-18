@@ -132,7 +132,7 @@ def run(db_path, sql_path, out_dir, target="is_late", id_col="order_id", date_co
         drivers = explain_rows(final, pending[feats], ref)
         for i, row in pending.iterrows():
             p = float(prob[i])
-            preds.append({id_col: int(row[id_col]), **{c: _clean(row[c]) for c in passthrough},
+            preds.append({id_col: _clean(row[id_col]), **{c: _clean(row[c]) for c in passthrough},
                           "probability": round(p, 3),
                           "risk": "high" if p >= HIGH else "medium" if p >= MEDIUM else "low",
                           "drivers": drivers[i]})

@@ -1,28 +1,70 @@
--- One row per order, built on the existing orders_clean view.
--- split: 'train' (delivered, label known) | 'score' (still in progress)
-WITH o AS (
-    SELECT * FROM orders_clean
+-- One row per order, cleaned, with features that were known when the order was placed.
+-- split: 'train' (delivered, trusted label) | 'score' (still in progress) | 'exclude'
+-- Works on the tables written by scripts/generate_data.py: orders, tailors.
+WITH ranked AS (                                     -- the same order can be entered twice with the same order_id
+    SELECT o.*, ROW_NUMBER() OVER (PARTITION BY o.order_id ORDER BY o.rowid) AS rn
+    FROM orders o
 ),
-load AS (                                   -- how many orders the tailor already had open
-    SELECT c.order_id,                      -- on the day this order was placed
-           (SELECT COUNT(*) FROM o p
+clean AS (
+    SELECT r.order_id, r.customer_id, r.tailor_id, r.order_date, r.promised_date,
+           LOWER(TRIM(r.status)) AS status,
+           CASE WHEN r.delivered_date < r.order_date THEN NULL ELSE r.delivered_date END AS delivered_date,
+           CASE WHEN r.delivered_date < r.order_date THEN 1 ELSE 0 END AS bad_dates,   -- delivered before ordered
+           COALESCE(CASE
+               WHEN LOWER(TRIM(r.garment_type)) LIKE 'kaba%'    THEN 'Kaba & Slit'
+               WHEN LOWER(TRIM(r.garment_type)) LIKE 'agbada%'  THEN 'Agbada'
+               WHEN LOWER(TRIM(r.garment_type)) LIKE 'suit%'    THEN 'Suit'
+               WHEN LOWER(TRIM(r.garment_type)) LIKE 'bridal%'  THEN 'Bridal Gown'
+               WHEN LOWER(TRIM(r.garment_type)) LIKE '%uniform%' THEN 'School Uniform'
+               WHEN LOWER(TRIM(r.garment_type)) LIKE 'ankara%'  THEN 'Ankara Two-piece'
+               WHEN LOWER(TRIM(r.garment_type)) LIKE '%shirt%'  THEN 'Shirt'
+               WHEN LOWER(TRIM(r.garment_type)) LIKE 'dress%'   THEN 'Dress'
+           END, 'unknown') AS garment,
+           COALESCE(LOWER(TRIM(r.fabric_source)), 'unknown') AS fabric,
+           COALESCE(LOWER(TRIM(r.occasion)), 'unknown')      AS occasion,
+           r.complexity, r.is_rush,
+           CASE WHEN r.price_ghs > 10000 THEN NULL ELSE r.price_ghs END AS price_ghs,  -- extra zeros typed
+           r.deposit_ghs
+    FROM ranked r
+    WHERE r.rn = 1
+),
+flagged AS (
+    SELECT c.*,
+           CASE WHEN c.status = 'delivered' AND c.delivered_date IS NOT NULL THEN 1 ELSE 0 END AS is_closed
+    FROM clean c
+),
+load AS (                                            -- how many jobs the tailor still had open when this order came in
+    SELECT c.order_id,
+           (SELECT COUNT(*) FROM flagged p
              WHERE p.tailor_id = c.tailor_id
-               AND p.order_date < c.order_date
-               AND (p.delivered_date IS NULL OR p.delivered_date > c.order_date)) AS open_orders
-    FROM o c
+               AND (p.order_date < c.order_date OR (p.order_date = c.order_date AND p.order_id < c.order_id))
+               AND p.bad_dates = 0 AND p.status <> 'cancelled'
+               AND (p.delivered_date IS NULL OR p.delivered_date > c.order_date)) AS open_orders,
+           -- how often this customer's earlier orders were already known to be late on that day
+           (SELECT AVG(CASE WHEN p.delivered_date > p.promised_date THEN 1.0 ELSE 0.0 END) FROM flagged p
+             WHERE p.customer_id = c.customer_id AND p.is_closed = 1
+               AND p.delivered_date <= c.order_date) AS customer_past_late_rate
+    FROM flagged c
 )
-SELECT c.order_id, c.order_date, c.promised_date, c.tailor_id,
-       CASE WHEN c.delivered_date IS NULL THEN 'score' ELSE 'train' END AS split,
-       c.is_late,
-       l.open_orders AS tailor_open_orders,
-       COALESCE(t.skill_level, 'Unknown') AS tailor_skill, t.years_experience AS tailor_years,
-       c.garment_type, c.fabric_source, c.occasion, c.complexity, c.is_rush, c.lead_days,
-       CAST(strftime('%m', c.order_date) AS INTEGER) AS order_month,
-       CASE WHEN strftime('%m', c.order_date) = '12' THEN 1 ELSE 0 END AS is_december,
-       c.deposit_pct, c.price_ghs,
-       COUNT(*) OVER (PARTITION BY c.customer_id ORDER BY c.order_date, c.order_id
-                      ROWS BETWEEN UNBOUNDED PRECEDING AND 1 PRECEDING) AS customer_prior_orders
-FROM o c
-JOIN load l ON l.order_id = c.order_id
-LEFT JOIN tailors t ON t.tailor_id = c.tailor_id
-ORDER BY c.order_date, c.order_id;
+SELECT f.order_id, f.order_date, f.promised_date, f.tailor_id,
+       CASE WHEN f.bad_dates = 1 THEN 'exclude'
+            WHEN f.is_closed = 1 THEN 'train'
+            WHEN f.status IN ('in progress', 'in_progress') THEN 'score'
+            ELSE 'exclude' END AS split,
+       CASE WHEN f.is_closed = 1 AND f.bad_dates = 0
+            THEN CASE WHEN f.delivered_date > f.promised_date THEN 1 ELSE 0 END END AS is_late,
+       l.open_orders                                              AS tailor_open_orders,
+       COALESCE(t.skill_level, 'unknown')                         AS skill_level,
+       t.years_experience,
+       f.garment, f.fabric, f.occasion, f.complexity, f.is_rush,
+       CAST(julianday(f.promised_date) - julianday(f.order_date) AS INTEGER) AS promised_days,
+       CAST(strftime('%m', f.order_date) AS INTEGER)              AS order_month,
+       ROUND(f.deposit_ghs / f.price_ghs, 3)                      AS deposit_ratio,   -- NULL if either is missing
+       f.price_ghs,
+       COUNT(*) OVER (PARTITION BY f.customer_id ORDER BY f.order_date, f.order_id
+                      ROWS BETWEEN UNBOUNDED PRECEDING AND 1 PRECEDING) AS customer_prior_orders,
+       l.customer_past_late_rate
+FROM flagged f
+JOIN load l           ON l.order_id = f.order_id
+LEFT JOIN tailors t   ON t.tailor_id = f.tailor_id
+ORDER BY f.order_date, f.order_id;
